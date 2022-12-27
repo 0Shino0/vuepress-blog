@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue进阶 | yyshino</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="https://shinoimg.yyshino.top/img/avatar.png">
+    <meta name="description" content="vue2入门">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.060ccfb6.css" as="style"><link rel="preload" href="/assets/js/app.d18253db.js" as="script"><link rel="preload" href="/assets/js/4.b029406f.js" as="script"><link rel="preload" href="/assets/js/1.763608e7.js" as="script"><link rel="preload" href="/assets/js/76.245a2956.js" as="script"><link rel="prefetch" href="/assets/js/10.7a41b707.js"><link rel="prefetch" href="/assets/js/11.67ab007f.js"><link rel="prefetch" href="/assets/js/12.6ea6713a.js"><link rel="prefetch" href="/assets/js/13.b74c74da.js"><link rel="prefetch" href="/assets/js/14.54a09238.js"><link rel="prefetch" href="/assets/js/15.89a8cb7f.js"><link rel="prefetch" href="/assets/js/16.e03c98c9.js"><link rel="prefetch" href="/assets/js/17.437573a9.js"><link rel="prefetch" href="/assets/js/18.7174fc81.js"><link rel="prefetch" href="/assets/js/19.572e2c52.js"><link rel="prefetch" href="/assets/js/20.99f71fd5.js"><link rel="prefetch" href="/assets/js/21.e473747e.js"><link rel="prefetch" href="/assets/js/22.179cbe10.js"><link rel="prefetch" href="/assets/js/23.b9e1ab91.js"><link rel="prefetch" href="/assets/js/24.863732ce.js"><link rel="prefetch" href="/assets/js/25.697e5614.js"><link rel="prefetch" href="/assets/js/26.1d9fc804.js"><link rel="prefetch" href="/assets/js/27.0c1e2429.js"><link rel="prefetch" href="/assets/js/28.043373bf.js"><link rel="prefetch" href="/assets/js/29.3e6a8deb.js"><link rel="prefetch" href="/assets/js/3.5e6ed713.js"><link rel="prefetch" href="/assets/js/30.eddb6fcf.js"><link rel="prefetch" href="/assets/js/31.af996ce2.js"><link rel="prefetch" href="/assets/js/32.1ae83d2f.js"><link rel="prefetch" href="/assets/js/33.c7d9bc8e.js"><link rel="prefetch" href="/assets/js/34.a50de652.js"><link rel="prefetch" href="/assets/js/35.4e6163e4.js"><link rel="prefetch" href="/assets/js/36.1a65e497.js"><link rel="prefetch" href="/assets/js/37.cfccec2b.js"><link rel="prefetch" href="/assets/js/38.1b86d087.js"><link rel="prefetch" href="/assets/js/39.e652cef6.js"><link rel="prefetch" href="/assets/js/40.d3dcc735.js"><link rel="prefetch" href="/assets/js/41.171701bc.js"><link rel="prefetch" href="/assets/js/42.22277450.js"><link rel="prefetch" href="/assets/js/43.672a23ee.js"><link rel="prefetch" href="/assets/js/44.5c717bdd.js"><link rel="prefetch" href="/assets/js/45.19c9e907.js"><link rel="prefetch" href="/assets/js/46.1628eb43.js"><link rel="prefetch" href="/assets/js/47.ea98451b.js"><link rel="prefetch" href="/assets/js/48.9df63040.js"><link rel="prefetch" href="/assets/js/49.8ff43333.js"><link rel="prefetch" href="/assets/js/5.4fa9fb73.js"><link rel="prefetch" href="/assets/js/50.b277708c.js"><link rel="prefetch" href="/assets/js/51.e176149f.js"><link rel="prefetch" href="/assets/js/52.405119d6.js"><link rel="prefetch" href="/assets/js/53.6c31655b.js"><link rel="prefetch" href="/assets/js/54.0aac3448.js"><link rel="prefetch" href="/assets/js/55.1657cb03.js"><link rel="prefetch" href="/assets/js/56.afb7bd12.js"><link rel="prefetch" href="/assets/js/57.b3eea539.js"><link rel="prefetch" href="/assets/js/58.462e3f94.js"><link rel="prefetch" href="/assets/js/59.7de9ec4e.js"><link rel="prefetch" href="/assets/js/6.12ccd017.js"><link rel="prefetch" href="/assets/js/60.eac6c0e6.js"><link rel="prefetch" href="/assets/js/61.fcb32e45.js"><link rel="prefetch" href="/assets/js/62.b4e87ec9.js"><link rel="prefetch" href="/assets/js/63.943881e6.js"><link rel="prefetch" href="/assets/js/64.902bb4ab.js"><link rel="prefetch" href="/assets/js/65.8faf4551.js"><link rel="prefetch" href="/assets/js/66.ea8d2f78.js"><link rel="prefetch" href="/assets/js/67.57ca0869.js"><link rel="prefetch" href="/assets/js/68.f9e1107d.js"><link rel="prefetch" href="/assets/js/69.feb26329.js"><link rel="prefetch" href="/assets/js/7.d982c05f.js"><link rel="prefetch" href="/assets/js/70.76be8a16.js"><link rel="prefetch" href="/assets/js/71.a87093f0.js"><link rel="prefetch" href="/assets/js/72.3241c9a6.js"><link rel="prefetch" href="/assets/js/73.1d3ee3be.js"><link rel="prefetch" href="/assets/js/74.74067d89.js"><link rel="prefetch" href="/assets/js/75.459700a8.js"><link rel="prefetch" href="/assets/js/77.5c5cdeb9.js"><link rel="prefetch" href="/assets/js/78.cc48674a.js"><link rel="prefetch" href="/assets/js/79.668aa84b.js"><link rel="prefetch" href="/assets/js/8.b289d849.js"><link rel="prefetch" href="/assets/js/80.21d1d260.js"><link rel="prefetch" href="/assets/js/81.490a2476.js"><link rel="prefetch" href="/assets/js/82.ee77448b.js"><link rel="prefetch" href="/assets/js/83.b7a99492.js"><link rel="prefetch" href="/assets/js/84.c4254f8b.js"><link rel="prefetch" href="/assets/js/85.4d0aad07.js"><link rel="prefetch" href="/assets/js/86.d0a562d7.js"><link rel="prefetch" href="/assets/js/87.783ad7dc.js"><link rel="prefetch" href="/assets/js/88.8dc89d5f.js"><link rel="prefetch" href="/assets/js/89.c40d649e.js"><link rel="prefetch" href="/assets/js/9.3d257f05.js"><link rel="prefetch" href="/assets/js/90.40c7d560.js"><link rel="prefetch" href="/assets/js/91.09f520a4.js"><link rel="prefetch" href="/assets/js/92.3a53c5f4.js"><link rel="prefetch" href="/assets/js/93.0c919003.js"><link rel="prefetch" href="/assets/js/94.c665aa9c.js"><link rel="prefetch" href="/assets/js/95.077f9d9b.js"><link rel="prefetch" href="/assets/js/96.0c0060b4.js"><link rel="prefetch" href="/assets/js/97.ca50570a.js"><link rel="prefetch" href="/assets/js/98.63026e28.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.060ccfb6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>yyshino</h3> <p class="description" data-v-59e6cb88>Blog</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2022
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="yyshino" class="logo"> <span class="site-name">yyshino</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    yyshino
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>83</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>60</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41><li class="social-item" data-v-1fad0c41><i class="iconfont reco-github" style="color:#3498db;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-csdn" style="color:#f8b26a;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-sf" style="color:#849b87;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-bilibili" style="color:#f8b26a;" data-v-1fad0c41></i></li></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基础篇</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/FrontEnd/基础篇/Vue01.html" class="sidebar-link">Vue2</a></li><li><a href="/blogs/FrontEnd/基础篇/Vue02.html" class="active sidebar-link">Vue进阶</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>Vue进阶</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2022
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">Vue进阶</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>yyshino</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>5/19/2022</span></i> <i class="iconfont reco-eye" data-v-8a445198><span id="/blogs/FrontEnd/%E5%9F%BA%E7%A1%80%E7%AF%87/Vue02.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-8a445198><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>Vue2</span></i></div></div> <div class="theme-reco-content content__default"><h3 id="vue脚手架"><a href="#vue脚手架" class="header-anchor">#</a> Vue脚手架</h3> <h4 id="创建"><a href="#创建" class="header-anchor">#</a> 创建</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>    <span class="token number">1</span><span class="token punctuation">)</span>	创建脚手架4/3的vue项目, 并运行
+	<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> @vue/cli    安装脚手架4/3的版本
+	vue create vue-demo        使用安装的脚手架创建一个新的vue项目
+	<span class="token function">npm</span> run serve              运行创建的项目命令
+
+    <span class="token number">2</span><span class="token punctuation">)</span>	创建脚手架2的vue项目
+	<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> @vue/cli-init
+	vue init webpack vue-demo
+		<span class="token function">npm</span> run dev 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><strong>eslint禁用</strong>
+1、局部禁用</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token comment">// 局部禁用某个错误提示</span>
+    <span class="token comment">/* eslint-disable no-unused-vars */</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>2、全局禁用</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token comment">//package.json当中找到eslintConfig项，全局配置禁用某些错误提示</span>
+    <span class="token string-property property">&quot;rules&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">&quot;no-unused-vars&quot;</span><span class="token operator">:</span><span class="token string">&quot;off&quot;</span>
+        <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>3、关闭</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token comment">//开发阶段直接关闭eslint的提示功能</span>
+
+    手动创建vue<span class="token punctuation">.</span>config<span class="token punctuation">.</span>js
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token comment">//  写自己想要配置的东西去覆盖系统自带的</span>
+        <span class="token comment">// 关闭ESLint的规则</span>
+        <span class="token literal-property property">lintOnSave</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>vue模板解析</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>Vue渲染两种方式：
+​		<span class="token number">1</span>、render：h <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+​		<span class="token number">2</span>、components注册组件，template解析，但是vue导入需要导入带解析器的版本
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="模块化与组件化概念"><a href="#模块化与组件化概念" class="header-anchor">#</a> 模块化与组件化概念</h4> <h5 id="模块"><a href="#模块" class="header-anchor">#</a> 模块</h5> <p>1)理解: 向外提供特定功能的js程序, 一般就是一个js文件
+2)为什么:  js代码更多更复杂
+3)作用: 复用js, 简化js的编写, 提高js运行效率</p> <h5 id="组件"><a href="#组件" class="header-anchor">#</a> 组件</h5> <p>1)理解: 用来实现特定(局部)界面功能效果的代码集合(html/css/js/image)
+2)为什么: 一个界面的功能很复杂
+3)作用: 复用编码, 简化项目编码, 提高运行效率</p> <p><strong>模块化</strong>
+当应用的js都以模块来编写的, 这个应用就是一个模块化的应用</p> <p><strong>组件化</strong>
+当应用是以多组件的方式实现, 这个应用就是一个组件化的应用, 应用的开发方式就是组件化的</p> <h5 id="组件化开发"><a href="#组件化开发" class="header-anchor">#</a> 组件化开发</h5> <p>分两大步：<strong>静态页面实现</strong> 和  <strong>动态交互实现</strong></p> <p>静态页面实现：</p> <ol><li><p>拆分组件	拆分页面 定义组件   最大化重用（html,css,图片）</p></li> <li><p>组装组件     就是把各个组件组装起来放在App.vue里面</p></li> <li><p>渲染组件     就是把组件拼装完后，不考虑数据，先展示出来</p></li></ol> <p>动态组件界面：</p> <ol><li><strong>初始化数据动态显示</strong> <ul><li>初始化数据分析
+<ul><li><p>数据类型    一般我们的数据最终都是放在一个数组内部，数组内部放对象</p></li> <li><p>数据名称    comments:[{},{},{}]</p></li> <li><p>定义组件的原则</p> <blockquote><ul><li>数据用到不是说展示就代表用，而是说数据的增删改查都叫用到数据</li> <li>如果这个数据只是某一个组件用的，那么数据就在这一个组件当中定义</li> <li>如果这个数据在某些个组件当中用的，那么就找这些个共同的祖先组件去定义</li></ul></blockquote></li> <li><p><strong>注意</strong>：组件标签名和属性名大小写问题：</p> <ul><li>基本规则：要么原样去写，要么转小写中间用-连接</li></ul></li></ul></li></ul></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>        AddComment
+        <span class="token operator">&lt;</span>AddComment<span class="token operator">/</span><span class="token operator">&gt;</span>  或者  <span class="token operator">&lt;</span>add<span class="token operator">-</span>comment<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol><li><strong>用户的交互</strong></li></ol> <ul><li>对于数据的操作：
+<ul><li>数据在哪，操作数据的方法就要在哪定义，而不是随便的在某一个组件当中去操作数据</li> <li>想要操作数据的组件，可以通过调用操作数据的方法，间接去操作数据</li></ul></li> <li>添加和删除：
+<ul><li>子组件添加事件和事件回调，事件回调当中去调用外部操作数据的方法</li> <li>数据所在的组件去添加操作数据的方法</li></ul></li></ul> <ol><li><strong>组件化编码的基本规范</strong></li></ol> <blockquote><p>子组件里面不要去更新父组件当中的数据
+1、分析数据在哪个组件
+2、数据在哪个组件，那么更新数据的行为（方法）就在哪个组件
+3、父组件的数据传递给子组件，是用来让子组件读取显示使用的，而不是让子组件去修改的（可以但是不该）
+4、子组件需要更新数据，那么需要调用父组件传递过来的更新数据方法</p></blockquote> <ol><li><strong>组件的使用</strong></li></ol> <ul><li>模板页面</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code>  <span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+      <span class="token comment">// 页面模板</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+      <span class="token comment">// 2)JS模块对象</span>
+    <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+      <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+        <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">methods</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">computed</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+      <span class="token comment">// 3)样式</span>
+    <span class="token operator">&lt;</span>style<span class="token operator">&gt;</span>  
+      <span class="token comment">// 样式定义</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h4 id="vue组件通信方式"><a href="#vue组件通信方式" class="header-anchor">#</a> vue组件通信方式</h4> <ul><li>组件关系
+<ul><li>父子</li> <li>兄弟</li> <li>祖孙</li> <li>其它</li></ul></li></ul> <h5 id="_1-props-组件通信的方式："><a href="#_1-props-组件通信的方式：" class="header-anchor">#</a> 1. <strong>props 组件通信的方式：</strong></h5> <ul><li><p>是组件通信最常用最简单的一种方式,最基础的通信，用的也比较多</p></li> <li><p>父可以给子传递函数数据和非函数数据
+​	    1.  传递非函数数据，本质就是父亲给儿子传数据
+​	    2.  传递函数数据，本质是父亲想要儿子的数据，通过函数调用传参的方式把数据传递给父亲</p></li> <li><p>使用场合：</p> <blockquote><p>父子最好
+父向非子后代传递，必须逐层去传递   麻烦
+不是父子关系的组件，必须借助相同的父组件去通信  麻烦</p></blockquote></li> <li><p>不足（不是父子就狠麻烦） 兄弟关系，就必须先把一个数据给了父亲，然后通过父亲再给另一个</p></li></ul> <h5 id="_2-vue自定义事件"><a href="#_2-vue自定义事件" class="header-anchor">#</a> 2. <strong>vue自定义事件</strong></h5> <p>a.  <code>$on(eventName, listener)</code>: 绑定自定义事件监听
+b.  <code>$emit(eventName, data)</code>: 分发自定义事件
+c.  <code>$off(eventName)</code>: 解绑自定义事件监听
+d.  <code>$once(eventName, listener)</code>: 绑定事件监听, 但只能处理一次
+- 事件类型 :  无数个</p> <ul><li>回调函数 ： 谁调用 （自己调用）  调用时候默认的参数 （有可能有也可能没有  如果调用时候传了参数，默认参数就有 如果没有传，那就没有（undefined））</li> <li>使用方法</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    父组件当中去给子组件对象绑定事件监听  
+
+	 @直接在组件标签对象当中去绑定，和绑定系统事件一致
+	 $on，在mounted当中去绑定，但是需要获取到子组件标签对象（通过ref指定，然后获取到）
+	 <span class="token function">$once</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token function">和$on</span><span class="token punctuation">(</span><span class="token punctuation">)</span>类似，但是只能触发一次
+
+    在子组件当中适当的位置去触发事件并传递参数
+        <span class="token function">$emit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>在子组件当中去触发，子组件对象触发
+        
+    <span class="token function">$off</span><span class="token punctuation">(</span><span class="token punctuation">)</span>可以在销毁之前解绑事件
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul><li>适用场合
+<ul><li>子向父传递数据，其余情况都不能用</li></ul></li></ul> <h5 id="_3-通信方式-全局事件总线"><a href="#_3-通信方式-全局事件总线" class="header-anchor">#</a> 3. <strong>通信方式 全局事件总线</strong></h5> <ul><li>事件总线(对象)满足的两个条件：
+<ul><li>1、所有的组件对象都能找到它</li> <li>2、可以调用<mjx-container jax="SVG" class="MathJax"><svg xmlns="http://www.w3.org/2000/svg" width="4.441ex" height="2.262ex" viewBox="0 -750 1962.8 1000" style="vertical-align:-0.566ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="6F" d="M201 -11Q126 -11 80 38T34 156Q34 221 64 279T146 380Q222 441 301 441Q333 441 341 440Q354 437 367 433T402 417T438 387T464 338T476 268Q476 161 390 75T201 -11ZM121 120Q121 70 147 48T206 26Q250 26 289 58T351 142Q360 163 374 216T388 308Q388 352 370 375Q346 405 306 405Q243 405 195 347Q158 303 140 230T121 120Z"></path></g><g data-mml-node="mi" transform="translate(485, 0)"><path data-c="6E" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1362.8, 0)"><text data-variant="normal" transform="matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">和</text></g></g></g></svg></mjx-container>emit</li></ul></li> <li>原理</li></ul> <blockquote><p>本身自定义事件可以完成子向父之间的传递，因为父组件中可以看到子组件，可以为子组件绑定事件，子组件中可以触发事件
+但是如果不是子向父，那么其余的就没办法了，因为两个组件互相是看不到的，没办法再其中一个给另外一个绑定事件
+此时我们可以借助中间人，也就是他们都可以同时看到的一个人，就是全局事件总线（所有的组件对象都能看到</p></blockquote> <blockquote><p><strong>在接收数据的组件中，获取总线绑定事件</strong> <strong>在发送数据的组件中，获取总线触发事件</strong></p></blockquote> <ul><li>使用
+<ul><li>全局事件总线说到底就是个对象，我们通常就是用vm对象作为全局事件总线使用,把vm对象添加到Vue原型对象  就形成全局事件总线（vm）</li> <li>示例</li></ul></li></ul> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>    new Vue ({
+        beforeCreate() {
+            Vue.prototype.$bus = this   //配置总线  就是把vm挂到Vue的原型上，让所有的组件对象都能找到他，进而调用$on和$emit  
+        },
+
+        el:'#app',
+        render:h =&gt; h(App)
+    })
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>适用场合： 任何场合</li></ul> <h5 id="_4-通信方式-slot插槽"><a href="#_4-通信方式-slot插槽" class="header-anchor">#</a> 4. <strong>通信方式 slot插槽</strong></h5> <ul><li>简介
+<ul><li>一个组件会多次使用，但是又有少部分结构数据会发生变化，（当然可以用不同的子组件）那么就得通过父组件告诉子组件变化的内容是什么，此时就要用到这个插槽</li> <li>子组件当中<code>&lt;slot&gt;&lt;/sloat&gt;</code>其实就是占位用的，让父组件给它填充内容，可以带标签</li></ul></li> <li><strong>默认插槽</strong>和<strong>具名插槽</strong></li></ul> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!--vue当中内置的组件标签  --&gt;</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span><span class="token punctuation">&gt;</span></span>
+                <span class="token comment">&lt;!-- 默认插槽 --&gt;</span>
+                <span class="token comment">&lt;!-- slot内部的东西 是等待着父组件使用的时候给传递过来的 --&gt;</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>嘿嘿<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+
+    ​        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>xxx<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    ​            <span class="token comment">&lt;!-- 具名插槽 --&gt;</span>
+    ​        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+
+    ​    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><ul><li><strong>作用域插槽</strong></li></ul> <blockquote><p>子组件的slot可以通过 属性传递值给父组件，然后父组件可以根据不同需求改变这个slot内部的显示结构
+把子组件的值，传给父组件固定的区域进行操作
+父组件的数据是给子组件展示的
+子组件展示过程当中，数据的结构由父组件决定的。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>(todo,index) in todos<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>todos.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">:todo</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>todo<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                        {{todo.content}}
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><ul><li>适用场合</li></ul> <div class="language-md line-numbers-mode"><pre class="language-md"><code>  1.当一个组件有不确定的结构时, 就需要使用slot技术了
+  2.注意: 插槽内容是在父组件中编译后, 再传递给子组件
+  3.如果决定结构的数据在父组件, 那用默认slot或命名命名slot
+         (1) 当只有一个不确定的结构时, 可以使用默认slot
+         (2) 当有多个不确定的结构时, 可以使用命名slot
+  4.如果决定结构的数据在子组件, 那需要使用作用域slot
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h5 id="_5-消息订阅-subscribe-与发布-publish"><a href="#_5-消息订阅-subscribe-与发布-publish" class="header-anchor">#</a> 5. <strong>消息订阅(subscribe)与发布(publish)</strong></h5> <ol><li><a href="https://github.com/mroderick/PubSubJS" target="_blank" rel="noopener noreferrer">在线文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>下载: <code>npm install -S pubsub-js</code></li></ol> <h4 id="vue中解决跨域"><a href="#vue中解决跨域" class="header-anchor">#</a> vue中解决跨域</h4> <p><strong>跨域：</strong> <a href="https://yyshino.top/posts/20614.html#%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F" target="_blank" rel="noopener noreferrer">跨域是什么<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><strong>配置代理服务器解决跨域</strong>
+1、本身我们现在就跑在开发服务器 <code>webpack-dev-server</code> 而这个服务器带了一个模块，这个模块可以支持我们使用代理</p> <p>2、原理：在浏览器发请求的时候，把这个请求发给服务器上的这个代理模块
+再由这个代理模块转发给我们真正的服务器
+这样的话，我们原来由浏览器直接发送请求到服务器就转化为服务器到服务器之间的请求</p> <p>3、你要让代理转发，那么得告诉代理你的这个请求什么情况需要转发，配置以固定什么开头的路径需要代理转发，代理看到这个路径是以它开头就会帮你转发</p> <p>4、代理转发的时候会把路径交给真正的请求服务器，作为请求路径，需要把固定的开头去除</p> <div class="language-json line-numbers-mode"><pre class="language-json"><code>	changeOrigin<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 支持跨域, 如果协议/主机也不相同, 必须加上</span>
+	
+	proxy<span class="token operator">:</span> <span class="token punctuation">{</span>
+	        <span class="token property">&quot;/api&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+	            target<span class="token operator">:</span> <span class="token string">&quot;http://localhost:4000&quot;</span><span class="token punctuation">,</span>
+	            pathRewrite<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token property">&quot;^/api&quot;</span> <span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>  <span class="token comment">//要看真正的后台接口路径当中有没有包含/api，有就不用去掉，没有就得去掉</span>
+	            changeOrigin<span class="token operator">:</span><span class="token boolean">true</span>
+	    <span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h4 id="vue-ajax"><a href="#vue-ajax" class="header-anchor">#</a> vue-ajax</h4> <p>vue-axios与axios官方库大同小异
+不过多赘述,想了解的可以
+参考<a href="https://axios-http.com/zh/" target="_blank" rel="noopener noreferrer">axios文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+我的博客<a href="https://yyshino.top/posts/20614.html" target="_blank" rel="noopener noreferrer">ajax-axios<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="vueui组件库"><a href="#vueui组件库" class="header-anchor">#</a> vueui组件库</h4> <p><strong>1. 移动端UI组件库</strong>
+1)<code>Vant</code>  https://youzan.github.io/vant/#/zh-CN/
+2)<code>Cube UI</code>  https://didi.github.io/cube-ui/#/zh-CN
+3)<code>Mint UI</code>  http://mint-ui.github.io/ (经常不能访问)</p> <p><strong>2. PC端UI组件库</strong>
+4)<code>Element UI</code>  https://element.eleme.cn/#/zh-CN
+5)<code>IView UI</code>  https://www.iviewui.com/</p> <h4 id="vue-router"><a href="#vue-router" class="header-anchor">#</a> vue-router</h4> <ol><li><code>vue-router</code>的理解
+<ol><li>vue的一个插件库</li> <li>专门用来实现一个SPA应用</li> <li>基于vue的项目基本都会用到此库</li> <li>中文文档: http://router.vuejs.org/zh-cn/</li> <li>下载: <code>npm install vue-router -S</code></li></ol></li> <li><code>SPA</code>的理解
+<ol><li>单页Web应用（single page web application，SPA）</li> <li>整个应用只有一个完整的页面</li> <li>点击页面中的链接不会刷新页面, 本身也不会向服务器发请求</li> <li>当点击路由链接时, 只会做页面的局部更新</li> <li>数据都需要通过ajax请求获取, 并在前端异步展现</li></ol></li></ol> <ol start="3"><li><strong>VueRouter(): 用于创建路由器的构建函数</strong></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token keyword">new</span> <span class="token class-name">VueRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token comment">// 多个配置项</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="2"><li><strong>路由配置</strong></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token literal-property property">routes</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> <span class="token comment">// 一般路由</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'/about'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">component</span><span class="token operator">:</span> About
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> <span class="token comment">// 自动跳转路由</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span> 
+        <span class="token literal-property property">redirect</span><span class="token operator">:</span> <span class="token string">'/about'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="3"><li><strong>注册路由器</strong></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>	<span class="token keyword">import</span> router <span class="token keyword">from</span> <span class="token string">'./router'</span>
+	<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+		router
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ol start="4"><li><strong>使用路由组件标签</strong></li></ol> <ol><li><code>&lt;router-link&gt;</code> 用来生成路由链接</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>		<span class="token operator">&lt;</span>router<span class="token operator">-</span>link to<span class="token operator">=</span><span class="token string">&quot;/xxx&quot;</span><span class="token operator">&gt;</span>Go to <span class="token constant">XXX</span><span class="token operator">&lt;</span><span class="token operator">/</span>router<span class="token operator">-</span>link<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol><li><code>&lt;router-view&gt;</code> 用来显示当前路由组件界面</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>		<span class="token operator">&lt;</span>router<span class="token operator">-</span>view<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>router<span class="token operator">-</span>view<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="5"><li><strong>配置嵌套路由</strong></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'/home'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">component</span><span class="token operator">:</span> home<span class="token punctuation">,</span>
+    <span class="token comment">// 嵌套路由</span>
+    <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'news'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">component</span><span class="token operator">:</span> News
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'message'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">component</span><span class="token operator">:</span> Message
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ol start="6"><li><p><strong>向路由组件传递参数</strong></p> <ol><li>配置路由</li></ol></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>      <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'mdetail/:id'</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">component</span><span class="token operator">:</span> MessageDetail
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="2"><li>路由路径</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token operator">&lt;</span>router<span class="token operator">-</span>link <span class="token operator">:</span>to<span class="token operator">=</span><span class="token string">&quot;'/home/message/mdetail/'+m.id&quot;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>m<span class="token punctuation">.</span>title<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span>router<span class="token operator">-</span>link<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="3"><li>路由组件中读取请求参数
+<code>this.$route.params.id</code></li></ol> <ol start="7"><li><p>编程式路由导航</p> <ol><li><code>this.$router.push(path)</code>: 相当于点击路由链接(可以返回到当前路由界面)</li> <li><code>this.$router.replace(path)</code>: 用新路由替换当前路由(不可以返回到当前路由界面)</li> <li><code>this.$router.back()</code>: 请求(返回)上一个记录路由</li> <li><code>this.$router.go(-1)</code>: 请求(返回)上一个记录路由</li> <li><code>this.$router.go(1)</code>: 请求下一个记录路由</li></ol></li> <li><p>router 守卫</p></li></ol> <p>适用场合
+<strong>校验token</strong></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// 全局前置导航守卫</span>
+router<span class="token punctuation">.</span><span class="token function">beforeEach</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">to<span class="token punctuation">,</span> from<span class="token punctuation">,</span>next</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 全局前置导航守卫</span>
+    <span class="token comment">// to 代表准备驱动地方的路由对象</span>
+    <span class="token comment">// from 从哪个地方来的路由对象</span>
+    <span class="token comment">// next 是一个函数</span>
+    <span class="token comment">// next() 代表无条件放行</span>
+    <span class="token comment">// next(false) 代表不放行，停在原地</span>
+    <span class="token comment">// next('/')    next({path:'/'})    代表最终让它去哪</span>
+
+    <span class="token comment">// token校验</span>
+    
+    <span class="token keyword">let</span> token <span class="token operator">=</span> store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>user<span class="token punctuation">.</span>token
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span>token<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// 代表登录了或者之前登录过</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>to<span class="token punctuation">.</span>path <span class="token operator">===</span> <span class="token string">'/login'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// 登录鼓励，又想去登录页，直接跳转到首页</span>
+            <span class="token function">next</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+            <span class="token comment">// !! 转化为bool值</span>
+            <span class="token keyword">let</span> hasuserInfo <span class="token operator">=</span> <span class="token operator">!</span><span class="token operator">!</span>store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>user<span class="token punctuation">.</span>userInfo
+
+            <span class="token keyword">if</span><span class="token punctuation">(</span>hasuserInfo<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token comment">// 此时 代表登录了 ， 去的不是登录页，用户信息存在，直接无条件放行</span>
+                <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+                                
+                <span class="token comment">// 此时代表登录了，去的不是登录页，用户信息不存在   那我们要根据token发请求获取用户真实信息</span>
+                <span class="token keyword">try</span> <span class="token punctuation">{</span>
+                    <span class="token keyword">await</span> store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">'getUserInfo'</span><span class="token punctuation">)</span>
+                    <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token comment">// 出现错误 跳转到login页面，并清楚用户信息</span>
+                    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'用户的token过期'</span><span class="token punctuation">)</span>
+                    <span class="token comment">// 清空用户信息</span>
+                    store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">'resetUserInfo'</span><span class="token punctuation">)</span>
+    
+                    <span class="token function">next</span><span class="token punctuation">(</span><span class="token string">'/login'</span><span class="token punctuation">)</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        <span class="token comment">// 代表用户没登录或者之前也没有登录过</span>
+        
+        <span class="token comment">// 后期我们需要判断用户是不是订单相关的页面，如果是娜美就先登录</span>
+
+
+        <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br></div></div><h4 id="vuex"><a href="#vuex" class="header-anchor">#</a> vuex</h4> <p>与redux大同小异</p> <ol><li><a href="https://github.com/vuejs/vuex" target="_blank" rel="noopener noreferrer">github站点<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://vuex.vuejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">在线文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>简单来说: 对vue应用中多个组件的共享状态进行集中式的管理(读/写)</li></ol> <p><strong>状态管理</strong>是什么：</p> <ul><li>Vuex 是一个专为 Vue.js 应用程序开发的<strong>状态管理模式</strong>，是一个官方插件。
+它采用集中式存储管理应用的所有组件的状态（数据），并以相应的规则保证状态以一种可预测的方式发生变化。
+​- 我们也可以认为它也是一种组件间通信的方式，并且适用于任意组件</li></ul> <p><strong>适用场合</strong></p> <ul><li>Vuex 可以帮助我们管理共享状态，并附带了更多的概念和框架。这需要对短期和长期效益进行权衡。</li> <li>也就是说应用简单（组件比较少）就不需要使用（但是可以），如果应用复杂，使用就会带来很大的便捷</li></ul> <p><strong>Vuex核心</strong>：把所有的共享状态数据拿出来放在Vuex中进行集中式管理</p> <p>vuex简单模板</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// 1、安装</span>
+
+<span class="token comment">// 2、引入并声明使用vuex插件</span>
+<span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> Vuex <span class="token keyword">from</span> <span class="token string">'vuex'</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Vuex<span class="token punctuation">)</span>
+
+<span class="token comment">// 3、向外暴露一个store的实例化对象</span>
+
+<span class="token comment">// state是一个包含多个属性（不是方法）的对象，其实就是用来存储数据用的</span>
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 代表初始状态数据    是一个包含n个属性（不是方法）的对象</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// mutations也是一个对象，是一个包含了多个方法的对象，其实就是用这个里面的方法去直接操作数据的</span>
+<span class="token comment">// 这个里面的方法不能包含  if  for  异步，是直接操作的</span>
+<span class="token keyword">const</span> mutations <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 代表直接修改数据的数据  是一个包含n个直接修改状态数据方法的对象 （用来让action的行为调用）	</span>
+    <span class="token comment">// 注意：只能通过mutations的方法去直接修改，也就是说要想写state数据必须通过mutations</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// actions也是一个对象，是一个包含了多个方法的对象。这个对象内部的方法是用来和vue当中用户的操作去关联的</span>
+<span class="token comment">// 这个里面的方法可以包含 if for 异步。</span>
+<span class="token keyword">const</span> actions <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 代表用户行为数据    是一个包含n个用户行为回调方法的对象，（用来映射组件用户的行为回调函数）</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// getters也是一个对象，是一个包含了多个方法的对象。这个对象内部的每个方法对应了一个计算属性的get，就是</span>
+<span class="token comment">// 通过state当中的数据  计算出来的一个新的想要的属性数据 </span>
+<span class="token keyword">const</span> getters <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 代表计算属性数据    是一个包含n个计算属性的方法的对象</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// 包含了6个核心概念，</span>
+    <span class="token comment">// 现在讲4个</span>
+    state<span class="token punctuation">,</span>
+    mutations<span class="token punctuation">,</span>
+    actions<span class="token punctuation">,</span>
+    getters
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 4、将暴露出去的store实例化对象引入到实例化Vue的配置对象(main.js)当中使用</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br></div></div><p><strong>注册store</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>  import store from './store'
+
+  new Vue({
+    store, // 注册vuex的store对象  ==&gt; 所有组件对象都有一个$store属性
+  })
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">12/6/2022, 1:41:11 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/FrontEnd/基础篇/Vue01.html" class="prev">
+          Vue2
+        </a></span> <!----></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-3" data-v-b57cc07c><a href="/blogs/FrontEnd/%E5%9F%BA%E7%A1%80%E7%AF%87/Vue02.html#vue脚手架" class="sidebar-link reco-side-vue脚手架" data-v-b57cc07c>Vue脚手架</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><!----><div class="RibbonAnimation"></div><!----><div id="goTop" class="hide-cat" data-v-bf92849a></div><!----></div></div>
+    <script src="/assets/js/app.d18253db.js" defer></script><script src="/assets/js/4.b029406f.js" defer></script><script src="/assets/js/1.763608e7.js" defer></script><script src="/assets/js/76.245a2956.js" defer></script>
+  </body>
+</html>
