@@ -4,17 +4,22 @@
 set -e
 
 # 生成静态文件
-npm run build
+# npm run build
 
 # 进入生成的文件夹
-cd public
+# cd public
 
 # 如果是发布到自定义域名
 # echo 'www.yourwebsite.com' > CNAME
 
-git init
-git config user.name "0Shino0"
-git config user.email "1471386835@qq.com"
+# 初始化
+# git init
+
+# 配置
+# git config user.name "0Shino0"
+# git config user.email "1471386835@qq.com"
+
+# 添加
 git add -A
 git commit -m `date +"%y/%m/%d"`
 
@@ -23,7 +28,11 @@ git commit -m `date +"%y/%m/%d"`
 # http https://gitlab.com/0Shino0/0shino0.git
 # git remote add origin git@github.com:0Shino0/Test.git
 # git remote add origin git@github.com:0Shino0/vuepress-blog.git
+
+# 拉取
 git pull
+
+# 推送
 git push
 
 # github
