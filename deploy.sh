@@ -47,5 +47,5 @@ git push
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
 
-# 返回进入此目录之前所在目录 
-cd - 
+# 返回进入此目录之前所在目录 （没有目录变化则省略）
+# cd - 
