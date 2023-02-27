@@ -23,8 +23,8 @@ git commit -m `date +"%y/%m/%d"`
 # http https://gitlab.com/0Shino0/0shino0.git
 # git remote add origin git@github.com:0Shino0/Test.git
 # git remote add origin git@github.com:0Shino0/vuepress-blog.git
-git pull git@github.com:0Shino0/vuepress-blog.git master
-git push git@github.com:0Shino0/vuepress-blog.git master
+git pull
+git push
 
 # github
 # git push -f git@github.com:0Shino0/Vuepress-Blog.git master
