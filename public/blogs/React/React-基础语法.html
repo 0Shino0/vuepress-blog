@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React基础 | yyshino</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="https://shinoimg.yyshino.top/img/avatar.png">
+    <meta name="description" content="react入门">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.8186d926.css" as="style"><link rel="preload" href="/assets/js/app.bc33b4e6.js" as="script"><link rel="preload" href="/assets/js/4.a2985191.js" as="script"><link rel="preload" href="/assets/js/1.ab21178e.js" as="script"><link rel="preload" href="/assets/js/77.0d8ce858.js" as="script"><link rel="prefetch" href="/assets/js/10.7a41b707.js"><link rel="prefetch" href="/assets/js/11.67ab007f.js"><link rel="prefetch" href="/assets/js/12.6ea6713a.js"><link rel="prefetch" href="/assets/js/13.b74c74da.js"><link rel="prefetch" href="/assets/js/14.54a09238.js"><link rel="prefetch" href="/assets/js/15.997070ad.js"><link rel="prefetch" href="/assets/js/16.5ca92204.js"><link rel="prefetch" href="/assets/js/17.682d2e44.js"><link rel="prefetch" href="/assets/js/18.182dfb4b.js"><link rel="prefetch" href="/assets/js/19.b87cc9ab.js"><link rel="prefetch" href="/assets/js/20.4ca2024f.js"><link rel="prefetch" href="/assets/js/21.1f6a608f.js"><link rel="prefetch" href="/assets/js/22.6d69c4e3.js"><link rel="prefetch" href="/assets/js/23.d0e40695.js"><link rel="prefetch" href="/assets/js/24.f5b7f055.js"><link rel="prefetch" href="/assets/js/25.ea192711.js"><link rel="prefetch" href="/assets/js/26.6307bdc7.js"><link rel="prefetch" href="/assets/js/27.14bd038a.js"><link rel="prefetch" href="/assets/js/28.d66a1fe7.js"><link rel="prefetch" href="/assets/js/29.b1bb49cf.js"><link rel="prefetch" href="/assets/js/3.5e6ed713.js"><link rel="prefetch" href="/assets/js/30.b2dc74b2.js"><link rel="prefetch" href="/assets/js/31.a45fe86b.js"><link rel="prefetch" href="/assets/js/32.f658dbad.js"><link rel="prefetch" href="/assets/js/33.36aa9f3a.js"><link rel="prefetch" href="/assets/js/34.bfda6a13.js"><link rel="prefetch" href="/assets/js/35.891fd7b9.js"><link rel="prefetch" href="/assets/js/36.3579994d.js"><link rel="prefetch" href="/assets/js/37.76ba4a5d.js"><link rel="prefetch" href="/assets/js/38.b0556721.js"><link rel="prefetch" href="/assets/js/39.72edf66f.js"><link rel="prefetch" href="/assets/js/40.47a13dab.js"><link rel="prefetch" href="/assets/js/41.2cb197fc.js"><link rel="prefetch" href="/assets/js/42.df34c239.js"><link rel="prefetch" href="/assets/js/43.b6468c80.js"><link rel="prefetch" href="/assets/js/44.cb84d718.js"><link rel="prefetch" href="/assets/js/45.f4b2a4c6.js"><link rel="prefetch" href="/assets/js/46.41690f35.js"><link rel="prefetch" href="/assets/js/47.316b3e71.js"><link rel="prefetch" href="/assets/js/48.75d0c07a.js"><link rel="prefetch" href="/assets/js/49.01595283.js"><link rel="prefetch" href="/assets/js/5.4fa9fb73.js"><link rel="prefetch" href="/assets/js/50.ddfec7dc.js"><link rel="prefetch" href="/assets/js/51.83209c94.js"><link rel="prefetch" href="/assets/js/52.dc265e56.js"><link rel="prefetch" href="/assets/js/53.70b66ff3.js"><link rel="prefetch" href="/assets/js/54.9a7af997.js"><link rel="prefetch" href="/assets/js/55.da8073c4.js"><link rel="prefetch" href="/assets/js/56.efd493fc.js"><link rel="prefetch" href="/assets/js/57.b1de7fe5.js"><link rel="prefetch" href="/assets/js/58.fdad7a09.js"><link rel="prefetch" href="/assets/js/59.1e441549.js"><link rel="prefetch" href="/assets/js/6.12ccd017.js"><link rel="prefetch" href="/assets/js/60.4aed7638.js"><link rel="prefetch" href="/assets/js/61.d15f246c.js"><link rel="prefetch" href="/assets/js/62.55bcf81a.js"><link rel="prefetch" href="/assets/js/63.ea1f0c88.js"><link rel="prefetch" href="/assets/js/64.91cbfac9.js"><link rel="prefetch" href="/assets/js/65.b201388b.js"><link rel="prefetch" href="/assets/js/66.c9511b42.js"><link rel="prefetch" href="/assets/js/67.40608c4a.js"><link rel="prefetch" href="/assets/js/68.a2067c65.js"><link rel="prefetch" href="/assets/js/69.69f3223e.js"><link rel="prefetch" href="/assets/js/7.d982c05f.js"><link rel="prefetch" href="/assets/js/70.9c79ce55.js"><link rel="prefetch" href="/assets/js/71.33662132.js"><link rel="prefetch" href="/assets/js/72.3d77f0ba.js"><link rel="prefetch" href="/assets/js/73.2f1f1441.js"><link rel="prefetch" href="/assets/js/74.035dbdc9.js"><link rel="prefetch" href="/assets/js/75.6feb6ece.js"><link rel="prefetch" href="/assets/js/76.40e33249.js"><link rel="prefetch" href="/assets/js/78.263f13d5.js"><link rel="prefetch" href="/assets/js/79.82d1fab1.js"><link rel="prefetch" href="/assets/js/8.b289d849.js"><link rel="prefetch" href="/assets/js/80.ee870779.js"><link rel="prefetch" href="/assets/js/81.189c6e9a.js"><link rel="prefetch" href="/assets/js/82.d26bc3c9.js"><link rel="prefetch" href="/assets/js/83.fa8a7b14.js"><link rel="prefetch" href="/assets/js/84.0b8cd8ef.js"><link rel="prefetch" href="/assets/js/85.936148c7.js"><link rel="prefetch" href="/assets/js/86.2da8bfb8.js"><link rel="prefetch" href="/assets/js/87.32b2b8c0.js"><link rel="prefetch" href="/assets/js/88.12949098.js"><link rel="prefetch" href="/assets/js/89.a1460546.js"><link rel="prefetch" href="/assets/js/9.62b73e12.js"><link rel="prefetch" href="/assets/js/90.1aae6fbe.js"><link rel="prefetch" href="/assets/js/91.8aa069cb.js"><link rel="prefetch" href="/assets/js/92.0e9f3e0a.js"><link rel="prefetch" href="/assets/js/93.2a885282.js"><link rel="prefetch" href="/assets/js/94.7a7a7707.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8186d926.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>yyshino</h3> <p class="description" data-v-59e6cb88>Blog</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="yyshino" class="logo"> <span class="site-name">yyshino</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-源码分析.html" class="nav-link"><i class="undefined"></i>
+  Vue-源码分析
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化-02.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化-02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化01.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    yyshino
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>79</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>58</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41><li class="social-item" data-v-1fad0c41><i class="iconfont reco-github" style="color:#abbd81;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-csdn" style="color:#abbd81;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-sf" style="color:#f26d6d;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-bilibili" style="color:#e15b64;" data-v-1fad0c41></i></li></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-源码分析.html" class="nav-link"><i class="undefined"></i>
+  Vue-源码分析
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化-02.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化-02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化01.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><a href="/blogs/React/React-v17简介.html" class="sidebar-link">React17入门</a></li><li><a href="/blogs/React/React-基础语法.html" class="active sidebar-link">React基础</a></li><li><a href="/blogs/React/React-路由.html" class="sidebar-link">React高级</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>React基础</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">React基础</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>yyshino</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>5/16/2022</span></i> <i class="iconfont reco-eye" data-v-8a445198><span id="/blogs/React/React-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-8a445198><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>React</span></i></div></div> <div class="theme-reco-content content__default"><h3 id="react"><a href="#react" class="header-anchor">#</a> React</h3> <h4 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h4> <p>React 是一个用于构建用户界面的 JavaScript 库。</p> <ul><li>声明式： React 让创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，当你的数据发生变化时，React 将有效地更新和呈现正确的组件。声明式视图使您的代码更可预测、更易于理解和更易于调试。</li> <li>基于组件：构建管理其状态的封装组件，然后将它们组合成复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用程序传递丰富的数据并将状态保持在 DOM 之外。</li> <li>一次学习，随处编写：我们不对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能而无需重写现有代码。React 还可以使用 Node 在服务器上呈现，并使用React Native为移动应用程序提供动力。</li></ul> <h4 id="jsx语法规则"><a href="#jsx语法规则" class="header-anchor">#</a> jsx语法规则:</h4> <ul><li><p>1.创建虚拟DOM时，不要用引号</p></li> <li><p>2.标签中想混入js表达式，需要用{}包裹</p></li> <li><p>3.根标签只能有一个</p></li> <li><p>4.标签必须闭合</p></li> <li><p>5.样式的类名，不要用class，必须用className</p></li> <li><p>6.内联的样式要用下列形式 ( 双括号会报错所以采取图片的形式展现 )
+<img src="https://shinoimg.yyshino.top/img/style.png" alt="style"></p></li> <li><p>7.标签可以随意的编写:</p> <ul><li><p>(1).若标签首字母是【小写】的,则react会尝试将当前的jsx标签对应成一个html标签</p> <ul><li><p>​                  若对应成了,直接渲染,展示</p></li> <li><p>​                  若无法对应,直接报错</p></li></ul></li></ul></li> <li><p>(1).若标签首字母是【大写】的,react会查找Haha组件的定义的位置</p> <ul><li><p>若找见了,直接渲染Haha组件</p></li> <li><p>若未找见,报错(Haha is not defined)</p></li></ul></li></ul> <h4 id="组件"><a href="#组件" class="header-anchor">#</a> 组件</h4> <h5 id="函数式组件"><a href="#函数式组件" class="header-anchor">#</a> 函数式组件</h5> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/babel<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text"> 
+            //1.定义组件(函数式组件)
+            function MyComponent(){
+            console.log(this); //此处的this是undefined，因为经过babel的编译后，开启了严格模式。
+            return &lt;h2&gt;我是用函数定义的组件（适用于【简单组件】的定义）&lt;/h2&gt;
+            }
+            function MyComponent2(){
+            console.log(this); //此处的this是undefined，因为经过babel的编译后，开启了严格模式。
+            return &lt;h2&gt;我是用函数定义的组件（适用于【简单组件】的定义2）&lt;/h2&gt;
+            }
+            //2.渲染组件到页面
+            ReactDOM.render(&lt;MyComponent/&gt;,document.getElementById('test'))
+            ReactDOM.render(&lt;MyComponent2/&gt;,document.getElementById('test2'))
+            /* 
+            执行了ReactDOM.render后，发生了什么？
+            1.React发现了&lt;MyComponent/&gt;标签，去寻找MyComponent组件定义的位置，发现MyComponent是用函数定义的。
+            2.React调用MyComponent并获取MyComponent返回的虚拟DOM，随后转为真实DOM，随后渲染到页面。
+            */
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h5 id="类式组件"><a href="#类式组件" class="header-anchor">#</a> 类式组件</h5> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/babel<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text"> 
+        //定义组件
+        class MyComponent extends React.Component{
+            //render是放在哪里的？ —————— MyComponent的原型对象上，是给MyComponent的					实例对象用的。
+            render(){
+                console.log(this); //MyComponent的实例对象 &lt;==&gt; MyComponent组件实例对象
+                return &lt;h2&gt;我是用类定义的组件（适用于【复杂组件】的定义）&lt;/h2&gt;
+            }
+        }
+        //渲染组件到页面
+        ReactDOM.render(&lt;MyComponent/&gt;,document.getElementById('test'))
+        /* 
+                执行了ReactDOM.render后，发生了什么？
+                        1.React发现了&lt;MyComponent/&gt;标签，去寻找MyComponent组件定义的位置，发现MyComponent是用类定义的。
+                        2.React new了一个MyComponent实例对象--m
+                        3.通过m调用到了MyComponent原型上的render方法，并获取到了返回的虚拟DOM，随后转为真实DOM，放在页面。
+        */
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h5 id="生命周期相关"><a href="#生命周期相关" class="header-anchor">#</a> 生命周期相关</h5> <p><strong>旧</strong>(react16.4之前)</p> <ol><li>初始化阶段: 由ReactDOM.render()触发---初次渲染
+1.	constructor()
+2.	componentWillMount()
+3.	render()
+4.	==componentDidMount() ====&gt; 常用
+一般在这个钩子中做一些初始化的事，例如：开启定时器、发送网络请求、订阅消息==</li> <li>更新阶段: 由组件内部this.setSate()或父组件render触发this.forceUpdate()
+<ol><li>shouldComponentUpdate() 注意：强制更新不走“阀门”
+<ol start="2"><li>componentWillUpdate()</li> <li>==render()==
+componentDidUpdate()</li></ol></li></ol></li> <li>卸载组件: 由ReactDOM.unmountComponentAtNode()触发
+<ol><li>==componentWillUnmount()  ====&gt; 常用==</li></ol></li></ol> <p>==一般在这个钩子中做一些收尾的事，例如：关闭定时器、取消订阅消息==</p> <p><img src="https://shinoimg.yyshino.top/img/react-life-old.png" alt="react-life-old"></p> <ul><li><strong>新</strong>(react16.4之后)</li></ul> <p><img src="https://shinoimg.yyshino.top/img/react-life-new.png" alt="react-life-new"></p> <h5 id="组件总结"><a href="#组件总结" class="header-anchor">#</a> 组件总结</h5> <ul><li><strong>最重要的三组件</strong> <ul><li>componentDidMount()</li> <li>render()</li> <li>componentWillUnmount()</li></ul></li></ul> <p><strong>组件的三大属性</strong></p> <ul><li><p><strong>state</strong></p> <ul><li><p>用来存储状态</p></li> <li><p>严重注意:<strong>状态(state)中值是不能直接修改的</strong>！！！下面这一行就是直接修改</p></li> <li><div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>  <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>isHot <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p><strong>需要通过this.setState()方法来修改</strong></p></li></ul></li> <li><p><strong>props</strong></p> <ul><li>用于接收标签中传递的数据</li></ul></li> <li><p><strong>refs</strong></p> <ul><li><p>简介：对标签的一种标识，用于获取数据。类式标签中的id</p></li> <li><p><strong>三种形式</strong></p> <ul><li>字符串形式:</li></ul> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>input1<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>点击按钮提示输入<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li><strong>回调形式(推荐):</strong></li></ul> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token parameter">c</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>input1 <span class="token operator">=</span> c<span class="token punctuation">}</span><span class="token punctuation">}</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>点击按钮提示输入<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>createRef形式:</li></ul> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    container1 <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createRef</span><span class="token punctuation">(</span><span class="token punctuation">)</span>    <span class="token comment">//创建一个createRef() ，只能存储一个ref</span>
+    
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span><span class="token punctuation">(</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+                </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>container1<span class="token punctuation">}</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>点击按钮提示输入<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span><span class="token plain-text">    
+                </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>showData<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">点我提示数据</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+                </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>container2<span class="token punctuation">}</span></span> <span class="token attr-name">onBlur</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>showData2<span class="token punctuation">}</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>点击焦点提示输入<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+                        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token punctuation">)</span>
+                <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div></li></ul></li></ul> <h5 id="react中的事件处理"><a href="#react中的事件处理" class="header-anchor">#</a> React中的事件处理</h5> <ul><li>通过onXxx属性指定事件处理函数(注意大小写)</li></ul> <p>​         1)React使用的是自定义(合成)事件, 而不是使用的原生DOM事件      ———————— 为了更好的兼容性</p> <p>​         2)React中的事件是通过事件委托方式处理的(委托给组件最外层的元素) ———————— 为了提高效率</p> <ul><li>通过event.target得到发生事件的DOM元素对象</li></ul> <h5 id="受控组件和非受控组件"><a href="#受控组件和非受控组件" class="header-anchor">#</a> 受控组件和非受控组件</h5> <ul><li><p>非受控的概念：现用现取</p></li> <li><p>受控的概念：组件中输入类的DOM，随着用户的输入，将输入的值维护到state中</p></li></ul> <p><strong>高阶函数_函数的柯里化</strong></p> <ul><li><strong>高阶函数</strong>：如果一个函数符合下面2个规范中的任何一个，那该函数就是高阶函数</li></ul> <p>​        1.若A函数，接收的<strong>参数是一个函数</strong>，那么A就可以称之为高阶函数。</p> <p>​        2.若A函数，调用的<strong>返回值依然是一个函数</strong>，那么A就可以称之为高阶函数。</p> <p>​        常见的有：Promise、setTimeout、arr.forEach().....</p> <ul><li><strong>函数的柯里化</strong>：通过函数调用继续返回函数的方式，实现<strong>多次接收参数最后 统一处理 的函数编码形式</strong></li></ul> <h3 id="react脚手架"><a href="#react脚手架" class="header-anchor">#</a> React脚手架</h3> <h4 id="react脚手架包含内容"><a href="#react脚手架包含内容" class="header-anchor">#</a> react脚手架包含内容</h4> <ol><li><p>xxx脚手架: 用来帮助程序员快速创建一个基于xxx库的模板项目</p> <ol><li><p>包含了所有需要的配置（语法检查、jsx编译、devServer…）</p></li> <li><p>下载好了所有相关的依赖</p></li> <li><p>可以直接运行一个简单效果</p></li></ol></li> <li><p>react提供了一个用于创建react项目的脚手架库: create-react-app</p></li> <li><p>项目的整体技术架构为:  react + webpack + es6 + eslint</p></li> <li><p>使用脚手架开发的项目的特点: 模块化, 组件化, 工程化</p></li></ol> <h4 id="使用方法"><a href="#使用方法" class="header-anchor">#</a> 使用方法</h4> <h5 id="创建项目并启动"><a href="#创建项目并启动" class="header-anchor">#</a> 创建项目并启动</h5> <ul><li><p><strong>第一步</strong>，全局安装：</p> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    npm i <span class="token operator">-</span>g create<span class="token operator">-</span>react<span class="token operator">-</span>app
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p><strong>第二步</strong>，切换到想创项目的目录，使用命令：</p> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    create<span class="token operator">-</span>react<span class="token operator">-</span>app hello<span class="token operator">-</span>react
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p><strong>第三步</strong>，进入项目文件夹：</p> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    cd hello<span class="token operator">-</span>react
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p><strong>第四步</strong>，启动项目：</p> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    npm start
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul> <h4 id="项目结构"><a href="#项目结构" class="header-anchor">#</a> 项目结构</h4> <div class="language-jsx line-numbers-mode"><pre class="language-jsx"><code>    <span class="token keyword">public</span> <span class="token operator">--</span><span class="token operator">--</span> 静态资源文件夹
+    		favicon<span class="token punctuation">.</span>icon <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> 网站页签图标
+    		index<span class="token punctuation">.</span>html <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> 主页面
+    		logo192<span class="token punctuation">.</span>png <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> logo图
+    		logo512<span class="token punctuation">.</span>png <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> logo图
+    		manifest<span class="token punctuation">.</span>json <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> 应用加壳的配置文件
+    		robots<span class="token punctuation">.</span>txt <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> 爬虫协议文件
+    src <span class="token operator">--</span><span class="token operator">--</span> 源码文件夹
+    		App<span class="token punctuation">.</span>css <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> App组件的样式
+    		App<span class="token punctuation">.</span>js <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> App组件
+    		App<span class="token punctuation">.</span>test<span class="token punctuation">.</span>js <span class="token operator">--</span><span class="token operator">--</span> 用于给App做测试
+    		index<span class="token punctuation">.</span>css <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> 样式
+    		index<span class="token punctuation">.</span>js <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> 入口文件
+    		logo<span class="token punctuation">.</span>svg <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span> logo图
+    		reportWebVitals<span class="token punctuation">.</span>js
+    			<span class="token operator">--</span><span class="token operator">-</span> <span class="token function">页面性能分析文件</span><span class="token punctuation">(</span>需要web<span class="token operator">-</span>vitals库的支持<span class="token punctuation">)</span>
+    		setupTests<span class="token punctuation">.</span>js
+    			<span class="token operator">--</span><span class="token operator">--</span> <span class="token function">组件单元测试的文件</span><span class="token punctuation">(</span>需要jest<span class="token operator">-</span>dom库的支持<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/React/React-v17简介.html" class="prev">
+          React17入门
+        </a></span> <span class="next"><a href="/blogs/React/React-路由.html">
+          React高级
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-3" data-v-b57cc07c><a href="/blogs/React/React-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html#react" class="sidebar-link reco-side-react" data-v-b57cc07c>React</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/React/React-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html#react脚手架" class="sidebar-link reco-side-react脚手架" data-v-b57cc07c>React脚手架</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><!----><div class="RibbonAnimation"></div><!----><div id="goTop" class="hide-cat" data-v-bf92849a></div><!----></div></div>
+    <script src="/assets/js/app.bc33b4e6.js" defer></script><script src="/assets/js/4.a2985191.js" defer></script><script src="/assets/js/1.ab21178e.js" defer></script><script src="/assets/js/77.0d8ce858.js" defer></script>
+  </body>
+</html>

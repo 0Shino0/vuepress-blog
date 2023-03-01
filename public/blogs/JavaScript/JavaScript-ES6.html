@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ES6 | yyshino</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="https://shinoimg.yyshino.top/img/avatar.png">
+    <meta name="description" content="Blog">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.8186d926.css" as="style"><link rel="preload" href="/assets/js/app.bc33b4e6.js" as="script"><link rel="preload" href="/assets/js/4.a2985191.js" as="script"><link rel="preload" href="/assets/js/1.ab21178e.js" as="script"><link rel="preload" href="/assets/js/40.47a13dab.js" as="script"><link rel="prefetch" href="/assets/js/10.7a41b707.js"><link rel="prefetch" href="/assets/js/11.67ab007f.js"><link rel="prefetch" href="/assets/js/12.6ea6713a.js"><link rel="prefetch" href="/assets/js/13.b74c74da.js"><link rel="prefetch" href="/assets/js/14.54a09238.js"><link rel="prefetch" href="/assets/js/15.997070ad.js"><link rel="prefetch" href="/assets/js/16.5ca92204.js"><link rel="prefetch" href="/assets/js/17.682d2e44.js"><link rel="prefetch" href="/assets/js/18.182dfb4b.js"><link rel="prefetch" href="/assets/js/19.b87cc9ab.js"><link rel="prefetch" href="/assets/js/20.4ca2024f.js"><link rel="prefetch" href="/assets/js/21.1f6a608f.js"><link rel="prefetch" href="/assets/js/22.6d69c4e3.js"><link rel="prefetch" href="/assets/js/23.d0e40695.js"><link rel="prefetch" href="/assets/js/24.f5b7f055.js"><link rel="prefetch" href="/assets/js/25.ea192711.js"><link rel="prefetch" href="/assets/js/26.6307bdc7.js"><link rel="prefetch" href="/assets/js/27.14bd038a.js"><link rel="prefetch" href="/assets/js/28.d66a1fe7.js"><link rel="prefetch" href="/assets/js/29.b1bb49cf.js"><link rel="prefetch" href="/assets/js/3.5e6ed713.js"><link rel="prefetch" href="/assets/js/30.b2dc74b2.js"><link rel="prefetch" href="/assets/js/31.a45fe86b.js"><link rel="prefetch" href="/assets/js/32.f658dbad.js"><link rel="prefetch" href="/assets/js/33.36aa9f3a.js"><link rel="prefetch" href="/assets/js/34.bfda6a13.js"><link rel="prefetch" href="/assets/js/35.891fd7b9.js"><link rel="prefetch" href="/assets/js/36.3579994d.js"><link rel="prefetch" href="/assets/js/37.76ba4a5d.js"><link rel="prefetch" href="/assets/js/38.b0556721.js"><link rel="prefetch" href="/assets/js/39.72edf66f.js"><link rel="prefetch" href="/assets/js/41.2cb197fc.js"><link rel="prefetch" href="/assets/js/42.df34c239.js"><link rel="prefetch" href="/assets/js/43.b6468c80.js"><link rel="prefetch" href="/assets/js/44.cb84d718.js"><link rel="prefetch" href="/assets/js/45.f4b2a4c6.js"><link rel="prefetch" href="/assets/js/46.41690f35.js"><link rel="prefetch" href="/assets/js/47.316b3e71.js"><link rel="prefetch" href="/assets/js/48.75d0c07a.js"><link rel="prefetch" href="/assets/js/49.01595283.js"><link rel="prefetch" href="/assets/js/5.4fa9fb73.js"><link rel="prefetch" href="/assets/js/50.ddfec7dc.js"><link rel="prefetch" href="/assets/js/51.83209c94.js"><link rel="prefetch" href="/assets/js/52.dc265e56.js"><link rel="prefetch" href="/assets/js/53.70b66ff3.js"><link rel="prefetch" href="/assets/js/54.9a7af997.js"><link rel="prefetch" href="/assets/js/55.da8073c4.js"><link rel="prefetch" href="/assets/js/56.efd493fc.js"><link rel="prefetch" href="/assets/js/57.b1de7fe5.js"><link rel="prefetch" href="/assets/js/58.fdad7a09.js"><link rel="prefetch" href="/assets/js/59.1e441549.js"><link rel="prefetch" href="/assets/js/6.12ccd017.js"><link rel="prefetch" href="/assets/js/60.4aed7638.js"><link rel="prefetch" href="/assets/js/61.d15f246c.js"><link rel="prefetch" href="/assets/js/62.55bcf81a.js"><link rel="prefetch" href="/assets/js/63.ea1f0c88.js"><link rel="prefetch" href="/assets/js/64.91cbfac9.js"><link rel="prefetch" href="/assets/js/65.b201388b.js"><link rel="prefetch" href="/assets/js/66.c9511b42.js"><link rel="prefetch" href="/assets/js/67.40608c4a.js"><link rel="prefetch" href="/assets/js/68.a2067c65.js"><link rel="prefetch" href="/assets/js/69.69f3223e.js"><link rel="prefetch" href="/assets/js/7.d982c05f.js"><link rel="prefetch" href="/assets/js/70.9c79ce55.js"><link rel="prefetch" href="/assets/js/71.33662132.js"><link rel="prefetch" href="/assets/js/72.3d77f0ba.js"><link rel="prefetch" href="/assets/js/73.2f1f1441.js"><link rel="prefetch" href="/assets/js/74.035dbdc9.js"><link rel="prefetch" href="/assets/js/75.6feb6ece.js"><link rel="prefetch" href="/assets/js/76.40e33249.js"><link rel="prefetch" href="/assets/js/77.0d8ce858.js"><link rel="prefetch" href="/assets/js/78.263f13d5.js"><link rel="prefetch" href="/assets/js/79.82d1fab1.js"><link rel="prefetch" href="/assets/js/8.b289d849.js"><link rel="prefetch" href="/assets/js/80.ee870779.js"><link rel="prefetch" href="/assets/js/81.189c6e9a.js"><link rel="prefetch" href="/assets/js/82.d26bc3c9.js"><link rel="prefetch" href="/assets/js/83.fa8a7b14.js"><link rel="prefetch" href="/assets/js/84.0b8cd8ef.js"><link rel="prefetch" href="/assets/js/85.936148c7.js"><link rel="prefetch" href="/assets/js/86.2da8bfb8.js"><link rel="prefetch" href="/assets/js/87.32b2b8c0.js"><link rel="prefetch" href="/assets/js/88.12949098.js"><link rel="prefetch" href="/assets/js/89.a1460546.js"><link rel="prefetch" href="/assets/js/9.62b73e12.js"><link rel="prefetch" href="/assets/js/90.1aae6fbe.js"><link rel="prefetch" href="/assets/js/91.8aa069cb.js"><link rel="prefetch" href="/assets/js/92.0e9f3e0a.js"><link rel="prefetch" href="/assets/js/93.2a885282.js"><link rel="prefetch" href="/assets/js/94.7a7a7707.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8186d926.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>yyshino</h3> <p class="description" data-v-59e6cb88>Blog</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="yyshino" class="logo"> <span class="site-name">yyshino</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-源码分析.html" class="nav-link"><i class="undefined"></i>
+  Vue-源码分析
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化-02.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化-02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化01.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    yyshino
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>79</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>58</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41><li class="social-item" data-v-1fad0c41><i class="iconfont reco-github" style="color:#abbd81;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-csdn" style="color:#abbd81;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-sf" style="color:#f26d6d;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-bilibili" style="color:#e15b64;" data-v-1fad0c41></i></li></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/pages/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/pages/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue-源码分析.html" class="nav-link"><i class="undefined"></i>
+  Vue-源码分析
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化-02.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化-02
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Github个性化01.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化01
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/pages/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><a href="/blogs/JavaScript/JavaScript-AJAX.html" class="sidebar-link">AJAX</a></li><li><a href="/blogs/JavaScript/JavaScript-ES6.html" aria-current="page" class="active sidebar-link">ES6</a></li><li><a href="/blogs/JavaScript/JavaScript-HTTP.html" class="sidebar-link">HTTP</a></li><li><a href="/blogs/JavaScript/JavaScript-Koa.html" class="sidebar-link">Koa</a></li><li><a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="sidebar-link">Node全栈</a></li><li><a href="/blogs/JavaScript/JavaScript-基础语法.html" class="sidebar-link">JavaScript</a></li><li><a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="sidebar-link">瀑布流布局步骤</a></li><li><a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="sidebar-link">轮播图实现步骤</a></li><li><a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="sidebar-link">防抖与节流</a></li><li><a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="sidebar-link">页面预加载实现</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>ES6</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>yyshino</span>
+          
+        <span data-v-59e6cb88>2021 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">ES6</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>yyshino</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>5/15/2022</span></i> <i class="iconfont reco-eye" data-v-8a445198><span id="/blogs/JavaScript/JavaScript-ES6.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-8a445198><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>ES6</span></i></div></div> <div class="theme-reco-content content__default"><h5 id="箭头函数"><a href="#箭头函数" class="header-anchor">#</a> 箭头函数</h5> <ul><li><p>定义：<strong>箭头函数表达式</strong>的语法比<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/function" target="_blank" rel="noopener noreferrer">函数表达式<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>更简洁，并且没有自己的<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this" target="_blank" rel="noopener noreferrer">this<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments" target="_blank" rel="noopener noreferrer">arguments<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/super" target="_blank" rel="noopener noreferrer">super<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>或<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new.target" target="_blank" rel="noopener noreferrer">new.target<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。箭头函数表达式更适用于那些本来需要匿名函数的地方，并且它不能用作构造函数。</p></li> <li><p>特点：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>  <span class="token number">1</span><span class="token punctuation">.</span>this <span class="token function">的值是静态的</span> <span class="token punctuation">(</span>等于 外层作用域下<span class="token keyword">this</span>的值<span class="token punctuation">)</span>
+  <span class="token keyword">let</span> <span class="token function-variable function">getName2</span> <span class="token operator">=</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">getName2</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  
+  <span class="token number">2.</span>不能作为构造函数使用
+  <span class="token keyword">const</span> <span class="token function-variable function">Person</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token keyword">let</span> me <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token number">3.</span>不能使用 arguments
+  <span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">//arguments是一个伪数组</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">fn</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function-variable function">fn</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">fn</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token number">4.</span>箭头函数简写
+  一 不写小括号，当新参有且只有一个的时候
+  二 不写花括号<span class="token punctuation">,</span> 当代码体只有一条语句的时候<span class="token punctuation">,</span> <span class="token function">并且语句的执行结果为函数返回值的</span> <span class="token punctuation">(</span>如果不
+  <span class="token keyword">let</span> <span class="token function-variable function">pow</span> <span class="token operator">=</span> <span class="token parameter">num</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> num <span class="token operator">*</span> num<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>pow<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div></li></ul> <h5 id="运算符"><a href="#运算符" class="header-anchor">#</a> ...运算符</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code>  	<span class="token comment">// ...运算符    是扩展运算符</span>
+         <span class="token comment">//  打包和拆包    要么是数组要么是对象</span>
+         <span class="token comment">// 对于打包只有一种情况是打包并且打包只能打包数组</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code>    <span class="token comment">// 数组的打包和拆包</span>
+
+    <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+    <span class="token comment">// 拆包     数组可以直接拆包</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">...</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token operator">...</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 数组打包</span>
+    <span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span>b<span class="token punctuation">,</span><span class="token operator">...</span>arr</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr <span class="token keyword">instanceof</span> <span class="token class-name">Array</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">add</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span>
+    
+    <span class="token comment">// 对象只能拆包     不能直接拆包</span>
+      <span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">name</span><span class="token operator">:</span><span class="token string">'zly'</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">33</span>
+      <span class="token punctuation">}</span>
+
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token operator">...</span>obj<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h4 id="模块化"><a href="#模块化" class="header-anchor">#</a> 模块化</h4> <h5 id="暴露模块的方式"><a href="#暴露模块的方式" class="header-anchor">#</a> 暴露模块的方式</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code>  <span class="token comment">//使用【分别暴露】</span>
+  <span class="token keyword">export</span> <span class="token keyword">const</span> teacher1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">name</span><span class="token operator">:</span><span class="token string">'强哥'</span><span class="token punctuation">,</span><span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">15</span><span class="token punctuation">}</span>
+  <span class="token keyword">export</span> <span class="token keyword">const</span> teacher2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">name</span><span class="token operator">:</span><span class="token string">'歌神'</span><span class="token punctuation">,</span><span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">17</span><span class="token punctuation">}</span>
+  
+  <span class="token comment">//使用【统一暴露】</span>
+  <span class="token keyword">const</span> stu1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">name</span><span class="token operator">:</span><span class="token string">'王宇'</span><span class="token punctuation">,</span><span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">18</span><span class="token punctuation">}</span>
+  <span class="token keyword">const</span> stu2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">name</span><span class="token operator">:</span><span class="token string">'宇航'</span><span class="token punctuation">,</span><span class="token literal-property property">age</span><span class="token operator">:</span><span class="token number">19</span><span class="token punctuation">}</span>
+  <span class="token keyword">export</span> <span class="token punctuation">{</span>stu1<span class="token punctuation">,</span>stu2<span class="token punctuation">}</span>
+  
+  <span class="token comment">//使用【默认暴露】</span>
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">school</span><span class="token operator">:</span><span class="token string">'尚硅谷'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">address</span><span class="token operator">:</span><span class="token string">'宏福科技园'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">subjects</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">'前端'</span><span class="token punctuation">,</span><span class="token string">'java'</span><span class="token punctuation">,</span><span class="token string">'大数据'</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h5 id="引入暴露模块方式"><a href="#引入暴露模块方式" class="header-anchor">#</a> 引入暴露模块方式</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code>  <span class="token comment">//引入【分别暴露】的模块</span>
+  <span class="token keyword">import</span> <span class="token punctuation">{</span>data<span class="token punctuation">,</span>showData<span class="token punctuation">,</span>showMsg<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./module1'</span>
+  
+  <span class="token comment">//引入【分别暴露】的模块+重命名</span>
+  <span class="token keyword">import</span> <span class="token punctuation">{</span>data <span class="token keyword">as</span> data2<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./module2'</span>
+  
+  <span class="token comment">//引入【分别暴露】+ 打包引入</span>
+  <span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> module1 <span class="token keyword">from</span> <span class="token string">'./module1'</span>
+  
+  <span class="token comment">//引入【统一暴露】支持上面三种引入方式</span>
+  <span class="token keyword">import</span> <span class="token punctuation">{</span>school <span class="token keyword">as</span> d<span class="token punctuation">,</span>getLaoliu<span class="token punctuation">,</span>person<span class="token punctuation">,</span><span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./module3'</span>
+  
+  <span class="token comment">//引入【默认暴露】</span>
+  <span class="token keyword">import</span> module4 <span class="token keyword">from</span> <span class="token string">'./module4'</span>
+  
+  <span class="token comment">//引入多种暴露方式的模块</span>
+  <span class="token keyword">import</span> module5<span class="token punctuation">,</span><span class="token punctuation">{</span>teacher1<span class="token punctuation">,</span>teacher2<span class="token punctuation">,</span>stu1<span class="token punctuation">,</span>stu2<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./module5'</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/JavaScript/JavaScript-AJAX.html" class="prev">
+          AJAX
+        </a></span> <span class="next"><a href="/blogs/JavaScript/JavaScript-HTTP.html">
+          HTTP
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:0;" data-v-b57cc07c data-v-7dd95ae2></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><!----><div class="RibbonAnimation"></div><!----><div id="goTop" class="hide-cat" data-v-bf92849a></div><!----></div></div>
+    <script src="/assets/js/app.bc33b4e6.js" defer></script><script src="/assets/js/4.a2985191.js" defer></script><script src="/assets/js/1.ab21178e.js" defer></script><script src="/assets/js/40.47a13dab.js" defer></script>
+  </body>
+</html>

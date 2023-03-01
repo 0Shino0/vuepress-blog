@@ -44,7 +44,7 @@ footer: MIT Licensed | Copyright © 2020-present | CC BY 4.0
 
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scope>
   /* 在主页引入图标字体 */
 @import ".vuepress/public/font_3671299_zf9g45dyrj/iconfont.css";
 /* 动画相关 */
@@ -100,6 +100,11 @@ footer: MIT Licensed | Copyright © 2020-present | CC BY 4.0
   } */
 
 }
+
+/* 首页不显示侧边栏 */
+/* .sidebar{
+  display:none;
+} */
 
 
 

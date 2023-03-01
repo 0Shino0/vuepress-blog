@@ -1,3 +1,33 @@
+
+/* 
+  自动配置侧边栏
+*/
+const fs = require('fs');
+
+function getSideBar(folder) {
+  // 只能用绝对路径
+  path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  let file_list = fs.readdirSync(path);
+  for (let i = 0; i < file_list.length; i++) {
+    file_list[i] = file_list[i].slice(0, -3);
+  }
+  return file_list;
+}
+
+function getNav(folder) {
+  path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  let file_list = fs.readdirSync(path);
+  let nav_text = [];
+  for (let i = 0; i < file_list.length; i++) {
+    // let name = file_list[i].split(/[.]|-/);
+    nav_text.push({
+      text: file_list[i].slice(0, -3),
+      link: '/blogs/' + folder + '/' + file_list[i].slice(0, -3)
+    });
+  }
+  return nav_text;
+}
+
 module.exports = {
   "title": "yyshino",
   "description": "Blog",
@@ -21,6 +51,26 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     "nav": [
+      {
+        text: 'FrontEnd',
+        items: getNav('FrontEnd')
+      },
+      {
+        text: 'CSS',
+        items: getNav('CSS')
+      },
+      {
+        text: 'JavaScript',
+        items: getNav('JavaScript')
+      },
+      {
+        text: 'Vue',
+        items: getNav('Vue')
+      },
+      {
+        text: 'Plugin',
+        items: getNav('Plugin')
+      },
       {
         "text": "主页",
         "link": "/",
@@ -137,10 +187,26 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {// vuepress-plugin-auto-sidebar 自动生成侧边栏
-
+    "sidebar": { //  '/pages/Python/': getSideBar('Python'),
+      '/blogs/FrontEnd/': getSideBar('FrontEnd'),
+      '/blogs/HTML/': getSideBar('HTML'),
+      '/blogs/CSS/': getSideBar('CSS'),
+      '/blogs/JavaScript/': getSideBar('JavaScript'),
+      '/blogs/TypeScript/': getSideBar('TypeScript'),
+      '/blogs/Vue/': getSideBar('Vue'),
+      '/blogs/MiniProgram/': getSideBar('MiniProgram'),
+      '/blogs/React/': getSideBar('React'),
+      '/blogs/Java/': getSideBar('Java'),
+      '/blogs/Go/': getSideBar('Go'),
+      '/blogs/DataBse/': getSideBar('DataBse'),
+      '/blogs/Linux/': getSideBar('Linux'),
+      '/blogs/Algorithm/': getSideBar('Algorithm'),
+      // '/blogs/Computer/': getSideBar('Computer'),
+      '/blogs/Plugin/': getSideBar('Plugin'),
+      // '/blogs/Plugin/': getSideBar('Tool'),
+      '/blogs/Me/': getSideBar('Me'),
     },
-    "subSidebar": "auto", // 在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    "subSidebar": "auto", // auto为ture 在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     "type": "blog",
     // 博客配置
     "blogConfig": {
@@ -235,37 +301,49 @@ module.exports = {
     [ // 功能代码展示插件，展示多种语言于一窗，增加易读性。
       '@vuepress-reco/extract-code'
     ],
-    [// vuepress-plugin-auto-sidebar 自动生成侧边栏
-      "vuepress-plugin-auto-sidebar", {
-        sort: {
-          mode: "asc",
-          readmeFirst: true,
-        },
-        title: {
-          mode: "titlecase",
-          map: {}
-        },
-        sidebarDepth: 1,
-        collapse: {
-          open: true,
-          collapseList: [],
-          uncollapseList: [
-            // "/blogs/FrontEnd/"
-          ]
-        },
-        ignore: [],
-        git: {
-          trackStatus: 'all'
-        },
-        removeEmptyGroup: true
-      }
-    ],
-    // [ // 自动生成侧边栏
+    /* 
+    // [// vuepress-plugin-auto-sidebar 自动生成侧边栏
+    //   "vuepress-plugin-auto-sidebar", {
+    //     sort: {
+    //       mode: "asc",
+    //       readmeFirst: true,
+    //     },
+    //     title: {
+    //       mode: "titlecase",
+    //       map: {}
+    //     },
+    //     sidebarDepth: 2,
+    //     collapse: {
+    //       open: true,
+    //       collapseList: [],
+    //       uncollapseList: [
+    //         // "/blogs/FrontEnd/"
+    //       ]
+    //     },
+    //     ignore: [],
+    //     git: {
+    //       trackStatus: 'all'
+    //     },
+    //     removeEmptyGroup: true
+    //   }
+    // ],
+    // [ // vuepress-bar 自动生成侧边栏
     //   'autobar',
     //   {
     //     "rootDir": "blogs"
     //   }
     // ],
+    // [ // 拼音地址兼容
+    //   // 使用 vuepress-plugin-permalink-pinyin 此插件 请锁死 0.2.0 这个版本
+    //   'permalink-pinyin',
+    //   [
+    //     'autobar', { 'pinyinNav': true }
+    //   ]
+    // ],
+    // [ // 默认配置是针对 vuepress-plugin-autobar 的，它清理了繁琐的参数。
+    //   'rpurl'
+    // ], 
+    */
     [
       // 显示数学公式
       'vuepress-plugin-mathjax',
