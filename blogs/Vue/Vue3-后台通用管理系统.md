@@ -19,7 +19,7 @@ autoGroup-3: 框架篇
 ## 技术栈
 
 - Vue3 + Element Plus + Sass 实现前台
-- Koa2 + MongoDB 实现后台
+- Koa2 + MongoDB 实现后端
 - Vite项目构建
 
 ## 前台

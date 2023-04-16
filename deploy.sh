@@ -5,6 +5,7 @@ set -e
 
 # 生成静态文件
 npm run build
+echo "*** buid complete ***"
 
 # 进入生成的文件夹
 # cd public
@@ -12,6 +13,7 @@ npm run build
 # 如果是发布到自定义域名
 # echo 'www.yourwebsite.com' > CNAME
 
+echo "*** start push ***"
 # 初始化
 # git init
 
@@ -49,3 +51,6 @@ git push
 
 # 返回进入此目录之前所在目录 （没有目录变化则省略）
 # cd - 
+
+echo "*** push complete ***"
+sleep 5s
