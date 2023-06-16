@@ -1,3 +1,20 @@
+---
+title: GLSL 中文手册
+tags: 
+  - WebGL
+categories: 
+  - FrontEnd
+date: 2023-6-15 20:20:03
+summary: GLSL 中文手册
+description: GLSL 中文手册
+---
+
+
+
+### 文章转自 [wshxbqq](https://github.com/wshxbqq) 大佬的 https://github.com/wshxbqq/GLSL-Card
+
+
+
 # GLSL 中文手册
 
 ### 基本类型:

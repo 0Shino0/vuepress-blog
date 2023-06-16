@@ -1,3 +1,20 @@
+---
+title: 什么是PBR
+tags: 
+  - WebGL
+categories: 
+  - FrontEnd
+date: 2023-6-14 20:20:03
+summary: 什么是PBR
+description: 什么是PBR
+---
+
+
+
+**文章转自[知乎@云鸽](https://zhuanlan.zhihu.com/p/342484575)**
+
+
+
 ![什么是PBR？](https://pic1.zhimg.com/v2-dfba50aeb6400474d5e795124c13b7c9_720w.jpg?source=172ae18b)
 
 # 什么是PBR？
