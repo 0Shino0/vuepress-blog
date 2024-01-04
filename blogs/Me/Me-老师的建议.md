@@ -4,7 +4,7 @@ title: 老师的建议
 tags: 
    - 踩坑
 categories:
-    - Me
+    - 随笔
 abbrlink: 11752
 date: 2022-06-15 21:24:51
 summary: 老师的建议

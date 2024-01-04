@@ -1,9 +1,9 @@
 ---
 title: 消极
 tags: 
-    - 日常
+    - 日常生活
 categories: 
-    - Me
+    - 随笔
 summary: 消极
 description: 消极
 abbrlink: 35773

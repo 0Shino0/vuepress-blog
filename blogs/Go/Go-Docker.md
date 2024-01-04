@@ -72,8 +72,6 @@ date: 2022-12-1 11:02:29
     }
 ```
 
-
-
 `Linux`
 
 使用配置文件`/etc/docker/daemon.json`（没有时新建该文件）。

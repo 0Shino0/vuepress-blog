@@ -1,7 +1,7 @@
 ---
 title: 钓鱼佬入门
 tags: 
-    - 随笔
+    - 日常生活
 categories: 
     - 随笔
 abbrlink: 50287

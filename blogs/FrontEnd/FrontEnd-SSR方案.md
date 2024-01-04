@@ -83,4 +83,17 @@ Vue、 React的SSR方案实际上就是同构渲染,我们现在讲的服务端�
 
 ## Nuxt3 基本原理
 
-## 
+
+
+```
+const color = useColorMode();
+
+const colorMode = computed({
+
+ get: () => color.value === "dark",
+
+ set: () => (color.preference = color.value === "dark" ? "light" : "dark"),
+
+});
+```
+

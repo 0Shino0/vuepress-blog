@@ -1,10 +1,9 @@
 ---
 title: 项目总结
 tags:
-  - vue
-  - react
+  - 日常生活
 categories: 
-  - Me
+  - 随笔
 top: true
 pin: true
 summary: 项目总结

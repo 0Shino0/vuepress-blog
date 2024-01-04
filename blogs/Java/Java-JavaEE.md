@@ -3,7 +3,7 @@ title: JavaEE
 tags: 
   - JavaEE
 categories: 
-  - Computer
+  - AfterEnd
 summary: JavaEE期末复习
 description: JavaEE期末复习
 date: 2022-11-18 15:18:34
