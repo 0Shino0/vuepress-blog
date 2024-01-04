@@ -1,3 +1,0 @@
-Sitemap: https://ts.yayujs.com/sitemap.xml
-
-User-agent: *
