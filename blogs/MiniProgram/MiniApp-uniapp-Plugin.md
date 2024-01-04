@@ -56,7 +56,7 @@ https://ask.dcloud.net.cn/article/id-35777
 
 新版jdk的keytool没有md5
 
-```cmd
+```shell
 keytool -exportcert -keystore xxx.keystore | openssl dgst -md5
 ```
 
