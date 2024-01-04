@@ -305,7 +305,9 @@ module.exports = {
     ['go-top'],
     [ // 生成站点地图
       'sitemap', {
-        hostname: 'https://v-blog.yyshino.top'
+        hostname: 'https://v-blog.yyshino.top',
+        // 排除无实际内容的页面
+        exclude: ["/404.html"]
       },
     ],
     [ // 功能代码展示插件，展示多种语言于一窗，增加易读性。
@@ -396,7 +398,8 @@ module.exports = {
         twitterCard: _ => 'summary_large_image',
         type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
         url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-        image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
+        // image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
+        image: ($page, $site) => "https://shinoimg.yyshino.top/img/avatar.png",
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
       }
