@@ -210,7 +210,7 @@ module.exports = {
       '/blogs/Go/': getSideBar('Go'),
       '/blogs/DataBse/': getSideBar('DataBse'),
       '/blogs/Linux/': getSideBar('Linux'),
-      '/blogs/Algorithm/': getSideBar('Algorithm'),
+      // '/blogs/Algorithm/': getSideBar('Algorithm'),
       // '/blogs/Computer/': getSideBar('Computer'),
       '/blogs/Plugin/': getSideBar('Plugin'),
       // '/blogs/Plugin/': getSideBar('Tool'),
