@@ -3,10 +3,15 @@
   自动配置侧边栏
 */
 const fs = require('fs');
+const path_ = require('path');
 
 function getSideBar(folder) {
   // 只能用绝对路径
-  path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  const blogDirname = path_.resolve('./blogs') + '/';
+
+  console.log('blogDirname',blogDirname)
+  path = blogDirname + folder + '/';
   let file_list = fs.readdirSync(path);
   for (let i = 0; i < file_list.length; i++) {
     file_list[i] = file_list[i].slice(0, -3);
@@ -15,7 +20,12 @@ function getSideBar(folder) {
 }
 
 function getNav(folder) {
-  path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  // F:\Project\Blog\Vuepress\blogs
+  // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+  const blogDirname = path_.resolve('./blogs') + '/';
+  console.log('blogDirname',blogDirname)
+  path = blogDirname + folder + '/';
+
   let file_list = fs.readdirSync(path);
   let nav_text = [];
   for (let i = 0; i < file_list.length; i++) {
