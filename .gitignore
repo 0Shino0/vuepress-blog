@@ -1,7 +1,0 @@
-node_modules/
-yarn.lock
-yarn.error
-# 私有库主要存储配置信息，忽略博客文章
-# public/
-# docs/
-# blogs/

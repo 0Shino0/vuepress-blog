@@ -1,3 +1,0 @@
-Sitemap: https://v-blog.yyshino.top/sitemap.xml
-
-User-agent: *
