@@ -22,5 +22,5 @@ jobs:
           disable_item_validation: true # 跳过没有标题的文章
           item_exec: |
                 if(!post.title) post = null;
-          date_format: yy-mm-dd
-          template: $date——[$title]($url)
+          date_format: yyyy-mm-dd
+          template: \n - $date——[$title]($url)
