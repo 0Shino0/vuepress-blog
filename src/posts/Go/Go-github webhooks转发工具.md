@@ -6,8 +6,14 @@ categories:
    - Go
 summary: Golang小工具
 description: Golang小工具
-date: 2024-1-4 21:41:07
+date: 2024-01-04 21:41:07
 ---
+
+::: tip github webhooks转发工具
+   转发github issue和comment 到企业微信机器人
+:::
+
+<!-- more -->
 
 ## 准备工作
 
