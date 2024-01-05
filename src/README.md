@@ -21,17 +21,17 @@ projects:
   - icon: 'fa-brands fa-upwork'
     name: 面试题总结
     desc: 面试题、面经总结
-    link: ../front_end_interview/
+    link: /front_end_interview/
 
   - icon: book
     name: 读书笔记
     desc: 读后感
-    link: ../reading_notes/
+    link: /reading_notes/
 
   - icon: article
-    name: FrontEnd 前端
+    name: 我的博客预览
     desc: 前端知识 | 整体了解 | 深入学习 | 复习
-    link: ../post/FrontEnd/JavaScript.html
+    link: /posts/
 
   # - icon: friend
   #   name: 伙伴名称

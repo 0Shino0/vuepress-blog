@@ -1,7 +1,7 @@
 ---
 title: 我的博客预览
 index: false
-icon: laptop-code
+icon: newspaper
 category:
   - 使用指南
 ---

@@ -1,50 +1,46 @@
 import { navbar } from "vuepress-theme-hope";
 
 // node 
-import fs from "fs"
-import path_ from "path"
+// import fs from "fs"
+// import path_ from "path"
 
-function getNav(folder:string) {
-  // F:\Project\Blog\Vuepress\blogs
-  // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
-  const blogDirname = path_.resolve('../posts') + '\\';
-  console.log('blogDirname',blogDirname)
-  let path = blogDirname + folder + '/';
+// function getNav(folder:string) {
+//   // F:\Project\Blog\Vuepress\blogs
+//   // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
+//   const blogDirname = path_.resolve('../posts') + '\\';
+//   console.log('blogDirname',blogDirname)
+//   let path = blogDirname + folder + '/';
 
-  let file_list = fs.readdirSync(path);
-  let nav_text = [];
-  for (let i = 0; i < file_list.length; i++) {
-    // let name = file_list[i].split(/[.]|-/);
-    nav_text.push({
-      text: file_list[i].slice(0, -3),
-      link: '/blogs/' + folder + '/' + file_list[i].slice(0, -3)
-    });
-  }
-  return nav_text;
-}
+//   let file_list = fs.readdirSync(path);
+//   let nav_text = [];
+//   for (let i = 0; i < file_list.length; i++) {
+//     // let name = file_list[i].split(/[.]|-/);
+//     nav_text.push({
+//       text: file_list[i].slice(0, -3),
+//       link: '/blogs/' + folder + '/' + file_list[i].slice(0, -3)
+//     });
+//   }
+//   return nav_text;
+// }
 
 export default navbar([
-  "/",
-  "/demo/",
+  // "/",
   {
-    "text": "主页",
-    "link": "/",
-    "icon": "reco-home",
-    "children": [
-      {
-        "text": "本站",
-        "icon": "icon-cat2",
-        "link": "/"
-      },
-      {
-        "text": "Hexo博客",
-        "icon": "icon-dog",
-        "link": "https://blog.yyshino.top/",
-      },
-    ]
+    text: "博客首页",
+    icon: "fa-solid fa-paw",
+    link: "/",
   },
   {
-    text: "博文",
+    text: "Hexo博客",
+    icon: "fa-solid fa-dog",
+    link: "https://blog.yyshino.top/",
+  },
+  // "/demo/",
+  "/front_end_interview/",
+  "/posts/",
+  "/reading_notes/",
+  {
+    text: "博文推荐",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
