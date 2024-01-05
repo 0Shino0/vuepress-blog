@@ -1,9 +1,9 @@
 ---
 title: 租房攻略
 tags:
-  - 日常生活
+    - 日常生活
 categories: 
-  - 随笔
+    - 随笔
 top: true
 pin: true
 summary: 租房攻略

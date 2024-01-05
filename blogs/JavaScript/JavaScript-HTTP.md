@@ -4,7 +4,7 @@ tags:
     - HTTP
 categories: 
     - FrontEnd
-abbrlink: 35944
+# abbrlink: 35944
 date: 2022-05-14 16:50:27
 summary: web基础
 description: web基础

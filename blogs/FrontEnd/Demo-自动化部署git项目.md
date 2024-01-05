@@ -7,7 +7,7 @@ categories:
 summary: 创建脚本自动化部署指定文件夹下的项目，一般用于blog等常推送，但只推送打包文件，不推送配置文件
 description: 创建脚本自动化部署指定文件夹下的项目，一般用于blog等常推送，但只推送打包文件，不推送配置文件
 # sticky: 2
-abbrlink: 1873
+# abbrlink: 1873
 date: 2022-10-7 08:16:27
 ---
 

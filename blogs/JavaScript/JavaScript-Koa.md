@@ -6,7 +6,7 @@ categories:
    - FrontEnd
 summary: Koa2入门
 description: Koa2入门
-abbrlink: 3740
+# abbrlink: 3740
 date: 2022-08-26 17:48:00
 autoGroup-5: Node篇
 ---

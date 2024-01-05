@@ -4,7 +4,7 @@ tags:
   - TypeScript
 categories: 
   - FrontEnd
-abbrlink: 33883
+# abbrlink: 33883
 date: 2022-07-30 08:43:12
 summary: TypeScript入门
 description: TypeScript入门

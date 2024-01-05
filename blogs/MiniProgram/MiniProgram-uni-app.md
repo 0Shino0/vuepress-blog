@@ -4,7 +4,7 @@ tags:
     - Uniapp
 categories: 
     - FrontEnd
-abbrlink: 35477
+# abbrlink: 35477
 date: 2022-06-15 21:29:51
 summary: 原生微信小程序入门
 description: 原生微信小程序入门

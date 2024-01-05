@@ -6,7 +6,7 @@ categories:
   - FrontEnd
 summary: ECharts数据可视化
 description: ECharts数据可视化
-abbrlink: 56051
+# abbrlink: 56051
 date: 2022-08-26 13:16:40
 autoGroup-6: 工具篇
 ---

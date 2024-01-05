@@ -4,7 +4,7 @@ tags:
   - ES6
 categories: 
   - FrontEnd
-abbrlink: 13229
+# abbrlink: 13229
 date: 2022-05-15 11:17:07
 summary: ES6新特性
 autoGroup-2: 基础篇

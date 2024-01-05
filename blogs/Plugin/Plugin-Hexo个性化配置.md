@@ -1,6 +1,6 @@
 ---
 title: Hexo个性化配置
-abbrlink: 46302
+# abbrlink: 46302
 date: 2022-09-17 18:52:49
 tags: 
     - Hexo

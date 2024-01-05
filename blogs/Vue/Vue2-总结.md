@@ -1,6 +1,6 @@
 ---
 title: Vue总结
-abbrlink: 51479
+# abbrlink: 51479
 date: 2022-05-23 09:32:38
 top: true
 summary: vue2全家桶总结

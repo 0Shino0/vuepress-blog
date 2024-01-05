@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>轮播图实现步骤 | yyshino</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="https://shinoimg.yyshino.top/img/avatar.png">
+    <meta name="description" content="轮播图实现步骤">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.8d424261.css" as="style"><link rel="preload" href="/assets/js/app.4ea76275.js" as="script"><link rel="preload" href="/assets/js/4.3796dfd3.js" as="script"><link rel="preload" href="/assets/js/1.29a270cc.js" as="script"><link rel="preload" href="/assets/js/64.5434f875.js" as="script"><link rel="prefetch" href="/assets/js/10.91f3d8bf.js"><link rel="prefetch" href="/assets/js/100.ae0bd942.js"><link rel="prefetch" href="/assets/js/101.7210b68e.js"><link rel="prefetch" href="/assets/js/102.60fb169d.js"><link rel="prefetch" href="/assets/js/103.f7974895.js"><link rel="prefetch" href="/assets/js/104.258c3ace.js"><link rel="prefetch" href="/assets/js/105.af889848.js"><link rel="prefetch" href="/assets/js/106.544e7976.js"><link rel="prefetch" href="/assets/js/107.9db93d7c.js"><link rel="prefetch" href="/assets/js/108.0904dc6f.js"><link rel="prefetch" href="/assets/js/109.4d206aac.js"><link rel="prefetch" href="/assets/js/11.0fa65062.js"><link rel="prefetch" href="/assets/js/110.0baf2d01.js"><link rel="prefetch" href="/assets/js/111.86518631.js"><link rel="prefetch" href="/assets/js/112.3f267109.js"><link rel="prefetch" href="/assets/js/113.852c4af1.js"><link rel="prefetch" href="/assets/js/114.fdbbf6b7.js"><link rel="prefetch" href="/assets/js/115.da9657e6.js"><link rel="prefetch" href="/assets/js/116.eebe6724.js"><link rel="prefetch" href="/assets/js/117.a1652858.js"><link rel="prefetch" href="/assets/js/118.e362e010.js"><link rel="prefetch" href="/assets/js/119.e694a7c3.js"><link rel="prefetch" href="/assets/js/12.8e578271.js"><link rel="prefetch" href="/assets/js/120.dd5a6080.js"><link rel="prefetch" href="/assets/js/121.de156138.js"><link rel="prefetch" href="/assets/js/122.2943f86d.js"><link rel="prefetch" href="/assets/js/123.c713c51d.js"><link rel="prefetch" href="/assets/js/124.660a458e.js"><link rel="prefetch" href="/assets/js/125.678ef4dc.js"><link rel="prefetch" href="/assets/js/126.323061a7.js"><link rel="prefetch" href="/assets/js/127.ac41e443.js"><link rel="prefetch" href="/assets/js/128.678fcef4.js"><link rel="prefetch" href="/assets/js/129.15c57ffb.js"><link rel="prefetch" href="/assets/js/13.1ab9300d.js"><link rel="prefetch" href="/assets/js/130.360a8a2a.js"><link rel="prefetch" href="/assets/js/131.aff8b348.js"><link rel="prefetch" href="/assets/js/132.80567394.js"><link rel="prefetch" href="/assets/js/133.2f7aa988.js"><link rel="prefetch" href="/assets/js/134.8b69c202.js"><link rel="prefetch" href="/assets/js/135.39acbd67.js"><link rel="prefetch" href="/assets/js/136.655dd3fb.js"><link rel="prefetch" href="/assets/js/14.7e614398.js"><link rel="prefetch" href="/assets/js/15.9384de3e.js"><link rel="prefetch" href="/assets/js/16.02bc011b.js"><link rel="prefetch" href="/assets/js/17.26a9185a.js"><link rel="prefetch" href="/assets/js/18.5f5b2d88.js"><link rel="prefetch" href="/assets/js/19.753fa738.js"><link rel="prefetch" href="/assets/js/20.cf0294ec.js"><link rel="prefetch" href="/assets/js/21.9c1d6ef0.js"><link rel="prefetch" href="/assets/js/22.41be4ece.js"><link rel="prefetch" href="/assets/js/23.8ee134b2.js"><link rel="prefetch" href="/assets/js/24.216c2627.js"><link rel="prefetch" href="/assets/js/25.c6eed3f1.js"><link rel="prefetch" href="/assets/js/26.8370ca3d.js"><link rel="prefetch" href="/assets/js/27.eb3a161e.js"><link rel="prefetch" href="/assets/js/28.c77aea09.js"><link rel="prefetch" href="/assets/js/29.332ad8b7.js"><link rel="prefetch" href="/assets/js/3.98927e25.js"><link rel="prefetch" href="/assets/js/30.a7bc9a5d.js"><link rel="prefetch" href="/assets/js/31.9bc54f11.js"><link rel="prefetch" href="/assets/js/32.04434cc2.js"><link rel="prefetch" href="/assets/js/33.028709ec.js"><link rel="prefetch" href="/assets/js/34.e2826809.js"><link rel="prefetch" href="/assets/js/35.f206c12f.js"><link rel="prefetch" href="/assets/js/36.6297e091.js"><link rel="prefetch" href="/assets/js/37.1eff7da3.js"><link rel="prefetch" href="/assets/js/38.e3c1cb77.js"><link rel="prefetch" href="/assets/js/39.420c2269.js"><link rel="prefetch" href="/assets/js/40.aa58bbca.js"><link rel="prefetch" href="/assets/js/41.6932b774.js"><link rel="prefetch" href="/assets/js/42.99cada52.js"><link rel="prefetch" href="/assets/js/43.1c8e4737.js"><link rel="prefetch" href="/assets/js/44.d5fe439b.js"><link rel="prefetch" href="/assets/js/45.23d2da75.js"><link rel="prefetch" href="/assets/js/46.f107a348.js"><link rel="prefetch" href="/assets/js/47.d4a08b95.js"><link rel="prefetch" href="/assets/js/48.809a6a68.js"><link rel="prefetch" href="/assets/js/49.22590440.js"><link rel="prefetch" href="/assets/js/5.a5446848.js"><link rel="prefetch" href="/assets/js/50.ee03aeaa.js"><link rel="prefetch" href="/assets/js/51.ccb062cd.js"><link rel="prefetch" href="/assets/js/52.23f07cab.js"><link rel="prefetch" href="/assets/js/53.05f1895f.js"><link rel="prefetch" href="/assets/js/54.157a3b98.js"><link rel="prefetch" href="/assets/js/55.86eb544b.js"><link rel="prefetch" href="/assets/js/56.0fa3c8dc.js"><link rel="prefetch" href="/assets/js/57.05fcd401.js"><link rel="prefetch" href="/assets/js/58.6650fc55.js"><link rel="prefetch" href="/assets/js/59.97c6ddef.js"><link rel="prefetch" href="/assets/js/6.8f84ad5d.js"><link rel="prefetch" href="/assets/js/60.e61d451d.js"><link rel="prefetch" href="/assets/js/61.a34a3f7d.js"><link rel="prefetch" href="/assets/js/62.8ee2efb3.js"><link rel="prefetch" href="/assets/js/63.cf18be4b.js"><link rel="prefetch" href="/assets/js/65.bb3fa8d2.js"><link rel="prefetch" href="/assets/js/66.59b76942.js"><link rel="prefetch" href="/assets/js/67.0d26f44a.js"><link rel="prefetch" href="/assets/js/68.630b5af5.js"><link rel="prefetch" href="/assets/js/69.624c406d.js"><link rel="prefetch" href="/assets/js/7.8d825e21.js"><link rel="prefetch" href="/assets/js/70.ceae6906.js"><link rel="prefetch" href="/assets/js/71.816270f6.js"><link rel="prefetch" href="/assets/js/72.48d9c746.js"><link rel="prefetch" href="/assets/js/73.ddd69473.js"><link rel="prefetch" href="/assets/js/74.10c76921.js"><link rel="prefetch" href="/assets/js/75.3e5421c2.js"><link rel="prefetch" href="/assets/js/76.4e14567d.js"><link rel="prefetch" href="/assets/js/77.75af353f.js"><link rel="prefetch" href="/assets/js/78.efbcf646.js"><link rel="prefetch" href="/assets/js/79.1d2f4730.js"><link rel="prefetch" href="/assets/js/8.6d9f593b.js"><link rel="prefetch" href="/assets/js/80.2a7855f8.js"><link rel="prefetch" href="/assets/js/81.66cccd53.js"><link rel="prefetch" href="/assets/js/82.0b75a20d.js"><link rel="prefetch" href="/assets/js/83.51703c65.js"><link rel="prefetch" href="/assets/js/84.19c0ba77.js"><link rel="prefetch" href="/assets/js/85.a03c8f81.js"><link rel="prefetch" href="/assets/js/86.975ed693.js"><link rel="prefetch" href="/assets/js/87.5c760a6d.js"><link rel="prefetch" href="/assets/js/88.eb1ce61b.js"><link rel="prefetch" href="/assets/js/89.53d124df.js"><link rel="prefetch" href="/assets/js/9.eb4a425f.js"><link rel="prefetch" href="/assets/js/90.3661068b.js"><link rel="prefetch" href="/assets/js/91.d38c670b.js"><link rel="prefetch" href="/assets/js/92.f1d492fd.js"><link rel="prefetch" href="/assets/js/93.b2ec12bc.js"><link rel="prefetch" href="/assets/js/94.cc016985.js"><link rel="prefetch" href="/assets/js/95.700c0ed9.js"><link rel="prefetch" href="/assets/js/96.4d7a8ec2.js"><link rel="prefetch" href="/assets/js/97.d5b7cf18.js"><link rel="prefetch" href="/assets/js/98.9d0e35fd.js"><link rel="prefetch" href="/assets/js/99.768b032a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8d424261.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-22caf97f><div data-v-22caf97f><div class="password-shadow password-wrapper-out" style="display:none;" data-v-3da0454c data-v-22caf97f data-v-22caf97f><h3 class="title" data-v-3da0454c>yyshino</h3> <p class="description" data-v-3da0454c>Blog</p> <label id="box" class="inputBox" data-v-3da0454c><input type="password" value="" data-v-3da0454c> <span data-v-3da0454c>Konck! Knock!</span> <button data-v-3da0454c>OK</button></label> <div class="footer" data-v-3da0454c><span data-v-3da0454c><i class="iconfont reco-theme" data-v-3da0454c></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-3da0454c>vuePress-theme-reco</a></span> <span data-v-3da0454c><i class="iconfont reco-copyright" data-v-3da0454c></i> <a data-v-3da0454c><span data-v-3da0454c>yyshino</span>
+          
+        <span data-v-3da0454c>2021 - </span>
+        2024
+      </a></span></div></div> <div class="hide" data-v-22caf97f><header class="navbar" data-v-22caf97f><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="yyshino" class="logo"> <span class="site-name">yyshino</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FronEnd-部署上线相关问题.html" class="nav-link"><i class="undefined"></i>
+  FronEnd-部署上线相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-SSR方案.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-SSR方案
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础-Map.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础-Map
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="nav-link"><i class="undefined"></i>
+  Vue-Nuxt服务端渲染
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-源码-01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-源码-01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  Vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-状态管理Pinia.html" class="nav-link"><i class="undefined"></i>
+  Vue3-状态管理Pinia
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSC.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSC
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSCode.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-22caf97f></div> <aside class="sidebar" data-v-22caf97f><div class="personal-info-wrapper" data-v-0afd0b31 data-v-22caf97f><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="author-avatar" class="personal-img" data-v-0afd0b31> <h3 class="name" data-v-0afd0b31>
+    yyshino
+  </h3> <div class="num" data-v-0afd0b31><div data-v-0afd0b31><h3 data-v-0afd0b31>114</h3> <h6 data-v-0afd0b31>Articles</h6></div> <div data-v-0afd0b31><h3 data-v-0afd0b31>68</h3> <h6 data-v-0afd0b31>Tags</h6></div></div> <ul class="social-links" data-v-0afd0b31><li class="social-item" data-v-0afd0b31><i class="iconfont reco-github" style="color:#67cc86;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-csdn" style="color:#f8b26a;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-sf" style="color:#f8b26a;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-bilibili" style="color:#e15b64;" data-v-0afd0b31></i></li></ul> <hr data-v-0afd0b31></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FronEnd-部署上线相关问题.html" class="nav-link"><i class="undefined"></i>
+  FronEnd-部署上线相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-SSR方案.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-SSR方案
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础-Map.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础-Map
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="nav-link"><i class="undefined"></i>
+  Vue-Nuxt服务端渲染
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-源码-01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-源码-01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  Vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-状态管理Pinia.html" class="nav-link"><i class="undefined"></i>
+  Vue3-状态管理Pinia
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSC.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSC
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSCode.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><a href="/blogs/JavaScript/JavaScript-AJAX.html" class="sidebar-link">AJAX</a></li><li><a href="/blogs/JavaScript/JavaScript-ES6.html" class="sidebar-link">ES6</a></li><li><a href="/blogs/JavaScript/JavaScript-HTTP.html" class="sidebar-link">HTTP</a></li><li><a href="/blogs/JavaScript/JavaScript-Koa.html" class="sidebar-link">Koa</a></li><li><a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="sidebar-link">Node全栈</a></li><li><a href="/blogs/JavaScript/JavaScript-基础-Map.html" class="sidebar-link">JavaScript</a></li><li><a href="/blogs/JavaScript/JavaScript-基础语法.html" class="sidebar-link">JavaScript</a></li><li><a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="sidebar-link">瀑布流布局步骤</a></li><li><a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="active sidebar-link">轮播图实现步骤</a></li><li><a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="sidebar-link">防抖与节流</a></li><li><a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="sidebar-link">页面预加载实现</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-3da0454c data-v-22caf97f><h3 class="title" data-v-3da0454c>轮播图实现步骤</h3> <!----> <label id="box" class="inputBox" data-v-3da0454c><input type="password" value="" data-v-3da0454c> <span data-v-3da0454c>Konck! Knock!</span> <button data-v-3da0454c>OK</button></label> <div class="footer" data-v-3da0454c><span data-v-3da0454c><i class="iconfont reco-theme" data-v-3da0454c></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-3da0454c>vuePress-theme-reco</a></span> <span data-v-3da0454c><i class="iconfont reco-copyright" data-v-3da0454c></i> <a data-v-3da0454c><span data-v-3da0454c>yyshino</span>
+          
+        <span data-v-3da0454c>2021 - </span>
+        2024
+      </a></span></div></div> <div data-v-22caf97f><div data-v-22caf97f><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">轮播图实现步骤</h1> <div data-v-7a1223b8><i class="iconfont reco-account" data-v-7a1223b8><span data-v-7a1223b8>yyshino</span></i> <i class="iconfont reco-date" data-v-7a1223b8><span data-v-7a1223b8>11/28/2022</span></i> <i class="iconfont reco-eye" data-v-7a1223b8><span id="/blogs/JavaScript/JavaScript-%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%AE%9E%E7%8E%B0.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-7a1223b8><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-7a1223b8><span class="tag-item" data-v-7a1223b8>前端demo</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="轮播图实现思路"><a href="#轮播图实现思路" class="header-anchor">#</a> 轮播图实现思路</h2> <p>大概思路</p> <ol><li>创建轮播图容器
+<ol><li><code>flex</code>实现图片水平布局</li> <li><code>position</code>的绝对定位与相对定位实现轮播图</li> <li><code>overflow: hidden;</code>将其他图片隐藏</li></ol></li> <li>轮播实现
+<ol><li><code>js</code>实现
+<ol><li>定时器实现图片不断左移</li> <li>边缘处理
+<ol><li>将第一张轮播图追加到一行图片之后，当切换到最后一张轮播图时，下一张即播放第一张图，当此图轮播完成后，将所有图片归位</li></ol></li></ol></li> <li><code>css</code>实现
+<ol><li>动画<code>animate</code>。 有一定限制</li></ol></li></ol></li> <li>其他细节
+<ol><li>根据图片数量，创建底部按钮</li></ol></li></ol> <p>完整代码</p> <div class="language-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>轮播图<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>stylesheet<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/css<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://at.alicdn.com/t/font_1582902_u0zm91pv15i.css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#carousel</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+    <span class="token comment">/* 居中 */</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+    <span class="token comment">/* 设置宽度 */</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token comment">/* 相对定位 */</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token comment">/* 超出隐藏 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#carousel img</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+    <span class="token comment">/* 设定大小 按比例缩放 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#carousel&gt;ul</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token comment">/* 图片处理为一行 */</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token comment">/* 设置绝对定位，实现相对于#carousel的绝对定位 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#carousel&gt;ul,
+  #carousel&gt;ul&gt;li</span> <span class="token punctuation">{</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/* 控制按钮的样式 */</span>
+  <span class="token selector">#leftArrow,
+  #rightArrow</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 43%<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 25px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #eee<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 0.7<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+    <span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#rightArrow</span> <span class="token punctuation">{</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">#sliderBtn</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> flex-end<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.unitBtn</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #eee<span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.active</span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #4C98F7<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- 轮播图容器 --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>carousel<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token comment">&lt;!-- 图片容器 --&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.sdust.edu.cn/__local/9/7A/B1/F29B84DEF72DD329997E8172ABA_664BA3EF_32466.jpg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.sdust.edu.cn/__local/B/F3/E4/693AB931C9FFB84646970D53BFE_C506394A_4282CA.jpg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.sdust.edu.cn/__local/F/7A/AA/E1459849AA8AB0C89854A41BD41_BF3BD857_BC0D8.jpg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.sdust.edu.cn/__local/1/95/CB/EDC1450B8FD1B8A25FAAC726AA4_A36D4253_16C91.jpg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- 按钮组 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>leftArrow<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>iconfont icon-arrow-lift<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- 左箭头切换按钮 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>rightArrow<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>iconfont icon-arrow-right<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- 右箭头切换按钮 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>sliderBtn<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- 切换按钮组 --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">var</span> imgArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 图片数组</span>
+    <span class="token keyword">var</span> curIndex <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  <span class="token comment">// 当前显示图片</span>
+    <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span> <span class="token comment">// 定时器</span>
+    <span class="token keyword">var</span> clickAllow <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span> <span class="token comment">// 锁。是否运行用户点击</span>
+    <span class="token keyword">var</span> btnList <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 右下角切换按钮</span>
+
+    <span class="token keyword">function</span> <span class="token function">slide</span><span class="token punctuation">(</span><span class="token parameter">slideContainer<span class="token punctuation">,</span> targetIndex <span class="token operator">=</span> curIndex <span class="token operator">+</span> <span class="token number">1</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> width <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 技术切换图片要滑动的距离</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>targetIndex <span class="token operator">&gt;</span> curIndex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> curIndex<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> targetIndex<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> width <span class="token operator">+=</span> imgArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token punctuation">;</span> <span class="token comment">// 正向切换则计算本图片到后续图片的宽度</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>targetIndex <span class="token operator">===</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> width <span class="token operator">=</span> imgArr<span class="token punctuation">[</span>imgArr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token punctuation">;</span> <span class="token comment">// 特殊处理第一张图片</span>
+        <span class="token keyword">else</span> <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> targetIndex<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> curIndex<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> width <span class="token operator">+=</span> imgArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token punctuation">;</span> <span class="token comment">// 逆向切换处理宽度</span>
+      <span class="token punctuation">}</span>
+
+      clickAllow <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span> <span class="token comment">// 不允许用户点击</span>
+      <span class="token keyword">var</span> step <span class="token operator">=</span> width <span class="token operator">/</span> <span class="token number">60</span><span class="token punctuation">;</span> <span class="token comment">// 动态设置步长</span>
+      step <span class="token operator">=</span> targetIndex <span class="token operator">&gt;</span> curIndex <span class="token operator">?</span> step <span class="token operator">:</span> <span class="token operator">-</span>step<span class="token punctuation">;</span> <span class="token comment">// 正向逆向切换</span>
+      <span class="token keyword">var</span> curConLeft <span class="token operator">=</span> slideContainer<span class="token punctuation">.</span>offsetLeft<span class="token punctuation">;</span> <span class="token comment">// 获取ul的left</span>
+      <span class="token keyword">var</span> distanceMoved <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 已经移动的距离</span>
+      <span class="token keyword">var</span> slideInterval <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 此定时器是为了实现切换动画</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>width <span class="token operator">-</span> distanceMoved<span class="token punctuation">)</span> <span class="token operator">&gt;</span> Math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>step<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">// 边界判定,判断已经移动距离以及移动距离的差与步长的关系</span>
+          curConLeft <span class="token operator">-=</span> step<span class="token punctuation">;</span> <span class="token comment">// 大鱼步长则不断移动</span>
+          slideContainer<span class="token punctuation">.</span>style<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>curConLeft <span class="token operator">-</span> step<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span> <span class="token comment">// 移动</span>
+          distanceMoved <span class="token operator">+=</span> Math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>step<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 已移动距离加步长</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+          <span class="token function">clearInterval</span><span class="token punctuation">(</span>slideInterval<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 若最后移动距离不足步长，则清除动画定时器</span>
+          <span class="token keyword">var</span> directMove <span class="token operator">=</span> step <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token punctuation">(</span>curConLeft <span class="token operator">-</span> width <span class="token operator">+</span> distanceMoved<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">(</span>curConLeft <span class="token operator">+</span> width <span class="token operator">-</span> distanceMoved<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 正向移动与逆向移动的计算方式不同</span>
+          slideContainer<span class="token punctuation">.</span>style<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>directMove<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span> <span class="token comment">// 直接完成此次动画</span>
+          distanceMoved <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 重设余力为0</span>
+          curIndex <span class="token operator">=</span> targetIndex<span class="token punctuation">;</span> <span class="token comment">// 设置当前index</span>
+          <span class="token keyword">if</span> <span class="token punctuation">(</span>curIndex <span class="token operator">===</span> imgArr<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// index加1，判断是否为最后一张来作边缘处理</span>
+            curIndex <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 最后一张则重置index</span>
+            slideContainer<span class="token punctuation">.</span>style<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>imgArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span> <span class="token comment">//重置ul</span>
+          <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>curIndex <span class="token operator">===</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            curIndex <span class="token operator">=</span> imgArr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">// 第一仗重置index</span>
+            slideContainer<span class="token punctuation">.</span>style<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>slideContainer<span class="token punctuation">.</span>offsetWidth <span class="token operator">-</span> imgArr<span class="token punctuation">[</span>imgArr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>width <span class="token operator">-</span> imgArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span>
+          <span class="token punctuation">}</span>
+          <span class="token function">switchBtnActive</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 右下角按钮的切换</span>
+          clickAllow <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span> <span class="token comment">// 允许点击</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">function</span> <span class="token function">switchBtnActive</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      btnList<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">v</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        v<span class="token punctuation">.</span>className <span class="token operator">=</span> <span class="token string">'unitBtn'</span><span class="token punctuation">;</span> <span class="token comment">// 设置其他按钮为灰色</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      btnList<span class="token punctuation">[</span>curIndex<span class="token punctuation">]</span><span class="token punctuation">.</span>className <span class="token operator">=</span> <span class="token string">&quot;unitBtn active&quot;</span><span class="token punctuation">;</span> <span class="token comment">// 设置当前按钮为蓝色</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">function</span> <span class="token function">createBtnGroup</span><span class="token punctuation">(</span><span class="token parameter">carousel<span class="token punctuation">,</span> slideContainer<span class="token punctuation">,</span> config</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&quot;leftArrow&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 清除定时器,避免手动切换时干扰</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>clickAllow<span class="token punctuation">)</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">,</span> curIndex <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token comment">// 允许点击则切换上一张</span>
+        timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval<span class="token punctuation">)</span><span class="token comment">// 重设定时器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&quot;rightArrow&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 清除定时器，避免手动切换时干扰</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>clickAllow<span class="token punctuation">)</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">,</span> curIndex <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 允许点击则切换下一张</span>
+        timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 重设定时器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token keyword">var</span> sliderBtn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&quot;sliderBtn&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取按钮容器的引用</span>
+
+      <span class="token comment">// 根据图片数量创建按钮</span>
+      imgArr<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">v<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> btn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;div&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 制作按钮</span>
+        btn<span class="token punctuation">.</span>className <span class="token operator">=</span> i <span class="token operator">===</span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token string">&quot;unitBtn active&quot;</span> <span class="token operator">:</span> <span class="token string">&quot;unitBtn&quot;</span><span class="token punctuation">;</span> <span class="token comment">// 初设蓝色与灰色按钮样式</span>
+        btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 清除定时器,避免手动切换时干扰</span>
+          <span class="token keyword">if</span> <span class="token punctuation">(</span>clickAllow<span class="token punctuation">)</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 允许点击则切换</span>
+          timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideCOntainer<span class="token punctuation">)</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 重设定时器</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        btnList<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>btn<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 添加按钮到按钮组</span>
+        sliderBtn<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>btn<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 追加按钮到按钮容器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">function</span> <span class="token function">edgeDispose</span><span class="token punctuation">(</span><span class="token parameter">slideContainer</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> li <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;li&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建li</span>
+      <span class="token keyword">var</span> img <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;img&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建新的 img</span>
+      img<span class="token punctuation">.</span>src <span class="token operator">=</span> imgArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>src<span class="token punctuation">;</span> <span class="token comment">// 设置图片src</span>
+      li<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>img<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 追加img 到 li</span>
+      slideContainer<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>li<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将第一张图片追加到轮播图的最后，做边缘处理</span>
+      <span class="token keyword">var</span> li2 <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;li&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建 li</span>
+      <span class="token keyword">var</span> img2 <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;img&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建新的 img</span>
+      img2<span class="token punctuation">.</span>src <span class="token operator">=</span> imgArr<span class="token punctuation">[</span>imgArr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>src<span class="token punctuation">;</span> <span class="token comment">// 设置图片src</span>
+      li2<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>img2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 追加&lt;img&gt;到&lt;li&gt;</span>
+      slideContainer<span class="token punctuation">.</span><span class="token function">insertBefore</span><span class="token punctuation">(</span>li2<span class="token punctuation">,</span> slideContainer<span class="token punctuation">.</span>firstChild<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将最后一张图片追加到轮播图的最前，作边缘处理</span>
+      slideContainer<span class="token punctuation">.</span>style<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>imgArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span> <span class="token comment">// 重设ul位置</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">function</span> <span class="token function">eventDispose</span><span class="token punctuation">(</span><span class="token parameter">carousel<span class="token punctuation">,</span> slideContainer<span class="token punctuation">,</span> config</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'visibilitychange'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 浏览器切换页面会导致动画出现问题，监听页面切换</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>visibilityState <span class="token operator">==</span> <span class="token string">'hidden'</span><span class="token punctuation">)</span> <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 页面隐藏清除定时器</span>
+        <span class="token keyword">else</span> timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval<span class="token punctuation">)</span> <span class="token comment">// 重设定时器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+      carousel<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'mouseover'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 鼠标移动 到容器则不切换动画，停止计时器</span>
+        <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span> <span class="token comment">// 页面隐藏清除定时器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      carousel<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'mouseleave'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 鼠标溢出容器则开始动画</span>
+        timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 重设定时器</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> config <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">height</span><span class="token operator">:</span> <span class="token string">&quot;300px&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 配置高度</span>
+        <span class="token literal-property property">interval</span><span class="token operator">:</span> <span class="token number">5000</span> <span class="token comment">// 配置轮播图时间间隔</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">var</span> carousel <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&quot;carousel&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取容器对象的引用</span>
+      carousel<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> config<span class="token punctuation">.</span>height<span class="token punctuation">;</span> <span class="token comment">// 将轮播容器高度设定</span>
+      document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">&quot;#carousel img&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">v</span> <span class="token operator">=&gt;</span> imgArr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取所有图片组成数组</span>
+      <span class="token keyword">var</span> slideContainer <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">&quot;#carousel &gt; ul&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//获取ul也就是下一行图片的器</span>
+      <span class="token function">edgeDispose</span><span class="token punctuation">(</span>slideContainer<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 对边缘处理</span>
+      <span class="token function">eventDispose</span><span class="token punctuation">(</span>carousel<span class="token punctuation">,</span> slideContainer<span class="token punctuation">,</span> config<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 对一些浏览器事件处理</span>
+      <span class="token function">createBtnGroup</span><span class="token punctuation">(</span>carousel<span class="token punctuation">,</span> slideContainer<span class="token punctuation">,</span> config<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 对按钮组的处理</span>
+      timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token function">slide</span><span class="token punctuation">(</span>slideCOntainer<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>interval<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 设置定时器定时切换</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br><span class="line-number">194</span><br><span class="line-number">195</span><br><span class="line-number">196</span><br><span class="line-number">197</span><br><span class="line-number">198</span><br><span class="line-number">199</span><br><span class="line-number">200</span><br><span class="line-number">201</span><br><span class="line-number">202</span><br><span class="line-number">203</span><br><span class="line-number">204</span><br><span class="line-number">205</span><br><span class="line-number">206</span><br><span class="line-number">207</span><br><span class="line-number">208</span><br><span class="line-number">209</span><br><span class="line-number">210</span><br><span class="line-number">211</span><br><span class="line-number">212</span><br><span class="line-number">213</span><br><span class="line-number">214</span><br><span class="line-number">215</span><br><span class="line-number">216</span><br><span class="line-number">217</span><br><span class="line-number">218</span><br><span class="line-number">219</span><br><span class="line-number">220</span><br><span class="line-number">221</span><br><span class="line-number">222</span><br><span class="line-number">223</span><br><span class="line-number">224</span><br><span class="line-number">225</span><br><span class="line-number">226</span><br><span class="line-number">227</span><br><span class="line-number">228</span><br><span class="line-number">229</span><br><span class="line-number">230</span><br><span class="line-number">231</span><br><span class="line-number">232</span><br><span class="line-number">233</span><br><span class="line-number">234</span><br><span class="line-number">235</span><br><span class="line-number">236</span><br><span class="line-number">237</span><br><span class="line-number">238</span><br><span class="line-number">239</span><br><span class="line-number">240</span><br><span class="line-number">241</span><br><span class="line-number">242</span><br></div></div><h2 id="参考"><a href="#参考" class="header-anchor">#</a> 参考</h2> <ul><li><a href="https://www.cnblogs.com/WindrunnerMax/p/12638005.html" target="_blank" rel="noopener noreferrer">三种方式实现轮播图功能 - WindrunnerMax - 博客园 (cnblogs.com)<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">3/1/2023, 2:49:09 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="prev">
+          瀑布流布局步骤
+        </a></span> <span class="next"><a href="/blogs/JavaScript/JavaScript-防抖与节流.html">
+          防抖与节流
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-44d97a5c data-v-22caf97f><li class="level-2" data-v-44d97a5c><a href="/blogs/JavaScript/JavaScript-%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%AE%9E%E7%8E%B0.html#轮播图实现思路" class="sidebar-link reco-side-轮播图实现思路" data-v-44d97a5c>轮播图实现思路</a></li><li class="level-2" data-v-44d97a5c><a href="/blogs/JavaScript/JavaScript-%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%AE%9E%E7%8E%B0.html#参考" class="sidebar-link reco-side-参考" data-v-44d97a5c>参考</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-2a01419c data-v-2a01419c><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-2a01419c><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-2a01419c></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-2a01419c></path></svg></div><!----><div class="RibbonAnimation"></div><!----><div id="goTop" class="hide-cat" data-v-f6babb38></div><!----></div></div>
+    <script src="/assets/js/app.4ea76275.js" defer></script><script src="/assets/js/4.3796dfd3.js" defer></script><script src="/assets/js/1.29a270cc.js" defer></script><script src="/assets/js/64.5434f875.js" defer></script>
+  </body>
+</html>

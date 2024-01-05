@@ -8,7 +8,7 @@ const path_ = require('path');
 function getSideBar(folder) {
   // 只能用绝对路径
   // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
-  const blogDirname = path_.resolve('./blogs') + '/';
+  const blogDirname = path_.resolve('./blogs') + '\\';
 
   console.log('blogDirname',blogDirname)
   path = blogDirname + folder + '/';
@@ -22,7 +22,7 @@ function getSideBar(folder) {
 function getNav(folder) {
   // F:\Project\Blog\Vuepress\blogs
   // path = 'F:/Project/Blog/Vuepress/vuepress-blog/blogs/' + folder + '/';
-  const blogDirname = path_.resolve('./blogs') + '/';
+  const blogDirname = path_.resolve('./blogs') + '\\';
   console.log('blogDirname',blogDirname)
   path = blogDirname + folder + '/';
 

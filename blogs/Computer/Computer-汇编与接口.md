@@ -11,7 +11,7 @@ plugins:
   - mathjax
 # sticky: 2
 autoGroup-2: 计算机底层
-subSidebar: auto
+# subSidebar: auto
 ---
 
 

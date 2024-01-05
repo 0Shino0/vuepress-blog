@@ -9,7 +9,7 @@ categories:
 # top: true
 summary: react-router以及router-redux的一些基本操作，用于复习
 description: react-router以及router-redux的一些基本操作，用于复习
-abbrlink: 4944
+# abbrlink: 4944
 date: 2022-05-16 17:31:32
 # autoGroup-3: 框架篇
 ---

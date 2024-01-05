@@ -4,7 +4,7 @@ tags:
     - 日常生活
 categories: 
     - 随笔
-abbrlink: 50287
+# abbrlink: 50287
 date: 2023-9-14 15:40:01
 summary: 实习
 description: 实习

@@ -6,7 +6,7 @@ categories:
   - FrontEnd
 summary: Git 常用命令小结
 description: Git 常用命令小结
-abbrlink: 10243
+# abbrlink: 10243
 date: 2022-08-28 16:58:53
 autoGroup-6: 工具篇
 ---

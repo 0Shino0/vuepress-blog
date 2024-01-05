@@ -4,7 +4,7 @@ tags:
     - 小程序
 categories: 
     - FrontEnd
-abbrlink: 35506
+# abbrlink: 35506
 date: 2022-06-26 10:07:32
 summary: 原生微信小程序入门
 description: 原生微信小程序入门

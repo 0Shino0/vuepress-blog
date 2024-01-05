@@ -6,7 +6,7 @@ categories:
   - Computer
 summary: 计算机组成原理
 description: 计组测试
-abbrlink: 288
+# abbrlink: 288
 date: 2022-10-3 18:27:08
 # plugins:
 #   - mathjax

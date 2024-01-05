@@ -1,12 +1,12 @@
 ---
-title: 图床整理
+title: Plugin-图床整理
 tags: 
     - Tool
 categories: 
     - other
 summary: 图床
 description: 图床
-abbrlink: 7942
+# abbrlink: 7942
 date: 2022-09-16 17:32:15
 ---
 

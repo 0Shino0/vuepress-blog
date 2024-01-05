@@ -6,7 +6,7 @@ categories:
   - Computer
 summary: 计算机科学
 description: 计算机科学
-abbrlink: 288
+# abbrlink: 288
 date: 2022-08-27 10:41:33
 plugins:
   - mathjax

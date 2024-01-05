@@ -6,7 +6,7 @@ categories:
     - 随笔
 summary: 消极
 description: 消极
-abbrlink: 35773
+# abbrlink: 35773
 date: 2022-09-13 10:23:26
 keys: 
   - '2ffc5f6fde28ed8d7833a447aa079461'

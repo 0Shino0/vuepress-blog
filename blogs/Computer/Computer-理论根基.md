@@ -6,7 +6,7 @@ categories:
     - Computer
 summary: 理论根基
 description: 理论根基
-abbrlink: 3097
+# abbrlink: 3097
 date: 2022-09-07 10:45:10
 autoGroup-2: 计算机底层
 ---

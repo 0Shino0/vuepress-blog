@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue之快速开始一个项目 | yyshino</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="icon" href="https://shinoimg.yyshino.top/img/avatar.png">
+    <meta name="description" content="Vue之快速开始一个项目">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.8d424261.css" as="style"><link rel="preload" href="/assets/js/app.4ea76275.js" as="script"><link rel="preload" href="/assets/js/4.3796dfd3.js" as="script"><link rel="preload" href="/assets/js/1.29a270cc.js" as="script"><link rel="preload" href="/assets/js/112.3f267109.js" as="script"><link rel="prefetch" href="/assets/js/10.91f3d8bf.js"><link rel="prefetch" href="/assets/js/100.ae0bd942.js"><link rel="prefetch" href="/assets/js/101.7210b68e.js"><link rel="prefetch" href="/assets/js/102.60fb169d.js"><link rel="prefetch" href="/assets/js/103.f7974895.js"><link rel="prefetch" href="/assets/js/104.258c3ace.js"><link rel="prefetch" href="/assets/js/105.af889848.js"><link rel="prefetch" href="/assets/js/106.544e7976.js"><link rel="prefetch" href="/assets/js/107.9db93d7c.js"><link rel="prefetch" href="/assets/js/108.0904dc6f.js"><link rel="prefetch" href="/assets/js/109.4d206aac.js"><link rel="prefetch" href="/assets/js/11.0fa65062.js"><link rel="prefetch" href="/assets/js/110.0baf2d01.js"><link rel="prefetch" href="/assets/js/111.86518631.js"><link rel="prefetch" href="/assets/js/113.852c4af1.js"><link rel="prefetch" href="/assets/js/114.fdbbf6b7.js"><link rel="prefetch" href="/assets/js/115.da9657e6.js"><link rel="prefetch" href="/assets/js/116.eebe6724.js"><link rel="prefetch" href="/assets/js/117.a1652858.js"><link rel="prefetch" href="/assets/js/118.e362e010.js"><link rel="prefetch" href="/assets/js/119.e694a7c3.js"><link rel="prefetch" href="/assets/js/12.8e578271.js"><link rel="prefetch" href="/assets/js/120.dd5a6080.js"><link rel="prefetch" href="/assets/js/121.de156138.js"><link rel="prefetch" href="/assets/js/122.2943f86d.js"><link rel="prefetch" href="/assets/js/123.c713c51d.js"><link rel="prefetch" href="/assets/js/124.660a458e.js"><link rel="prefetch" href="/assets/js/125.678ef4dc.js"><link rel="prefetch" href="/assets/js/126.323061a7.js"><link rel="prefetch" href="/assets/js/127.ac41e443.js"><link rel="prefetch" href="/assets/js/128.678fcef4.js"><link rel="prefetch" href="/assets/js/129.15c57ffb.js"><link rel="prefetch" href="/assets/js/13.1ab9300d.js"><link rel="prefetch" href="/assets/js/130.360a8a2a.js"><link rel="prefetch" href="/assets/js/131.aff8b348.js"><link rel="prefetch" href="/assets/js/132.80567394.js"><link rel="prefetch" href="/assets/js/133.2f7aa988.js"><link rel="prefetch" href="/assets/js/134.8b69c202.js"><link rel="prefetch" href="/assets/js/135.39acbd67.js"><link rel="prefetch" href="/assets/js/136.655dd3fb.js"><link rel="prefetch" href="/assets/js/14.7e614398.js"><link rel="prefetch" href="/assets/js/15.9384de3e.js"><link rel="prefetch" href="/assets/js/16.02bc011b.js"><link rel="prefetch" href="/assets/js/17.26a9185a.js"><link rel="prefetch" href="/assets/js/18.5f5b2d88.js"><link rel="prefetch" href="/assets/js/19.753fa738.js"><link rel="prefetch" href="/assets/js/20.cf0294ec.js"><link rel="prefetch" href="/assets/js/21.9c1d6ef0.js"><link rel="prefetch" href="/assets/js/22.41be4ece.js"><link rel="prefetch" href="/assets/js/23.8ee134b2.js"><link rel="prefetch" href="/assets/js/24.216c2627.js"><link rel="prefetch" href="/assets/js/25.c6eed3f1.js"><link rel="prefetch" href="/assets/js/26.8370ca3d.js"><link rel="prefetch" href="/assets/js/27.eb3a161e.js"><link rel="prefetch" href="/assets/js/28.c77aea09.js"><link rel="prefetch" href="/assets/js/29.332ad8b7.js"><link rel="prefetch" href="/assets/js/3.98927e25.js"><link rel="prefetch" href="/assets/js/30.a7bc9a5d.js"><link rel="prefetch" href="/assets/js/31.9bc54f11.js"><link rel="prefetch" href="/assets/js/32.04434cc2.js"><link rel="prefetch" href="/assets/js/33.028709ec.js"><link rel="prefetch" href="/assets/js/34.e2826809.js"><link rel="prefetch" href="/assets/js/35.f206c12f.js"><link rel="prefetch" href="/assets/js/36.6297e091.js"><link rel="prefetch" href="/assets/js/37.1eff7da3.js"><link rel="prefetch" href="/assets/js/38.e3c1cb77.js"><link rel="prefetch" href="/assets/js/39.420c2269.js"><link rel="prefetch" href="/assets/js/40.aa58bbca.js"><link rel="prefetch" href="/assets/js/41.6932b774.js"><link rel="prefetch" href="/assets/js/42.99cada52.js"><link rel="prefetch" href="/assets/js/43.1c8e4737.js"><link rel="prefetch" href="/assets/js/44.d5fe439b.js"><link rel="prefetch" href="/assets/js/45.23d2da75.js"><link rel="prefetch" href="/assets/js/46.f107a348.js"><link rel="prefetch" href="/assets/js/47.d4a08b95.js"><link rel="prefetch" href="/assets/js/48.809a6a68.js"><link rel="prefetch" href="/assets/js/49.22590440.js"><link rel="prefetch" href="/assets/js/5.a5446848.js"><link rel="prefetch" href="/assets/js/50.ee03aeaa.js"><link rel="prefetch" href="/assets/js/51.ccb062cd.js"><link rel="prefetch" href="/assets/js/52.23f07cab.js"><link rel="prefetch" href="/assets/js/53.05f1895f.js"><link rel="prefetch" href="/assets/js/54.157a3b98.js"><link rel="prefetch" href="/assets/js/55.86eb544b.js"><link rel="prefetch" href="/assets/js/56.0fa3c8dc.js"><link rel="prefetch" href="/assets/js/57.05fcd401.js"><link rel="prefetch" href="/assets/js/58.6650fc55.js"><link rel="prefetch" href="/assets/js/59.97c6ddef.js"><link rel="prefetch" href="/assets/js/6.8f84ad5d.js"><link rel="prefetch" href="/assets/js/60.e61d451d.js"><link rel="prefetch" href="/assets/js/61.a34a3f7d.js"><link rel="prefetch" href="/assets/js/62.8ee2efb3.js"><link rel="prefetch" href="/assets/js/63.cf18be4b.js"><link rel="prefetch" href="/assets/js/64.5434f875.js"><link rel="prefetch" href="/assets/js/65.bb3fa8d2.js"><link rel="prefetch" href="/assets/js/66.59b76942.js"><link rel="prefetch" href="/assets/js/67.0d26f44a.js"><link rel="prefetch" href="/assets/js/68.630b5af5.js"><link rel="prefetch" href="/assets/js/69.624c406d.js"><link rel="prefetch" href="/assets/js/7.8d825e21.js"><link rel="prefetch" href="/assets/js/70.ceae6906.js"><link rel="prefetch" href="/assets/js/71.816270f6.js"><link rel="prefetch" href="/assets/js/72.48d9c746.js"><link rel="prefetch" href="/assets/js/73.ddd69473.js"><link rel="prefetch" href="/assets/js/74.10c76921.js"><link rel="prefetch" href="/assets/js/75.3e5421c2.js"><link rel="prefetch" href="/assets/js/76.4e14567d.js"><link rel="prefetch" href="/assets/js/77.75af353f.js"><link rel="prefetch" href="/assets/js/78.efbcf646.js"><link rel="prefetch" href="/assets/js/79.1d2f4730.js"><link rel="prefetch" href="/assets/js/8.6d9f593b.js"><link rel="prefetch" href="/assets/js/80.2a7855f8.js"><link rel="prefetch" href="/assets/js/81.66cccd53.js"><link rel="prefetch" href="/assets/js/82.0b75a20d.js"><link rel="prefetch" href="/assets/js/83.51703c65.js"><link rel="prefetch" href="/assets/js/84.19c0ba77.js"><link rel="prefetch" href="/assets/js/85.a03c8f81.js"><link rel="prefetch" href="/assets/js/86.975ed693.js"><link rel="prefetch" href="/assets/js/87.5c760a6d.js"><link rel="prefetch" href="/assets/js/88.eb1ce61b.js"><link rel="prefetch" href="/assets/js/89.53d124df.js"><link rel="prefetch" href="/assets/js/9.eb4a425f.js"><link rel="prefetch" href="/assets/js/90.3661068b.js"><link rel="prefetch" href="/assets/js/91.d38c670b.js"><link rel="prefetch" href="/assets/js/92.f1d492fd.js"><link rel="prefetch" href="/assets/js/93.b2ec12bc.js"><link rel="prefetch" href="/assets/js/94.cc016985.js"><link rel="prefetch" href="/assets/js/95.700c0ed9.js"><link rel="prefetch" href="/assets/js/96.4d7a8ec2.js"><link rel="prefetch" href="/assets/js/97.d5b7cf18.js"><link rel="prefetch" href="/assets/js/98.9d0e35fd.js"><link rel="prefetch" href="/assets/js/99.768b032a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8d424261.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-22caf97f><div data-v-22caf97f><div class="password-shadow password-wrapper-out" style="display:none;" data-v-3da0454c data-v-22caf97f data-v-22caf97f><h3 class="title" data-v-3da0454c>yyshino</h3> <p class="description" data-v-3da0454c>Blog</p> <label id="box" class="inputBox" data-v-3da0454c><input type="password" value="" data-v-3da0454c> <span data-v-3da0454c>Konck! Knock!</span> <button data-v-3da0454c>OK</button></label> <div class="footer" data-v-3da0454c><span data-v-3da0454c><i class="iconfont reco-theme" data-v-3da0454c></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-3da0454c>vuePress-theme-reco</a></span> <span data-v-3da0454c><i class="iconfont reco-copyright" data-v-3da0454c></i> <a data-v-3da0454c><span data-v-3da0454c>yyshino</span>
+          
+        <span data-v-3da0454c>2021 - </span>
+        2024
+      </a></span></div></div> <div class="hide" data-v-22caf97f><header class="navbar" data-v-22caf97f><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="yyshino" class="logo"> <span class="site-name">yyshino</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FronEnd-部署上线相关问题.html" class="nav-link"><i class="undefined"></i>
+  FronEnd-部署上线相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-SSR方案.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-SSR方案
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础-Map.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础-Map
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="nav-link"><i class="undefined"></i>
+  Vue-Nuxt服务端渲染
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-源码-01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-源码-01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  Vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-状态管理Pinia.html" class="nav-link"><i class="undefined"></i>
+  Vue3-状态管理Pinia
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSC.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSC
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSCode.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-22caf97f></div> <aside class="sidebar" data-v-22caf97f><div class="personal-info-wrapper" data-v-0afd0b31 data-v-22caf97f><img src="https://shinoimg.yyshino.top/img/avatar.png" alt="author-avatar" class="personal-img" data-v-0afd0b31> <h3 class="name" data-v-0afd0b31>
+    yyshino
+  </h3> <div class="num" data-v-0afd0b31><div data-v-0afd0b31><h3 data-v-0afd0b31>114</h3> <h6 data-v-0afd0b31>Articles</h6></div> <div data-v-0afd0b31><h3 data-v-0afd0b31>68</h3> <h6 data-v-0afd0b31>Tags</h6></div></div> <ul class="social-links" data-v-0afd0b31><li class="social-item" data-v-0afd0b31><i class="iconfont reco-github" style="color:#67cc86;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-csdn" style="color:#f8b26a;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-sf" style="color:#f8b26a;" data-v-0afd0b31></i></li><li class="social-item" data-v-0afd0b31><i class="iconfont reco-bilibili" style="color:#e15b64;" data-v-0afd0b31></i></li></ul> <hr data-v-0afd0b31></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-优质整合.html" class="nav-link"><i class="undefined"></i>
+  Demo-优质整合
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/Demo-自动化部署git项目.html" class="nav-link"><i class="undefined"></i>
+  Demo-自动化部署git项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FronEnd-部署上线相关问题.html" class="nav-link"><i class="undefined"></i>
+  FronEnd-部署上线相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-SSR方案.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-SSR方案
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-大前端.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-大前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/FrontEnd/FrontEnd-踩坑.html" class="nav-link"><i class="undefined"></i>
+  FrontEnd-踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      CSS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/CSS/CSS-布局.html" class="nav-link"><i class="undefined"></i>
+  CSS-布局
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      JavaScript
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-AJAX.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-ES6.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-HTTP.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Koa.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Koa
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-Node全栈.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-Node全栈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础-Map.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础-Map
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-基础语法.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-瀑布流布局.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-瀑布流布局
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-轮播图实现.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-轮播图实现
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-防抖与节流.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-防抖与节流
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/JavaScript/JavaScript-页面预加载.html" class="nav-link"><i class="undefined"></i>
+  JavaScript-页面预加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Vue
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Diffing.html" class="nav-link"><i class="undefined"></i>
+  Vue-Diffing
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="nav-link"><i class="undefined"></i>
+  Vue-Nuxt服务端渲染
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-快速开始一个项目.html" class="nav-link"><i class="undefined"></i>
+  Vue2-快速开始一个项目
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-总结.html" class="nav-link"><i class="undefined"></i>
+  Vue2-总结
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-源码-01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-源码-01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目01.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目01
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目02.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目02
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-电商项目03.html" class="nav-link"><i class="undefined"></i>
+  Vue2-电商项目03
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue2-移动端路由切换动画.html" class="nav-link"><i class="undefined"></i>
+  Vue2-移动端路由切换动画
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-后台通用管理系统.html" class="nav-link"><i class="undefined"></i>
+  Vue3-后台通用管理系统
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-晋级.html" class="nav-link"><i class="undefined"></i>
+  Vue3-晋级
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Vue/Vue3-状态管理Pinia.html" class="nav-link"><i class="undefined"></i>
+  Vue3-状态管理Pinia
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      Plugin
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-ECharts数据可视化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-ECharts数据可视化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Github个性化.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Github个性化
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-git复习.html" class="nav-link"><i class="undefined"></i>
+  Plugin-git复习
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Hexo个性化配置.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Hexo个性化配置
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Npm登录失败.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Npm登录失败
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Nvm的使用.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Nvm的使用
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-TyporaMarkdown.html" class="nav-link"><i class="undefined"></i>
+  Plugin-TyporaMarkdown
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSC.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSC
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-VSCode.html" class="nav-link"><i class="undefined"></i>
+  Plugin-VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress中使用echarts.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress中使用echarts
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Vuepress添加导航.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Vuepress添加导航
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-Webpack.html" class="nav-link"><i class="undefined"></i>
+  Plugin-Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-WebSocket.html" class="nav-link"><i class="undefined"></i>
+  Plugin-WebSocket
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-图床整理.html" class="nav-link"><i class="undefined"></i>
+  Plugin-图床整理
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-模板引擎.html" class="nav-link"><i class="undefined"></i>
+  Plugin-模板引擎
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-正则.html" class="nav-link"><i class="undefined"></i>
+  Plugin-正则
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/Plugin/Plugin-网页部署.html" class="nav-link"><i class="undefined"></i>
+  Plugin-网页部署
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      主页
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link"><i class="iconfont icon-cat2"></i>
+  本站
+</a></li><li class="dropdown-item"><!----> <a href="https://blog.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-dog"></i>
+  Hexo博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      归档
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/FrontEnd/" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-game1"></i>
+      Demo
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Mini Demo</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/extend/navigate.html" class="nav-link"><i class="iconfont icon-apps"></i>
+  导航
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/accumulate.html" class="nav-link"><i class="iconfont icon-Vue"></i>
+  休息一会
+</a></li><li class="dropdown-subitem"><a href="/docs/extend/echarts.html" class="nav-link"><i class="iconfont icon-browser"></i>
+  可视化Demo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont icon-tier-fill"></i>
+      项目
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue2</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://e-admin.yyshino.top/#/screen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台实时监控系统
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://c-shop.yyshino.top/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-Vue"></i>
+  电商平台
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>Vue3</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/" class="nav-link"><i class="iconfont icon-Vue"></i>
+  Test
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://nav.yyshino.top/#/light" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont icon-fly1"></i>
+  发现导航
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0Shino0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><a href="/blogs/Vue/Vue-Diffing.html" class="sidebar-link">Diffing算法原理</a></li><li><a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="sidebar-link">Nuxt服务端渲染</a></li><li><a href="/blogs/Vue/Vue2-快速开始一个项目.html" class="active sidebar-link">Vue之快速开始一个项目</a></li><li><a href="/blogs/Vue/Vue2-总结.html" class="sidebar-link">Vue总结</a></li><li><a href="/blogs/Vue/Vue2-源码-01.html" class="sidebar-link">Vue源码分析</a></li><li><a href="/blogs/Vue/Vue2-电商项目01.html" class="sidebar-link">Vue前台PC项目其一</a></li><li><a href="/blogs/Vue/Vue2-电商项目02.html" class="sidebar-link">Vue前台PC项目其二</a></li><li><a href="/blogs/Vue/Vue2-电商项目03.html" class="sidebar-link">Vue前台PC项目其三</a></li><li><a href="/blogs/Vue/Vue2-移动端路由切换动画.html" class="sidebar-link">Vue移动端路由切换动画</a></li><li><a href="/blogs/Vue/Vue3-后台通用管理系统.html" class="sidebar-link">Vue后台通用管理系统总结</a></li><li><a href="/blogs/Vue/Vue3-晋级.html" class="sidebar-link">Vue3晋级</a></li><li><a href="/blogs/Vue/Vue3-状态管理Pinia.html" class="sidebar-link">Vue3状态管理Pinia</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-3da0454c data-v-22caf97f><h3 class="title" data-v-3da0454c>Vue之快速开始一个项目</h3> <!----> <label id="box" class="inputBox" data-v-3da0454c><input type="password" value="" data-v-3da0454c> <span data-v-3da0454c>Konck! Knock!</span> <button data-v-3da0454c>OK</button></label> <div class="footer" data-v-3da0454c><span data-v-3da0454c><i class="iconfont reco-theme" data-v-3da0454c></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-3da0454c>vuePress-theme-reco</a></span> <span data-v-3da0454c><i class="iconfont reco-copyright" data-v-3da0454c></i> <a data-v-3da0454c><span data-v-3da0454c>yyshino</span>
+          
+        <span data-v-3da0454c>2021 - </span>
+        2024
+      </a></span></div></div> <div data-v-22caf97f><div data-v-22caf97f><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">Vue之快速开始一个项目</h1> <div data-v-7a1223b8><i class="iconfont reco-account" data-v-7a1223b8><span data-v-7a1223b8>yyshino</span></i> <i class="iconfont reco-date" data-v-7a1223b8><span data-v-7a1223b8>11/27/2022</span></i> <i class="iconfont reco-eye" data-v-7a1223b8><span id="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-7a1223b8><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-7a1223b8><span class="tag-item" data-v-7a1223b8>Vue</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="vue之快速开始一个项目"><a href="#vue之快速开始一个项目" class="header-anchor">#</a> Vue之快速开始一个项目</h2> <h3 id="快速创建项目"><a href="#快速创建项目" class="header-anchor">#</a> 快速创建项目</h3> <h4 id="vue-cli"><a href="#vue-cli" class="header-anchor">#</a> <code>Vue CLI</code></h4> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>vue create hello-world
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>如果之前本地有安装vue2.x的脚手架版本需要先进行卸载</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">npm</span> uninstall vue-cli <span class="token parameter variable">-g</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>安装vue3</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">npm</span> <span class="token function">install</span> @vue/cli <span class="token parameter variable">-g</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>简介</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>? Please pick a preset: Manually <span class="token keyword">select</span> features		<span class="token comment"># 请选择</span>
+? Check the features needed <span class="token keyword">for</span> your project: <span class="token punctuation">(</span>Press <span class="token operator">&lt;</span>space<span class="token operator">&gt;</span> to select, <span class="token operator">&lt;</span>a<span class="token operator">&gt;</span> to toggle all, <span class="token operator">&lt;</span>i<span class="token operator">&gt;</span> to invert selection<span class="token punctuation">)</span>												<span class="token comment"># 空格键选择，a键全选，i键反选</span>
+<span class="token operator">&gt;</span><span class="token punctuation">(</span>*<span class="token punctuation">)</span> Choose Vue version									<span class="token comment"># 是否自定义选择vue版本</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Babel												<span class="token comment"># 是否使用babel以支持ES6等语言</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> TypeScript											<span class="token comment"># 是否使用TypeScripyt</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Progressive Web App <span class="token punctuation">(</span>PWA<span class="token punctuation">)</span> Support					<span class="token comment"># PWA渐进式web app支持</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Router												<span class="token comment"># 路由插件</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Vuex												<span class="token comment"># vue状态管理插件</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> CSS Pre-processors									<span class="token comment"># CSS预处理插件</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Linter / Formatter									<span class="token comment"># 代码 / 格式检查插件</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> Unit Testing										<span class="token comment"># 是否开启单元测试</span>
+ <span class="token punctuation">(</span>*<span class="token punctuation">)</span> E2E Testing										<span class="token comment"># 支持 E2E 测试</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="vite"><a href="#vite" class="header-anchor">#</a> <code>Vite</code></h4> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">npm</span> create vue@3 <span class="token comment"># 创建vue3项目</span>
+
+<span class="token function">npm</span> create vue@2 <span class="token comment"># 创建vue2项目</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sh line-numbers-mode"><pre class="language-sh"><code>√ Project name: <span class="token punctuation">..</span>. hellowolr												<span class="token comment"># 项目名</span>
+√ Add TypeScript? <span class="token punctuation">..</span>. No / Yes												<span class="token comment"># 是否使用TypeScript</span>
+√ Add JSX Support? <span class="token punctuation">..</span>. No / Yes												<span class="token comment"># 是否使用JSX</span>
+√ Add Vue Router <span class="token keyword">for</span> Single Page Application development? <span class="token punctuation">..</span>. No / Yes		<span class="token comment"># 是否添加vue-route</span>
+√ Add Pinia <span class="token keyword">for</span> state management? <span class="token punctuation">..</span>. No / Yes								<span class="token comment"># 是否添加Pinia状态管理功具</span>
+√ Add Vitest <span class="token keyword">for</span> Unit Testing? <span class="token punctuation">..</span>. No / Yes									<span class="token comment"># 是否添加单元测试	</span>
+√ Add an End-to-End Testing Solution? » No									<span class="token comment"># 端到端测试</span>
+√ Add ESLint <span class="token keyword">for</span> code quality? <span class="token punctuation">..</span>. No / Yes									<span class="token comment"># ESlint检测</span>
+√ Add Prettier <span class="token keyword">for</span> code formatting? <span class="token punctuation">..</span>. No / Yes							<span class="token comment"># 添加漂亮的代码格式?</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h4 id="nuxtjs"><a href="#nuxtjs" class="header-anchor">#</a> <code>NuxtJs</code></h4> <blockquote><p>Nuxt.js 十分简单易用。一个简单的项目只需将 <code>nuxt</code> 添加为依赖组件即可。</p></blockquote> <h5 id="运行-create-nuxt-app"><a href="#运行-create-nuxt-app" class="header-anchor">#</a> 运行 create-nuxt-app</h5> <p>为了快速入门，Nuxt.js 团队创建了脚手架工具 <a href="https://github.com/nuxt/create-nuxt-app" target="_blank" rel="noopener noreferrer">create-nuxt-app<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。</p> <p>确保安装了 npx（npx 在 NPM 版本 5.2.0 默认安装了）：</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ npx create-nuxt-app <span class="token operator">&lt;</span>项目名<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>或者用 yarn ：</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">yarn</span> create nuxt-app <span class="token operator">&lt;</span>项目名<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>它会让你进行一些选择:</p> <ol><li>在集成的服务器端框架之间进行选择:</li></ol> <ul><li>None (Nuxt 默认服务器)</li> <li><a href="https://github.com/expressjs/express" target="_blank" rel="noopener noreferrer">Express<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/koajs/koa" target="_blank" rel="noopener noreferrer">Koa<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/hapijs/hapi" target="_blank" rel="noopener noreferrer">Hapi<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/feathersjs/feathers" target="_blank" rel="noopener noreferrer">Feathers<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/zeit/micro" target="_blank" rel="noopener noreferrer">Micro<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/fastify/fastify" target="_blank" rel="noopener noreferrer">Fastify<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/adonisjs/adonis-framework" target="_blank" rel="noopener noreferrer">Adonis<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> (WIP)</li></ul> <ol start="2"><li>选择您喜欢的 UI 框架:</li></ol> <ul><li>None (无)</li> <li><a href="https://github.com/bootstrap-vue/bootstrap-vue" target="_blank" rel="noopener noreferrer">Bootstrap<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/vuetifyjs/vuetify" target="_blank" rel="noopener noreferrer">Vuetify<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/jgthms/bulma" target="_blank" rel="noopener noreferrer">Bulma<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/tailwindcss/tailwindcss" target="_blank" rel="noopener noreferrer">Tailwind<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener noreferrer">Element UI<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/vueComponent/ant-design-vue" target="_blank" rel="noopener noreferrer">Ant Design Vue<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/buefy/buefy" target="_blank" rel="noopener noreferrer">Buefy<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/iview/iview" target="_blank" rel="noopener noreferrer">iView<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/tachyons-css/tachyons" target="_blank" rel="noopener noreferrer">Tachyons<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <ol start="3"><li>选择您喜欢的测试框架:</li></ol> <ul><li>None (随意添加一个)</li> <li><a href="https://github.com/facebook/jest" target="_blank" rel="noopener noreferrer">Jest<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/avajs/ava" target="_blank" rel="noopener noreferrer">AVA<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <ol start="4"><li><p>选择你想要的 Nuxt 模式 (<code>Universal</code> or <code>SPA</code>)</p></li> <li><p>添加 <a href="https://github.com/nuxt-community/axios-module" target="_blank" rel="noopener noreferrer">axios module<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 以轻松地将 HTTP 请求发送到您的应用程序中。</p></li> <li><p>添加 <a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">EsLint<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 以在保存时代码规范和错误检查您的代码。</p></li> <li><p>添加 <a href="https://prettier.io/" target="_blank" rel="noopener noreferrer">Prettier<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 以在保存时格式化/美化您的代码。</p></li></ol> <h2 id="添加css预处理器"><a href="#添加css预处理器" class="header-anchor">#</a> 添加Css预处理器</h2> <h3 id="less"><a href="#less" class="header-anchor">#</a> Less</h3> <h3 id="sass"><a href="#sass" class="header-anchor">#</a> Sass</h3></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">3/1/2023, 2:49:09 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/Vue/Vue-Nuxt服务端渲染.html" class="prev">
+          Nuxt服务端渲染
+        </a></span> <span class="next"><a href="/blogs/Vue/Vue2-总结.html">
+          Vue总结
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-44d97a5c data-v-22caf97f><li class="level-2" data-v-44d97a5c><a href="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html#vue之快速开始一个项目" class="sidebar-link reco-side-vue之快速开始一个项目" data-v-44d97a5c>Vue之快速开始一个项目</a></li><li class="level-3" data-v-44d97a5c><a href="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html#快速创建项目" class="sidebar-link reco-side-快速创建项目" data-v-44d97a5c>快速创建项目</a></li><li class="level-2" data-v-44d97a5c><a href="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html#添加css预处理器" class="sidebar-link reco-side-添加css预处理器" data-v-44d97a5c>添加Css预处理器</a></li><li class="level-3" data-v-44d97a5c><a href="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html#less" class="sidebar-link reco-side-less" data-v-44d97a5c>Less</a></li><li class="level-3" data-v-44d97a5c><a href="/blogs/Vue/Vue2-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE.html#sass" class="sidebar-link reco-side-sass" data-v-44d97a5c>Sass</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-2a01419c data-v-2a01419c><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-2a01419c><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-2a01419c></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-2a01419c></path></svg></div><!----><div class="RibbonAnimation"></div><!----><div id="goTop" class="hide-cat" data-v-f6babb38></div><!----></div></div>
+    <script src="/assets/js/app.4ea76275.js" defer></script><script src="/assets/js/4.3796dfd3.js" defer></script><script src="/assets/js/1.29a270cc.js" defer></script><script src="/assets/js/112.3f267109.js" defer></script>
+  </body>
+</html>
