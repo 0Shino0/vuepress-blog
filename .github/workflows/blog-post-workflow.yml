@@ -17,7 +17,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           # feed_list: "https://v-blog.yyshino.top/atom.xml,https://v-blog.yyshino.top/feed.json,https://v-blog.yyshino.top/rss.xml"
-          feed_list: "https://v-blog.yyshino.top/atom.xml"
+          feed_list: "https://v-blog.yyshino.top/rss.xml"
           disable_item_validation: true # 跳过没有标题的文章
           item_exec: |
                 if(!post.title) post = null;
