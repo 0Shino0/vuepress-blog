@@ -56,7 +56,7 @@ export default hopeTheme({
       // QQ: "https://example.com",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
-      // Rss: "https://example.com",
+      Rss: "https://v-blog.yyshino.top/rss.xml",
       Steam: "https://steamcommunity.com/profiles/76561198273083365/",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
