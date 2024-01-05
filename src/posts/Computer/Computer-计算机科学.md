@@ -1,7 +1,7 @@
 ---
 title: 计算机基础知识
 tags: 
-  - 计算机科学
+    - 大学课程
 categories: 
   - Computer
 summary: 计算机科学

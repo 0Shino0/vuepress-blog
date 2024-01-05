@@ -1,7 +1,7 @@
 ---
 title: JavaEE
 tags: 
-  - JavaEE
+  - Java
 categories: 
   - AfterEnd
 summary: JavaEE期末复习

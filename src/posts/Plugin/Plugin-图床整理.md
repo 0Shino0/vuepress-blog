@@ -1,7 +1,7 @@
 ---
 title: Plugin-图床整理
 tags: 
-    - Tool
+    - Tool/Demo
 categories: 
     - other
 summary: 图床

@@ -1,7 +1,7 @@
 ---
 title: DNS介绍
 tags: 
-  - dns
+  - DNS
 categories: 
   - 浏览器
 date: 2023-08-01

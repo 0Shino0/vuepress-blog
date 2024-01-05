@@ -1,3 +1,15 @@
+---
+title: GLSL
+tags: 
+  - GLSL
+categories: 
+  - 图形学
+summary: GLSL
+description: GLSL介绍
+date: 2023-12-25 15:04:23
+# autoGroup-2: 计算机底层
+---
+
 ## 介绍
 
 GLSL 使用标准的 C/C++ 语句集。它有选择语句（if-else和switch-case）、迭代语句（for、while和do-while）和跳转语句（break、continue和return）。这些语句基本上按照 C++ 定义的方式工作（例如，您可以在for语句中声明变量），但也有一些限制。例如，您可以在 C++ 中的 if条件中声明变量，但不能在 GLSL 中声明。

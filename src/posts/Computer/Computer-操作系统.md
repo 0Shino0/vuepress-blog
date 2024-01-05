@@ -1,7 +1,7 @@
 ---
 title: 操作系统
 tags: 
-  - 操作系统
+    - 大学课程
 categories: 
   - Computer
 summary: 操作系统

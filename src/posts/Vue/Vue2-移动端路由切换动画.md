@@ -2,7 +2,6 @@
 title: Vue移动端路由切换动画
 tags: 
     - Vue
-    - 动画
 categories: 
     - FrontEnd
 date: 2022-10-23 16:56:58

@@ -2,7 +2,6 @@
 title: Vue3状态管理Pinia
 tags: 
     - Vue3
-    - Pinia
 categories: 
     - FrontEnd
 summary: 状态管理Pinia

@@ -1,7 +1,7 @@
 ---
 title: ES6
 tags: 
-  - ES6
+  - JS
 categories: 
   - FrontEnd
 # abbrlink: 13229

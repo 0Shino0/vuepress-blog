@@ -1,7 +1,7 @@
 ---
 title: 数据结构
 tags: 
-  - 数据结构
+    - 大学课程
 categories: 
   - Computer
 summary: 数据结构

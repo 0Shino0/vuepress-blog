@@ -1,7 +1,7 @@
 ---
 title: 优质整合
 tags: 
-    - 整合
+    - Tool/Demo
 categories: 
     - Component
 summary: 优质整合

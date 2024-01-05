@@ -1,7 +1,7 @@
 ---
 title: 页面预加载实现
 tags: 
-    - 整合
+    - Tool/Demo
 categories: 
     - Component
 summary: 页面预加载实现

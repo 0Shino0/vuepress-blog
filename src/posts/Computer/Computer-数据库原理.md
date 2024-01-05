@@ -1,7 +1,7 @@
 ---
 title: 数据库原理
 tags: 
-  - 数据库原理
+  - 大学课程
 categories: 
   - Computer
 summary: 数据库原理

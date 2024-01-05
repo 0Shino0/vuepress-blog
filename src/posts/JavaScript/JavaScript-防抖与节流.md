@@ -1,7 +1,7 @@
 ---
 title: 防抖与节流
 tags:
-    - 防抖与节流
+    - JS
 categories:
     - Component
 summary: 防抖与节流

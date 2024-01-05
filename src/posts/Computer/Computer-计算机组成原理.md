@@ -1,7 +1,7 @@
 ---
 title: 计算机组成原理
 tags: 
-  - 计算机组成原理
+  - 大学课程
 categories: 
   - Computer
 summary: 计算机组成原理

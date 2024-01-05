@@ -1,7 +1,7 @@
 ---
 title: AJAX
 tags: 
-  - ajax/axios
+  - JS
 categories: 
   - FrontEnd
 # abbrlink: 20614

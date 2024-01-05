@@ -1,7 +1,7 @@
 ---
 title: TypeScript入门
 tags: 
-  - TypeScript
+  - TS
 categories: 
   - FrontEnd
 # abbrlink: 33883

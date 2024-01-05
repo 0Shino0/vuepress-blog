@@ -1,7 +1,7 @@
 ---
 title: 读书笔记-05-数据结构与算法JavaScript描述
 tags: 
-  - js
+  - JS
 categories: 
   - FrontEnd
 date: 2023-06-01

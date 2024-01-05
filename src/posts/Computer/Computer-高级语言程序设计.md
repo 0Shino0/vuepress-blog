@@ -1,7 +1,7 @@
 ---
 title: 高级语言程序设计
 tags: 
-  - 高级语言程序设计
+  - 大学课程
 categories: 
   - Computer
 summary: 高级语言程序设计

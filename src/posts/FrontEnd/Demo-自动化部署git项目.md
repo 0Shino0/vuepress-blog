@@ -1,7 +1,7 @@
 ---
 title: 自动化部署git项目
 tags: 
-    - 整合
+    - Tool/Demo
 categories: 
     - Component
 summary: 创建脚本自动化部署指定文件夹下的项目，一般用于blog等常推送，但只推送打包文件，不推送配置文件

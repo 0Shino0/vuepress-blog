@@ -1,7 +1,7 @@
 ---
 title: 计算机疑难杂症
 tags: 
-  - 计算机科学
+  - Windows
 categories: 
   - Computer
 summary: 计算机疑难杂症

@@ -1,7 +1,7 @@
 ---
 title: 编译原理
 tags: 
-  - 编译原理
+  - 大学课程
 categories: 
   - Computer
 summary: 编译原理

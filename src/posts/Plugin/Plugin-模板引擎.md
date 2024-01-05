@@ -2,7 +2,7 @@
 title: EJS模板引擎
 date: 2022-09-21 14:43:29
 tags: 
-    - ejs
+    - JS
 categories: 
     - other
 summary: EJS入门

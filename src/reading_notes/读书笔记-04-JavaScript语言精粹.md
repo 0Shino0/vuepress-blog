@@ -1,7 +1,7 @@
 ---
 title: 读书笔记-04-JavaScript语言精粹
 tags: 
-  - js
+  - JS
 categories: 
   - FrontEnd
 date: 2023-4-2 10:42:25
