@@ -1,0 +1,45 @@
+---
+# 这是文章的标题
+title: UED优化
+# 你可以自定义封面图片
+# cover: /assets/images/cover1.jpg
+# 这是页面的图标
+# icon: file
+# 这是侧边栏的顺序
+# order: 3
+# 设置作者
+author: yyshino
+# 设置写作时间
+date: 2023-12-11
+# 一个页面可以有多个分类
+category:
+  - FrontEnd
+# 一个页面可以有多个标签
+tag:
+  - 浏览器
+# 此页面会在文章列表置顶
+sticky: false
+# 此页面会出现在文章收藏中
+star: false
+# 你可以自定义页脚
+# footer: 这是测试显示的页脚
+# 你可以自定义版权信息
+# copyright: 无版权
+---
+
+常见名词介绍
+
+- **UI： User Interface 用户界面**
+
+- **UID： User Interface Design 用户界面设计**
+- **ID：Interaction design 交互设计**
+- **UE or UX： User Experience 用户体验**
+- **UED： User Experience Design 用户体验设计**
+
+
+
+UED优化
+
+- 优化首屏加载
+  - 骨架屏
+  - SSR服务端渲染

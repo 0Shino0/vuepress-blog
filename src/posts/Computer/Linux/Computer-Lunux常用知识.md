@@ -6,7 +6,7 @@ categories:
   - Computer
 summary: Linux常用知识
 description: Linux常用知识
-date: 
+date: 2023-06-06
 ---
 
 

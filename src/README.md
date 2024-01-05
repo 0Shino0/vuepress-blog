@@ -18,6 +18,11 @@ projects:
   #   desc: 链接详细描述
   #   link: https://链接地址
 
+  - icon: 'fa-brands fa-upwork'
+    name: 面试题总结
+    desc: 面试题、面经总结
+    link: ../front_end_interview/
+
   - icon: book
     name: 读书笔记
     desc: 读后感
