@@ -1,7 +1,7 @@
 ---
 title: 轮播图实现步骤
 tags:
-    - 前端demo
+    - Tool/Demo
 categories:
     - Component
 summary: 轮播图实现步骤

@@ -1,7 +1,7 @@
 ---
 title: 瀑布流布局步骤
 tags:
-    - 前端demo
+    - Tool/Demo
 categories:
     - Component
 summary: 瀑布流布局
