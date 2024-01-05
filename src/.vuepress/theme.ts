@@ -1,19 +1,19 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "https://v-blog.yyshino.top",
-
   author: {
     name: "yyshino",
     url: "https://v-blog.yyshino.top",
   },
-
+  
   iconAssets: "fontawesome-with-brands",
-
+  
   logo: "https://shinoimg.yyshino.top/img/avatar.png",
+  
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -212,5 +212,25 @@ export default hopeTheme({
     //     ],
     //   },
     // },
+    seo: {
+      /**是否自动生成描述 */
+      autoDescription: true,
+      /**首选链接 */
+      canonical: "https://v-blog.yyshino.top",
+      /**首选链接 */
+      fallBackImage: "https://shinoimg.yyshino.top/img/avatar.png",
+      /**内容的年龄分级，格式为 [int]+，如 "13+" */
+      // restrictions: ,
+      /** twitterID用户名 */
+      twitterID: "yyshino",
+      /** 是否是文章 */
+      // isArticle: (page) => {
+      //   console.log('page',page);
+
+      //   return true
+      // },
+
+    }
   },
 });
+
