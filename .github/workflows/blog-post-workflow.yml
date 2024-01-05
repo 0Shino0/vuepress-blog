@@ -23,5 +23,4 @@ jobs:
           item_exec: |
                 if(!post.title) post = null;
           date_format: yyyy-mm-dd
-          template: |
-                - $date —— [$title]($url) 
+          template: <br/> $date —— [$title]($url) 
