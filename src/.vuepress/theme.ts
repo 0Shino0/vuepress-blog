@@ -235,6 +235,8 @@ export default hopeTheme({
     /** vuepress-plugin-feed2 设置RSS */
     feed: {
       rss: true,
+      atom: true,
+      json: true,
       icon: "https://shinoimg.yyshino.top/img/avatar.png",
       sorter: (pageA, pageB): number =>
       compareDate(pageA.frontmatter.date,
