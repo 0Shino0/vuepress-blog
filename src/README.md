@@ -18,15 +18,15 @@ projects:
   #   desc: 链接详细描述
   #   link: https://链接地址
 
-  # - icon: book
-  #   name: 书籍名称
-  #   desc: 书籍详细描述
-  #   link: https://你的书籍链接
+  - icon: book
+    name: 读书笔记
+    desc: 读后感
+    link: ../reading_notes/
 
   - icon: article
     name: FrontEnd 前端
     desc: 前端知识 | 整体了解 | 深入学习 | 复习
-    link: ../post/FrontEnd/Javascript.html
+    link: ../post/FrontEnd/JavaScript.html
 
   # - icon: friend
   #   name: 伙伴名称
