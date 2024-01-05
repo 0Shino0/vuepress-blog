@@ -16,7 +16,9 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://v-blog.yyshino.top/feed.json,https://v-blog.yyshino.top/atom.xml,https://v-blog.yyshino.top/rss.xml"
+          # feed_list: "https://v-blog.yyshino.top/atom.xml,https://v-blog.yyshino.top/feed.json,https://v-blog.yyshino.top/rss.xml"
+          feed_list: "https://v-blog.yyshino.top/atom.xml"
           disable_item_validation: true # 跳过没有标题的文章
-          item_exec: "if (!post.title) post = null;" #to skip post that dont have title
+          item_exec: |
+                if(!post.title) post = null;
           date_format: yy-mm-dd
