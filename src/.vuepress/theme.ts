@@ -14,8 +14,7 @@ export default hopeTheme({
   
   logo: "https://shinoimg.yyshino.top/img/avatar.png",
   
-
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "0Shino0/vuepress-blog",
 
   docsDir: "src",
 
