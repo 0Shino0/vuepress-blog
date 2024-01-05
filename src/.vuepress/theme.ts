@@ -237,15 +237,12 @@ export default hopeTheme({
       rss: true,
       icon: "https://shinoimg.yyshino.top/img/avatar.png",
       sorter: (pageA, pageB): number =>
-      compareDate(
-        pageA.data.git?.createdTime
-          ? new Date(pageA.data.git?.createdTime)
-          : pageA.frontmatter.date,
-        pageB.data.git?.createdTime
-          ? new Date(pageB.data.git?.createdTime)
-          : pageB.frontmatter.date,
+      compareDate(pageA.frontmatter.date,
+        pageB.frontmatter.date
       )
-    }
+    },
+    /** 搜索插件 */
+    searchPro: true
   },
 });
 
