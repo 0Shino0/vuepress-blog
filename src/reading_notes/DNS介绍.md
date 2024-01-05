@@ -1,4 +1,13 @@
-
+---
+title: DNS介绍
+tags: 
+  - dns
+categories: 
+  - 浏览器
+date: 2023-08-01
+summary: DNS介绍
+description: DNS介绍
+---
 
 ### 什么是DNS
 
