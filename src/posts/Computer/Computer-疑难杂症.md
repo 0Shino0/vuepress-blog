@@ -8,7 +8,7 @@ summary: 计算机疑难杂症
 description: 计算机疑难杂症
 # abbrlink: 288
 date: 2022-10-7 08:15:11
-sticky: 3
+# sticky: 3
 autoGroup-2: 计算机底层
 ---
 ::: tip 计算机疑难杂症解决方案
