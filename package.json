@@ -29,6 +29,7 @@
     "echarts": "^5.4.0",
     "echarts-gl": "^2.0.9",
     "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-feed2": "2.0.0-rc.10",
     "vuepress-shared": "2.0.0-rc.10"
   }
 }
