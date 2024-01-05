@@ -2,6 +2,7 @@ import { hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
+import {compareDate} from "vuepress-shared"
 
 export default hopeTheme({
   hostname: "https://v-blog.yyshino.top",
@@ -70,6 +71,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
+      "/posts/Me/": ["nullnullnull"],
     },
   },
 
@@ -229,6 +231,20 @@ export default hopeTheme({
       //   return true
       // },
 
+    },
+    /** vuepress-plugin-feed2 设置RSS */
+    feed: {
+      rss: true,
+      icon: "https://shinoimg.yyshino.top/img/avatar.png",
+      sorter: (pageA, pageB): number =>
+      compareDate(
+        pageA.data.git?.createdTime
+          ? new Date(pageA.data.git?.createdTime)
+          : pageA.frontmatter.date,
+        pageB.data.git?.createdTime
+          ? new Date(pageB.data.git?.createdTime)
+          : pageB.frontmatter.date,
+      )
     }
   },
 });
