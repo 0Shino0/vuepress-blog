@@ -244,7 +244,7 @@ export default hopeTheme({
       )
     },
     /** 搜索插件 */
-    searchPro: true
+    searchPro: true,
   },
 });
 
