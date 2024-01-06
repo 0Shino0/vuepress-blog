@@ -39,27 +39,54 @@ export default navbar([
   "/front_end_interview/",
   "/posts/",
   "/reading_notes/",
-  {
-    text: "博文推荐",
-    icon: "pen-to-square",
-    prefix: "/posts/",
-    children: [
-      // {
-      //   text: "苹果",
-      //   icon: "pen-to-square",
-      //   prefix: "apple/",
-      //   children: [
-      //     { text: "苹果1", icon: "pen-to-square", link: "1" },
-      //     { text: "苹果2", icon: "pen-to-square", link: "2" },
-      //     "3",
-      //     "4",
-      //   ],
-      // }
-    ],
-  },
   // {
-  //   text: "V2 文档",
-  //   icon: "book",
-  //   link: "https://theme-hope.vuejs.press/zh/",
+  //   text: "博文推荐",
+  //   icon: "pen-to-square",
+  //   prefix: "/posts/",
+  //   children: [
+  //     // {
+  //     //   text: "苹果",
+  //     //   icon: "pen-to-square",
+  //     //   prefix: "apple/",
+  //     //   children: [
+  //     //     { text: "苹果1", icon: "pen-to-square", link: "1" },
+  //     //     { text: "苹果2", icon: "pen-to-square", link: "2" },
+  //     //     "3",
+  //     //     "4",
+  //     //   ],
+  //     // }
+  //   ],
   // },
+  {
+    text: "博客信息",
+    icon: "book",
+    prefix: "/",
+    children: [
+      {
+        text: "文章列表",
+        icon: "newspaper",
+        link: "article",
+      },
+      {
+        text: "分类",
+        icon: "fa-solid fa-table-list",
+        link: "category",
+      },
+      {
+        text: "标签",
+        icon: "tag",
+        link: "tag",
+      },
+      {
+        text: "收藏",
+        icon: "star",
+        link: "star",
+      },
+      {
+        text: "时间线",
+        icon: "timeline",
+        link: "timeline",
+      },
+    ]
+  },
 ]);
