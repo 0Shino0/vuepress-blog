@@ -3,6 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
+bgImage: https://shinoimg.yyshino.top/img/202401062104668.jpg
 heroImage: https://shinoimg.yyshino.top/img/avatar.png
 heroText: yyshino blog
 heroFullScreen: true
