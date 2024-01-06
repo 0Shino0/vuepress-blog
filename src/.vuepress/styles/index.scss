@@ -1,1 +1,55 @@
 // place your custom styles here
+@import './animate.scss';
+@import './var.scss';
+
+.theme-container{
+  overflow: hidden;
+  position: relative;
+
+  &:before,&:after{
+    content: "";
+    width: 40vmax;
+    height: 40vmax;
+    position: absolute;
+    // background: rgba(255,255,255,.07);
+    background: var(--theme-color);
+    left: 0vmin;
+    // top: -20vmin;
+    top: 20%;
+    animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+    z-index: -1;
+    will-change: border-radius,transform;
+    transform-origin: 55% 55%;
+    pointer-events: none;
+  
+    // box-sizing: border-box;
+    opacity: .3;
+  }
+
+  &:after{
+    position: absolute;
+    width: 30vmin;
+    height: 30vmin;
+    left: auto;
+    right: 0vmin;
+    top: auto;
+    top: 50%;
+    // bottom: 10vh;
+    animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+    transform-origin: 20% 20%;
+  }
+
+}
+
+// .blog-page-wrapper{
+
+//   // 文章卡片
+//   .vp-article-list{
+  
+//     .vp-article-wrapper{
+//       .vp-article-item{
+//         // opacity: .5;
+//       }
+//     }
+//   }
+// }
