@@ -2,6 +2,10 @@
 @import './animate.scss';
 @import './var.scss';
 
+html, body {
+  background: var(--bg-color-2);
+}
+
 .theme-container{
   overflow: hidden;
   position: relative;
@@ -37,6 +41,10 @@
     // bottom: 10vh;
     animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
     transform-origin: 20% 20%;
+  }
+
+  .vp-page.vp-blog {
+    background: var(--bg-color-back-2);
   }
 
 }

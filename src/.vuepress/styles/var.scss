@@ -3,12 +3,12 @@
 
 // light
 :root {
-  --bg-color: #ffffff5f;
-  --bg-color-back: #f8f8f85f;
+    --bg-color-2: #ffffff5f;
+    --bg-color-back-2: #f8f8f85f;
 }
 
 // dark
 html[data-theme=dark] {
-  --bg-color: #0d11175f;
-  --bg-color-back: #0d11175f;
+    --bg-color-2: #0d11175f;
+    --bg-color-back-2: #0d11175f;
 }
