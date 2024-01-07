@@ -7,6 +7,7 @@ categories:
 summary: Golang小工具
 description: Golang小工具
 date: 2024-01-04 21:41:07
+star: true
 ---
 
 ::: tip github webhooks转发工具
