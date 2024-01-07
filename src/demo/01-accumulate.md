@@ -13,8 +13,6 @@ article: false
 
 <GameNav />
 
-<GameNav />
-
 <script setup lang="ts">
 import GameNav from "@GameNav";
 </script>
