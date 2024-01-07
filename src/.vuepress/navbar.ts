@@ -39,24 +39,6 @@ export default navbar([
   "/front_end_interview/",
   "/posts/",
   "/reading_notes/",
-  // {
-  //   text: "博文推荐",
-  //   icon: "pen-to-square",
-  //   prefix: "/posts/",
-  //   children: [
-  //     // {
-  //     //   text: "苹果",
-  //     //   icon: "pen-to-square",
-  //     //   prefix: "apple/",
-  //     //   children: [
-  //     //     { text: "苹果1", icon: "pen-to-square", link: "1" },
-  //     //     { text: "苹果2", icon: "pen-to-square", link: "2" },
-  //     //     "3",
-  //     //     "4",
-  //     //   ],
-  //     // }
-  //   ],
-  // },
   {
     text: "博客信息",
     icon: "book",
@@ -88,5 +70,25 @@ export default navbar([
         link: "timeline",
       },
     ]
+  },
+  {
+    text: "自定义Demo",
+    icon: "pen-to-square",
+    prefix: "/demo/",
+    children: [
+      { text: "游戏/特效", icon: "pen-to-square", link: "01-accumulate" },
+      { text: "工具导航", icon: "pen-to-square", link: "02-navigate" },
+      { text: "相册", icon: "pen-to-square", link: "03-photo" },
+      // {
+      //   text: "苹果",
+      //   icon: "pen-to-square",
+      //   prefix: "apple/",
+      //   children: [
+      //     { text: "苹果2", icon: "pen-to-square", link: "2" },
+      //     "3",
+      //     "4",
+      //   ],
+      // }
+    ],
   },
 ]);
