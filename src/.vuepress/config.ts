@@ -29,9 +29,9 @@ export default defineUserConfig({
 
   alias: {
     "@GameNav": path.resolve(__dirname, "components/GameNav.vue"),
-    "@LoadingPage": path.resolve(__dirname, "components/LoadingPage.vue"),
+    // "@LoadingPage": path.resolve(__dirname, "components/LoadingPage.vue"),
     "@Navigate": path.resolve(__dirname, "components/Navigate.vue"),
-    "@VueEcharts": path.resolve(__dirname, "components/VueEcharts.vue"),
+    // "@VueEcharts": path.resolve(__dirname, "components/VueEcharts.vue"),
   },
 
   // plugins: 
