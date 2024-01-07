@@ -1,4 +1,9 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "@vuepress/utils";
+
+// const __dirname = getDirname(import.meta.url);
+// const __dirname = getDirname("/");
+
 import type {
   Plugin, PluginObject,
   // PluginConfig
@@ -8,7 +13,10 @@ import theme from "./theme.js";
 // import ribbonAnimation from "vuepress-plugin-ribbon-animation"
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { searchConsolePlugin } from 'vuepress-plugin-china-search-console'
+
 // import { socialSharePlugin } from 'vuepress-plugin-social-share'
+// import type { SocialShareNetworkData } from 'vuepress-plugin-social-share'
+
 
 export default defineUserConfig({
   base: "/",
@@ -18,6 +26,13 @@ export default defineUserConfig({
   description: "欢迎",
 
   theme,
+
+  alias: {
+    "@GameNav": path.resolve(__dirname, "components/GameNav.vue"),
+    "@LoadingPage": path.resolve(__dirname, "components/LoadingPage.vue"),
+    "@Navigate": path.resolve(__dirname, "components/Navigate.vue"),
+    "@VueEcharts": path.resolve(__dirname, "components/VueEcharts.vue"),
+  },
 
   // plugins: 
   plugins: [
@@ -29,8 +44,6 @@ export default defineUserConfig({
         id: "G-CXE35CDKKW"
       })
     ],
-    // 社交软件分享
-    // socialSharePlugin(),
     // 国内搜索引擎收录 baidu toutian 360
     searchConsolePlugin({
       baiduId: "608eab7308db4001f24e4ee23a547041",
@@ -38,7 +51,8 @@ export default defineUserConfig({
       autoPushBaiduSwitch: true,
       // autoPush360Switch: true,
     }) as Plugin<PluginObject>,
-
+    // 社交软件分享
+    // [socialSharePlugin()]
   ]
 
   // Enable it with pwa
