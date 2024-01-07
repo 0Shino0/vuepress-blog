@@ -5,7 +5,7 @@
       <div class="nav_item" v-for="nav in navList" :key="nav.title">
         <div class="nav_item_title">
           <!-- <h2 :id="nav.title" tabindex="-1">{{  }}</h2> -->
-          <h2 :id="nav.title" tabindex="-1">## {{nav.title}}</h2>
+          <h2 :id="nav.title" tabindex="-1">{{nav.title}}</h2>
         </div>
 
         <div class="nav_item_main">
