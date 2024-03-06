@@ -38,7 +38,7 @@
  - 2023-12-17——[HTTP请求的方式_HEAD方式](https://v-blog.yyshino.top/front_end_interview/1-0%E6%B5%8F%E8%A7%88%E5%99%A8/05-HTTP%E8%AF%B7%E6%B1%82%E7%9A%84%E6%96%B9%E5%BC%8F_HEAD%E6%96%B9%E5%BC%8F.html)
  - 2023-12-16——[WebSocket的实现和应用](https://v-blog.yyshino.top/front_end_interview/1-0%E6%B5%8F%E8%A7%88%E5%99%A8/04-WebSocket%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%92%8C%E5%BA%94%E7%94%A8.html)
  - 2023-12-15——[介绍页](https://v-blog.yyshino.top/intro.html)
- - 2023-12-15——[主要功能与配置演示](https://v-blog.yyshino.top/demo/)
+ - 2023-12-15——[自定义Demo](https://v-blog.yyshino.top/demo/)
  - 2023-12-15——[前端面试题整合](https://v-blog.yyshino.top/front_end_interview/)
  - 2023-12-15——[我的博客预览](https://v-blog.yyshino.top/posts/)
  - 2023-12-15——[我的读书笔记](https://v-blog.yyshino.top/reading_notes/)
