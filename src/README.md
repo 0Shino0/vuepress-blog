@@ -34,10 +34,10 @@ projects:
     desc: 前端知识 | 整体了解 | 深入学习 | 复习
     link: /posts/
 
-  # - icon: friend
-  #   name: 伙伴名称
-  #   desc: 伙伴详细介绍
-  #   link: https://你的伙伴链接
+  - icon: https://www.lllomh.com/static/images/photos.jpg
+    name: friend：芈渡
+    desc: 开发日常
+    link: https://www.lllomh.com/
 
   # - icon: /logo.svg
   #   name: 自定义项目
