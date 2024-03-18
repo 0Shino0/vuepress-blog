@@ -1,10 +1,10 @@
 ---
 # 这是文章的标题
-title: 跨域
+title: 输入 URL 到页面加载显示完成发生了什么
 # 你可以自定义封面图片
 # cover: /assets/images/cover1.jpg
 # 这是页面的图标
-icon: 输入URL到页面加载显示完成发生了什么
+# icon: 输入URL到页面加载显示完成发生了什么
 # 这是侧边栏的顺序
 # order: 3
 # 设置作者

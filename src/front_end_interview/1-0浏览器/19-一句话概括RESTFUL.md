@@ -1,11 +1,11 @@
 ---
-title: 几个很实用的BOM属性对象方法
+title: 一句话概括RESTFUL
 tags: 
    - HTTP
 categories: 
    - 浏览器
-summary: 几个很实用的BOM属性对象方法
-description: 几个很实用的BOM属性对象方法
+summary: 一句话概括RESTFUL
+description: 一句话概括RESTFUL
 date: 2024-01-02
 ---
 
