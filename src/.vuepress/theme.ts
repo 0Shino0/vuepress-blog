@@ -10,7 +10,7 @@ export default hopeTheme({
     name: "yyshino",
     url: "https://v-blog.yyshino.top",
   },
-  
+
   iconAssets: "fontawesome-with-brands",
   
   logo: "https://shinoimg.yyshino.top/img/avatar.png",
@@ -75,6 +75,7 @@ export default hopeTheme({
     },
   },
 
+  docsBranch: "master",
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
