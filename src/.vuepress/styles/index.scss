@@ -1,6 +1,8 @@
 // place your custom styles here
 @import './animate.scss';
 @import './var.scss';
+// Noto Sans SC 字体包
+@import '../assets/fonts/Noto_Sans_SC/stylesheet.css';
 
 html, body {
   background: var(--bg-color-2);

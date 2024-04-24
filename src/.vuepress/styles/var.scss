@@ -3,6 +3,10 @@
 
 // light
 :root {
+    // 覆盖原有字体包
+    --font-family: "Noto Sans SC",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif;
+    --font-family-heading: "Noto Sans SC",Georgia Pro, Crimson, Georgia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif;
+
     --bg-color-2: #ffffff5f;
     --bg-color-back-2: #f8f8f85f;
 }
