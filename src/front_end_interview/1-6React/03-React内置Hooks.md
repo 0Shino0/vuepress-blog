@@ -1,3 +1,19 @@
+---
+title: React内置Hooks
+author: yyshino
+date: 2023-12-01
+# 一个页面可以有多个分类
+category:
+  - FrontEnd
+# 一个页面可以有多个标签
+tag:
+  - React
+# 此页面会在文章列表置顶
+sticky: false
+# 此页面会出现在文章收藏中
+star: false
+---
+
 #### useState
 
 特点

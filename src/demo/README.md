@@ -1,5 +1,5 @@
 ---
-title: 自定义Demo
+title: Demo
 index: false
 icon: laptop-code
 category:

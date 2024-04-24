@@ -72,7 +72,7 @@ export default navbar([
     ]
   },
   {
-    text: "自定义Demo",
+    text: "Demo",
     icon: "pen-to-square",
     prefix: "/demo/",
     children: [

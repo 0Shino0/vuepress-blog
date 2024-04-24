@@ -1,11 +1,11 @@
 ---
-title: 几个很实用的BOM属性对象方法
+title: fetch发送2次请求的原因
 tags: 
    - HTTP
 categories: 
    - 浏览器
-summary: 几个很实用的BOM属性对象方法
-description: 几个很实用的BOM属性对象方法
+summary: fetch发送2次请求的原因
+description: fetch发送2次请求的原因
 date: 2023-12-29 12:11:36
 ---
 

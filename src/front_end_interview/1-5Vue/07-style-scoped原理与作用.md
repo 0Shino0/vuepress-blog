@@ -1,6 +1,5 @@
 ---
-
-title: 07-style-scoped原理与作用
+title: style-scoped原理与作用
 author: yyshino
 # 设置写作时间
 date: 2024-4-1
