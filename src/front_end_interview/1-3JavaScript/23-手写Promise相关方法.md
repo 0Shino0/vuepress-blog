@@ -3,7 +3,7 @@
 title: 手写Promise相关方法
 author: yyshino
 # 设置写作时间
-date: 2024-4-19
+date: 2024-04-19
 # summary: 算法指标
 # description: 算法指标
 # 一个页面可以有多个分类

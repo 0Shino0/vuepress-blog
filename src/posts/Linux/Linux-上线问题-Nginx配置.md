@@ -8,7 +8,7 @@ categories:
     - FontEnd
 summary: Nginx配置
 description: Nginx配置
-date: 2023-3-28 07:23:08
+date: 2023-03-28 07:23:08
 ---
 
 

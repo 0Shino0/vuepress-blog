@@ -2,7 +2,7 @@
 title: style-scoped原理与作用
 author: yyshino
 # 设置写作时间
-date: 2024-4-1
+date: 2024-04-01
 category:
   - FrontEnd
 tag:

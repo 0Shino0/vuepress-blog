@@ -3,7 +3,7 @@
 title: 手写reduce
 author: yyshino
 # 设置写作时间
-date: 2024-4-25
+date: 2024-04-25
 # summary: 算法指标
 # description: 算法指标
 category:

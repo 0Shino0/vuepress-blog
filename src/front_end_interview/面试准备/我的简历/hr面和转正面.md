@@ -22,7 +22,6 @@ article: false # 非文章不显示在文章列表
 sticky: false
 # 此页面会出现在文章收藏中
 star: false
-article: false # 非文章不显示在文章列表
 # 你可以自定义页脚
 # footer: 这是测试显示的页脚
 # 你可以自定义版权信息
