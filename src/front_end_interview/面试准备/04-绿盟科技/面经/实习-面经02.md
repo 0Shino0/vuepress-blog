@@ -17,6 +17,7 @@ category:
 # 一个页面可以有多个标签
 tag:
   - 面经
+article: false # 非文章不显示在文章列表
 # 此页面会在文章列表置顶
 sticky: false
 # 此页面会出现在文章收藏中
