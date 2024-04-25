@@ -12,6 +12,22 @@
 - [我的博客预览](https://v-blog.yyshino.top/posts/)
 - [我的读书笔记](https://v-blog.yyshino.top/reading_notes/)
 
+## 提高效率
+
+### vscode 批量格式化日期
+
+错误信息: `date in frontMatter should be a valid Date, found in front_end_interview/xxxx.md`
+
+问题分析: 出现问题的原因是frontMatter中的data信息，例如`2023-3-25`或者`2023-03-5`就会出现上面的错误信息，修改为`2023-03-25`或者`2023-03-05`即可解决，但是因为长期的不规范书写导致太多的文件都存在这个错误，因此我们需要批量替换，因此我想到了利用vscode的批量正则替换
+
+出现这个错误的原因：可能是因为格式化方法是采用`YYYY-MM-DD`这样的格式化方法，当我们`MM`只有一位时就会抛出warning
+
+解决问题
+
+1. vscode 全局搜索 
+2. 搜索内容 `(.*)-([1-9])-(.*)`
+3. 替换内容 `$1-0$2-$3`
+
 
 ## 最新的博客文章
 <!-- BLOG-POST-LIST:START -->
