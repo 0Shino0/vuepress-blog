@@ -37,6 +37,8 @@ star: false
 
 
 
+
+
 ### 对比示例
 
 ```html
@@ -61,6 +63,10 @@ star: false
 
     console.log('map',map) // Map(1) {{…} => 'value'}
     console.log('weakMap',weakMap) // WeakMap {} 空
+    
+    /**
+    此时 WeakMap 中不存在任何值，即: obj2不存在其他引用时， WeakMap 不会阻止垃圾回收，基于obj2的引用将会被清除。这就证明了 WeakMap 的 弱引用特性。
+    */
 </script>
 ```
 

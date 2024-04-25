@@ -8,5 +8,6 @@
     "vuepress",
     "yyshino",
     "BiliBili"
-  ]
+  ],
+  "commentTranslate.hover.enabled": true
 }

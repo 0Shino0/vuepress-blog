@@ -72,6 +72,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/posts/Me/": ["nullnullnull"],
+      "/front_end_interview/面试准备/我的简历/": ["nullnullnull"]
     },
   },
 
