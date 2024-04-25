@@ -6,7 +6,7 @@ categories:
    - CSS
 summary: 关于 JS 动画和 CSS3 动画的差异性
 description: 关于 JS 动画和 CSS3 动画的差异性
-date: 2023-4-24 19:21:45
+date: 2023-04-24 19:21:45
 ---
 
 

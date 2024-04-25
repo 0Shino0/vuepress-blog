@@ -6,7 +6,7 @@ categories:
    - JS
 summary: mouseover和mouseenter的区别
 description: mouseover和mouseenter的区别
-date: 2023-4-24 20:33:41
+date: 2023-04-24 20:33:41
 ---
 
 

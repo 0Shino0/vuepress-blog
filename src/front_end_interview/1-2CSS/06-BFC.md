@@ -6,7 +6,7 @@ categories:
    - CSS
 summary: BFC块级格式化上下文
 description: BFC块级格式化上下文
-date: 2023-4-24 15:48:35
+date: 2023-04-24 15:48:35
 ---
 
 

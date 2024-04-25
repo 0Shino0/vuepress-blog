@@ -6,7 +6,7 @@ categories:
    - CSS
 summary: transition和animation
 description: transition和animation
-date: 2023-4-24 15:48:35
+date: 2023-04-24 15:48:35
 ---
 
 

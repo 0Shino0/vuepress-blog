@@ -6,7 +6,7 @@ categories:
    - JS
 summary: call apply bind的作用和区别
 description: call apply bind的作用和区别
-date: 2023-4-24 20:35:41
+date: 2023-04-24 20:35:41
 ---
 
 

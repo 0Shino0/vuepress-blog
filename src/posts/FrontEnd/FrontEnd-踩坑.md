@@ -376,7 +376,7 @@ https://github.com/vuejs/vue-router/issues/2881
 
 #### 4.npm install --save vue/types/umd
 
-2022-5-9 18:12:46
+2022-05-9 18:12:46
 
 报错信息
 

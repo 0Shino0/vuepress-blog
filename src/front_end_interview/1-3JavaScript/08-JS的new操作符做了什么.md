@@ -6,7 +6,7 @@ categories:
    - JS
 summary: JS的new操作符做了什么
 description: JS的new操作符做了什么
-date: 2023-4-24 20:35:41
+date: 2023-04-24 20:35:41
 ---
 
 

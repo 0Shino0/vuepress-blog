@@ -6,7 +6,7 @@ categories:
    - 浏览器
 summary: addEventListener参数
 description: addEventListener参数
-date: 2023-4-23 20:47:54
+date: 2023-04-23 20:47:54
 
 ---
 

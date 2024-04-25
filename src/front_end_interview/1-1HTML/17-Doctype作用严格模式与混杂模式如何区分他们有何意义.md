@@ -6,7 +6,7 @@ categories:
    - 浏览器
 summary: Doctype作用严格模式与混杂模式如何区分他们有何意义
 description: Doctype作用严格模式与混杂模式如何区分他们有何意义
-date: 2023-4-23 20:39:11
+date: 2023-04-23 20:39:11
 ---
 
 

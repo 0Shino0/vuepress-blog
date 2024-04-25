@@ -6,7 +6,7 @@ categories:
   - Computer
 summary: 常用linux&windows命令
 description: 常用linux&windows命令
-date: 2023-9-14 15:36:09
+date: 2023-09-14 15:36:09
 # plugins:
 #   - mathjax
 # sticky: 2

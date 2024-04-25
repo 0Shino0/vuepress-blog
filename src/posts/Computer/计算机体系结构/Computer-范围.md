@@ -6,7 +6,7 @@ categories:
   - Computer
 summary: 计算机体系结构
 description: 计算机体系结构
-date: 2023-5-31 11:07:13
+date: 2023-05-31 11:07:13
 ---
 
 

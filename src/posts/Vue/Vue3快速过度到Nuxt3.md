@@ -6,7 +6,7 @@ categories:
     - FrontEnd
 summary: Vue3快速过度到Nuxt3
 description: Vue3快速过度到Nuxt3
-date: 2024年3月5日12:21:47
+date: 2024-03-05 12:21:47
 ---
 
 ## Vue3 => Nuxt3
