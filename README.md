@@ -35,6 +35,7 @@
  - 2024-04-25——[手写reduce](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/25-%E6%89%8B%E5%86%99Reduce.html)
  - 2024-04-25——[手写call、apply、bind](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/26-%E6%89%8B%E5%86%99call%E3%80%81bind%E3%80%81apply.html)
  - 2024-04-24——[Vue响应式实现](https://v-blog.yyshino.top/front_end_interview/1-5Vue/01-Vue%E5%93%8D%E5%BA%94%E5%BC%8F%E5%AE%9E%E7%8E%B0.html)
+ - 2024-04-24——[TS路径映射如何实现](https://v-blog.yyshino.top/posts/TypeScript/02-TS%E8%B7%AF%E5%BE%84%E6%98%A0%E5%B0%84%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0.html)
  - 2024-04-24——[MVC-MVP-MVVM](https://v-blog.yyshino.top/posts/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01-MVC-MVP-MVVM.html)
  - 2024-04-23——[Vue源码分析](https://v-blog.yyshino.top/posts/Vue/Vue2-%E6%BA%90%E7%A0%81-01.html)
  - 2024-04-19——[手写Promise相关方法](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/23-%E6%89%8B%E5%86%99Promise%E7%9B%B8%E5%85%B3%E6%96%B9%E6%B3%95.html)
@@ -127,5 +128,4 @@
  - 2023-05-11——[编译原理作业题汇总](https://v-blog.yyshino.top/posts/Computer/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E4%BD%9C%E4%B8%9A%E9%A2%98%E6%B1%87%E6%80%BB.html)
  - 2023-05-11——[选填简答](https://v-blog.yyshino.top/posts/Computer/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E9%80%89%E5%A1%AB%E7%AE%80%E7%AD%94.html)
  - 2023-05-11——[计算机体系结构选填简答](https://v-blog.yyshino.top/posts/Computer/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E9%80%89%E5%A1%AB%E7%AE%80%E7%AD%94.html)
- - 2023-05-09——[Linux](https://v-blog.yyshino.top/posts/Computer/Linux/Computer-Linux.html)
- - 2023-05-07——[Linux涉及命令](https://v-blog.yyshino.top/posts/Computer/Linux/%E6%B6%89%E5%8F%8A%E5%91%BD%E4%BB%A4.html)<!-- BLOG-POST-LIST:END -->
+ - 2023-05-09——[Linux](https://v-blog.yyshino.top/posts/Computer/Linux/Computer-Linux.html)<!-- BLOG-POST-LIST:END -->
