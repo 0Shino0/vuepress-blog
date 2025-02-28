@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/Spring/Spring 事务.md",
+                "file": "src/diary/template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring 事务"
+              "title": "template"
             }
           }
         ]
@@ -179,10 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41c2ac3113f210d8",
+  "active": "cff1bfd78d7d5369",
   "lastOpenFiles": [
-    "src/diary",
     "src/posts/Spring/Spring 事务.md",
+    "src/diary/template.md",
+    "src/diary",
     "2023-06-16.md",
     "src/posts/WebGl/00-WebGL.md",
     "src/posts/README.md",

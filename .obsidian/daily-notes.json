@@ -1,3 +1,4 @@
 {
-  "folder": "src/diary"
+  "folder": "src/diary",
+  "template": "src/diary/template.md"
 }
