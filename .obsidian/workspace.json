@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "71d57861fc5c032c",
+        "id": "864c41b6e6da6e04",
         "type": "tabs",
         "children": [
           {
-            "id": "37e9fc2d77170005",
+            "id": "cff1bfd78d7d5369",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/posts/Spring/Spring 事务.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Spring 事务"
+              "title": "新标签页"
             }
           }
         ]
@@ -150,14 +146,23 @@
               "icon": "lucide-list",
               "title": "Spring 事务 的大纲"
             }
+          },
+          {
+            "id": "c9836d1fe941d693",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37e9fc2d77170005",
+  "active": "41c2ac3113f210d8",
   "lastOpenFiles": [
-    "2023-06-16.md",
     "src/posts/Spring/Spring 事务.md",
+    "2023-06-16.md",
     "src/posts/WebGl/00-WebGL.md",
     "src/posts/README.md",
     "src/posts/Spring"
