@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/front_end_interview/README.md",
+                "file": "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "01-JSX与Vue模板的区别"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/front_end_interview/README.md",
+                "file": "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "01-JSX与Vue模板的区别 的大纲"
             }
           },
           {
@@ -181,6 +181,11 @@
   },
   "active": "485f0459869e5c02",
   "lastOpenFiles": [
+    "src/front_end_interview/1-6React/04-闭包陷阱.md",
+    "src/front_end_interview/1-6React/03-React内置Hooks.md",
+    "src/front_end_interview/1-6React/02-Function Component入门.md",
+    "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
+    "src/front_end_interview/README.md",
     "src/front_end_interview/1-2CSS/01-说一下CSS盒模型1.md",
     "src/front_end_interview/1-0.5优化/01-优化.md",
     "src/front_end_interview/1-0.5优化/02-SEO优化.md",
@@ -202,11 +207,6 @@
     "src/front_end_interview/1-4TypeScript/TypeScript 基础.md",
     "src/front_end_interview/1-4TypeScript/03-interface和type的区别.md",
     "src/front_end_interview/1-4TypeScript/02-泛型.md",
-    "src/front_end_interview/1-5Vue/08-nextTick原理.md",
-    "src/front_end_interview/1-5Vue/07-style-scoped原理与作用.md",
-    "src/front_end_interview/1-5Vue/06-精读《Vue3.0 Function API.md",
-    "src/front_end_interview/1-5Vue/04-v-model语法糖如何实现.md",
-    "src/front_end_interview/1-5Vue/03-虚拟DOM.md",
     "src/diary",
     "src/posts/Spring"
   ]
