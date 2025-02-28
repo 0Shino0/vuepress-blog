@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "src/posts/Plugin/Emoji 表情自取.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Emoji 表情自取"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "src/posts/Plugin/Emoji 表情自取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "Emoji 表情自取 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "src/posts/Plugin/Emoji 表情自取.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Emoji 表情自取 的大纲"
             }
           },
           {
@@ -179,10 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96dc4658e7482fa1",
+  "active": "485f0459869e5c02",
   "lastOpenFiles": [
-    "src/README.md",
     "README.md",
+    "src/posts/Plugin/Emoji 表情自取.md",
+    "src/README.md",
     "src/posts/Plugin/Plugin-WebSocket.md",
     "src/posts/Plugin/Plugin-Vuepress中使用echarts.md",
     "src/posts/Plugin/Plugin-Webpack.md",
@@ -206,7 +207,6 @@
     "src/front_end_interview/1-6React/02-Function Component入门.md",
     "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
     "src/front_end_interview/1-2CSS/01-说一下CSS盒模型1.md",
-    "src/front_end_interview/1-0.5优化/01-优化.md",
     "src/diary",
     "src/posts/Spring"
   ]
