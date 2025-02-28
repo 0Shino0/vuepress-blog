@@ -1,25 +1,51 @@
 ---
-title: interface和type的区别
-# author: SunshowerC
-date: 2024-04-26
+# 这是文章的标题
+title: 常用的12中工具类型
+# 你可以自定义封面图片
+# cover: /assets/images/cover1.jpg
+# 这是页面的图标
+# icon: file
+# 这是侧边栏的顺序
+# order: 3
+# 设置作者
+author: yyshino
+# 设置写作时间
+date: 2023-12-02
 # 一个页面可以有多个分类
 category:
   - FrontEnd
+# 一个页面可以有多个标签
 tag:
   - TS
+# 此页面会在文章列表置顶
 sticky: false
+# 此页面会出现在文章收藏中
 star: false
+# 你可以自定义页脚
+# footer: 这是测试显示的页脚
+# 你可以自定义版权信息
+# copyright: 无版权
 ---
 
+## TypeScript中最常用的12中工具类型
+
+| 工具类型                             | 描述                                                         | 发布版本 |
+| ------------------------------------ | ------------------------------------------------------------ | -------- |
+| `Awaited<Type>                       ` | 获取 Promise 中的结果类型                                    | 4.5      |
+| `Partial<Type>                       ` | 将Type中的所有属性设置为**可选属性**,返回一个新的类型。      | 2.1      |
+| `Required<Type>                      ` | 将 Type 中的所有属性设置为**必选属性**，返回一个新的类型。   | 2.8      |
+| `Readonly<Type>                      ` | 将Type中的所有属性设置为**只读属性**,返回一个新的类型。      | 2.1      |
+| `Record<Keys, Type>                  ` | 新建一个由Keys指定的属性和Type指定的值组成的对象类型。       | 2.1      |
+| `Pick<Type, Keys>                    ` | 从 Type 中选择一个或多个属性，并返回一个新的类型。           | 2.1      |
+| `Omit<Type, Keys>                    ` | 从 Type 中删除一个或多个属性，并返回一个新的类型。           | 3.5      |
+| `Exclude<UnionType, ExcludedMembers> ` | 从UnionType中排除ExcludedMembers 中的所有类型,并返回一个新的类型。 | 2.8      |
+| `Extract<UnionType, ExtractedMembers>` | 从 UnionType 中提取 ExtractedMembers 中的所有类型，并返回一个新的类型。 | 2.8      |
+| `NonNullable<Type>                   ` | 从Type 中排除 null 和 undefined 类型，并返回一个新的类型。   | 2.8      |
+| `Parameters<Type>                    ` | 获取函数类型 Type 的参数类型，以元组类型返回。               | 3.1      |
+| `ReturnType<Type>                    ` | 获取函数类型 Type 的返回值类型。                             | 2.8      |
 
 
->本文转自 [typescript 中的 interface 和 type 到底有什么区别](https://github.com/SunshowerC/blog/issues/7)
->
->作者：[SunshowerC](https://github.com/SunshowerC)
-
-
-
-# interface VS type
+# interface和type的区别
 
 大家使用 typescript 总会使用到 interface 和 type，[官方规范](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md) 稍微说了下两者的区别
 
@@ -195,3 +221,4 @@ User 接口为 {
 # 总结
 
 一般来说，如果不清楚什么时候用interface/type，能用 interface 实现，就用 interface , 如果不能就用 type 。其他更多详情参看 [官方规范文档](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)
+
