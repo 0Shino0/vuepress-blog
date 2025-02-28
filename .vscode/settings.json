@@ -9,5 +9,14 @@
     "yyshino",
     "BiliBili"
   ],
-  "commentTranslate.hover.enabled": true
+  "commentTranslate.hover.enabled": true,
+  "files.associations": {
+    "*.ejs": "html",
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
+    "*.js": "javascriptreact",
+    "*.ttml": "xml",
+    "*.ttss": "css"
+  }
 }
