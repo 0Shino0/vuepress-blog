@@ -181,6 +181,8 @@
   },
   "active": "485f0459869e5c02",
   "lastOpenFiles": [
+    "src/assets/templates/md attribut.md",
+    "src/assets/templates/diary.md",
     "src/posts/Plugin/未命名.md",
     "src/assets/templates",
     "src/assets/未命名.md",
@@ -207,7 +209,6 @@
     "src/front_end_interview/0-0数据结构-算法/06-广度优先遍历.md",
     "src/demo/README.md",
     "src/demo/03-photo.md",
-    "src/demo/02-navigate.md",
     "src/diary",
     "src/posts/Spring"
   ]
