@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-JSX与Vue模板的区别"
+              "title": "README"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/posts/Spring/Spring 事务.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Spring 事务 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01-JSX与Vue模板的区别 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,34 +179,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "485f0459869e5c02",
+  "active": "96dc4658e7482fa1",
   "lastOpenFiles": [
+    "src/README.md",
+    "README.md",
+    "src/posts/Plugin/Plugin-WebSocket.md",
+    "src/posts/Plugin/Plugin-Vuepress中使用echarts.md",
+    "src/posts/Plugin/Plugin-Webpack.md",
+    "src/posts/WebGl/图形学入门.md",
+    "src/posts/WebGl/05-GLSL语法简介.md",
+    "src/posts/WebGl/04-踩坑.md",
+    "src/posts/WebGl/03-PBR物理渲染.md",
+    "src/posts/WebGl/02-GSAP动画入门.md",
+    "src/posts/WebGl/01-ThreeJS基础.md",
+    "src/posts/WebGl/00-WebGPU.md",
+    "src/posts/WebGl/00-WebGL.md",
+    "src/front_end_interview/README.md",
+    "src/front_end_interview/项目难点/文件上传.md",
+    "src/front_end_interview/项目难点/富文本原理以及难点.md",
+    "src/front_end_interview/项目难点/低代码原理以及难点.md",
+    "src/front_end_interview/1-8学习方法/01-源码学习.md",
+    "src/front_end_interview/1-7前端工程化/精读《持续集成 vs 持续交付 vs 持续部署》.md",
+    "src/front_end_interview/1-7前端工程化/01-CICD流.md",
     "src/front_end_interview/1-6React/04-闭包陷阱.md",
     "src/front_end_interview/1-6React/03-React内置Hooks.md",
     "src/front_end_interview/1-6React/02-Function Component入门.md",
     "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
-    "src/front_end_interview/README.md",
     "src/front_end_interview/1-2CSS/01-说一下CSS盒模型1.md",
     "src/front_end_interview/1-0.5优化/01-优化.md",
-    "src/front_end_interview/1-0.5优化/02-SEO优化.md",
-    "src/front_end_interview/1-0浏览器/03-TCP和UDP的区别.md",
-    "src/front_end_interview/1-0浏览器/04-WebSocket的实现和应用.md",
-    "src/front_end_interview/1-0浏览器/02-TCP三次握手.md",
-    "src/front_end_interview/1-0浏览器/01-说一下HTTP和HTTPS.md",
-    "src/front_end_interview/1-1HTML/08-几个很实用的BOM属性对象方法.md",
-    "src/front_end_interview/1-1HTML/07-说一下web Quality.md",
-    "src/front_end_interview/1-1.1计算机基础/02-网络分层体系结构.md",
-    "src/front_end_interview/1-1.1计算机基础/01-多进程与多线程.md",
-    "src/front_end_interview/1-3JavaScript/06-图片的懒加载和预加载.md",
-    "src/front_end_interview/1-3JavaScript/04-如何让事件先冒泡后捕获.md",
-    "src/front_end_interview/1-3JavaScript/05-事件委托.md",
-    "src/front_end_interview/1-3JavaScript/03-前端中的事件流.md",
-    "src/front_end_interview/1-3JavaScript/02-类的创建和继承.md",
-    "src/front_end_interview/1-3JavaScript/01.5-原型链.md",
-    "src/front_end_interview/1-3JavaScript/01-闭包.md",
-    "src/front_end_interview/1-4TypeScript/TypeScript 基础.md",
-    "src/front_end_interview/1-4TypeScript/03-interface和type的区别.md",
-    "src/front_end_interview/1-4TypeScript/02-泛型.md",
     "src/diary",
     "src/posts/Spring"
   ]
