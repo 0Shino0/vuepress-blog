@@ -3,5 +3,5 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "",
   "alwaysUpdateLinks": false,
-  "attachmentFolderPath": "/s"
+  "attachmentFolderPath": "/src/.vuepress/public/assets"
 }
