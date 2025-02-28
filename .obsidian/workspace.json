@@ -179,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cff1bfd78d7d5369",
+  "active": "41c2ac3113f210d8",
   "lastOpenFiles": [
+    "src/diary",
     "src/posts/Spring/Spring 事务.md",
     "2023-06-16.md",
     "src/posts/WebGl/00-WebGL.md",
