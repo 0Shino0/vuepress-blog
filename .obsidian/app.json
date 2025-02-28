@@ -1,5 +1,7 @@
 {
   "vimMode": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "/.vuepress/"
+  "newFileFolderPath": "",
+  "alwaysUpdateLinks": false,
+  "attachmentFolderPath": "src/.v"
 }
