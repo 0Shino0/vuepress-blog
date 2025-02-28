@@ -1,5 +1,5 @@
 ---
-title: "---title: 00-WebGLtags:   - WebGLcategories:   - FrontEnddate: 2023-06-16 20:20:03summary: 00-WebGPUdescription: 00-WebGPU---"
+title: "{{name}}"
 tags:
   - 日记
 categories:

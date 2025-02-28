@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34fb0979f887e0f7",
+        "id": "83c2385eb8cadbec",
         "type": "tabs",
         "children": [
           {
-            "id": "485f0459869e5c02",
+            "id": "ee2ff8d27f1eefcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "返回空",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/posts/Spring/Spring 事务.md",
+                "file": "src/posts/Plugin/如何搭建自己的个人博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Spring 事务 的反向链接列表"
+              "title": "如何搭建自己的个人博客 的反向链接列表"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,37 +179,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96dc4658e7482fa1",
+  "active": "ee2ff8d27f1eefcb",
   "lastOpenFiles": [
+    "src/posts/Plugin/Emoji 表情自取.md",
+    "src/posts/Plugin/如何搭建自己的个人博客.md",
+    "src/front_end_interview/1-1HTML/08-几个很实用的BOM属性对象方法.md",
+    "src/reading_notes/读书笔记-03-Web性能权威指南.md",
+    "src/posts/Plugin/Plugin-Webpack.md",
+    "src/posts/Plugin/Plugin-Vuepress中使用echarts.md",
+    "src/posts/Plugin/Plugin-Vuepress添加导航.md",
+    "src/posts/Plugin/Plugin-VSCode.md",
+    "src/posts/Plugin/Plugin-TyporaMarkdown.md",
+    "src/posts/Plugin/Plugin-Nvm的使用.md",
+    "src/posts/Plugin/Plugin-Npm登录失败.md",
+    "src/posts/Plugin/Plugin-Hexo个性化配置.md",
+    "src/posts/Plugin/Plugin-Github个性化.md",
+    "src/posts/Plugin/Plugin-git复习.md",
+    "src/posts/Plugin/Plugin-ECharts数据可视化.md",
+    "src/posts/Plugin/Plugin-正则.md",
+    "src/posts/Plugin/Plugin-网页部署.md",
+    "src/posts/Plugin/Plugin-图床整理.md",
+    "src/posts/Plugin/Plugin-模板引擎.md",
+    "src/demo/02-navigate.md",
+    "src/demo/03-photo.md",
+    "src/demo/01-accumulate.md",
+    "src/assets/templates/md attribut.md",
+    "src/assets/templates/diary.md",
+    "src/assets/images/Pasted image 20250228155737.png",
+    "src/assets/images/Pasted image 20250228155729.png",
+    "src/assets/images/Pasted image 20250228155722.png",
+    "src/assets/images/Pasted image 20250228155715.png",
+    "src/assets/images/Pasted image 20250228155657.png",
+    "src/assets/images/Pasted image 20250228155636.png",
+    "src/assets/images/Pasted image 20250228155627.png",
+    "src/assets/images/Pasted image 20250228155556.png",
+    "src/assets/images",
     "src/未命名",
     "Pasted image 20250228154431.png",
-    "src/posts/Plugin/如何搭建自己的个人博客.md",
-    "src/assets/templates/diary.md",
-    "src/assets/templates/md attribut.md",
     "src/assets/templates",
     "src/assets/未命名.md",
     "src/assets",
     "src/未命名.md",
-    "src/posts/Plugin/Emoji 表情自取.md",
-    "src/posts/GLSL/01-GLSL介绍.md",
-    "src/posts/Go/区块链-Hyperledger.md",
-    "src/posts/Go/Go-Docker.md",
-    "src/posts/Go/Go-基础语法.md",
-    "src/reading_notes/读书笔记-01-白帽子讲浏览器安全.md",
-    "src/reading_notes/读书笔记-02-黑客攻防技术宝典-浏览器实战篇.md",
-    "src/reading_notes/读书笔记-03-Web性能权威指南.md",
-    "src/reading_notes/读书笔记-04-JavaScript语言精粹.md",
-    "src/reading_notes/读书笔记-05-数据结构与算法JavaScript描述.md",
-    "src/reading_notes/三次握手与四次挥手.md",
-    "src/reading_notes/README.md",
-    "src/reading_notes/DNS介绍.md",
-    "src/front_end_interview/0-0数据结构-算法/01-算法指标.md",
-    "src/front_end_interview/0-0数据结构-算法/02-手写常用排序算法.md",
-    "src/front_end_interview/0-0数据结构-算法/03-数组和链表的区别.md",
-    "src/front_end_interview/0-0数据结构-算法/04-dfs和bfs.md",
-    "src/front_end_interview/0-0数据结构-算法/05-深度优先遍历.md",
-    "src/front_end_interview/0-0数据结构-算法/06-广度优先遍历.md",
-    "src/demo/README.md",
     "src/diary",
     "src/posts/Spring"
   ]
