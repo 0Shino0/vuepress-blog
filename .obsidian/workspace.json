@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c2383e4c2e07376f",
+        "id": "287a316f01573d13",
         "type": "tabs",
         "children": [
           {
-            "id": "ce9037eef5625dcf",
+            "id": "ab444e38d94fe331",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "<<<<<<< HEAD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,8 +171,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce9037eef5625dcf",
+  "active": "ab444e38d94fe331",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "README.md",
+    "src/README.md",
+    "2023-06-16.md",
+    "src/posts/Spring/Spring 事务.md",
+    "src/posts/Spring",
     "src/posts/Java/Java-Servlet-JSP.md",
     "src/front_end_interview/1-0浏览器/28-跨域.md",
     "src/posts/Java/Java-JavaEE.md",

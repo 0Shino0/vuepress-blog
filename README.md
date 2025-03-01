@@ -31,6 +31,7 @@
 
 ## 最新的博客文章
 <!-- BLOG-POST-LIST:START -->
+ - 2025-02-28——[Spring 事务](https://v-blog.yyshino.top/posts/Spring/Spring%20%E4%BA%8B%E5%8A%A1.html)
  - 2024-05-05——[如何阅读源码](https://v-blog.yyshino.top/posts/%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/00-%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81.html)
  - 2024-05-05——[Vue3源码解析](https://v-blog.yyshino.top/posts/%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/01-Vue%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.html)
  - 2024-05-03——[有限状态机](https://v-blog.yyshino.top/posts/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02-%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E8%87%AA%E5%8A%A8%E6%9C%BA.html)
@@ -127,5 +128,4 @@
  - 2023-06-15——[WebGL踩坑](https://v-blog.yyshino.top/posts/WebGl/04-%E8%B8%A9%E5%9D%91.html)
  - 2023-06-15——[GLSL 中文手册](https://v-blog.yyshino.top/posts/WebGl/05-GLSL%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html)
  - 2023-06-14——[什么是PBR](https://v-blog.yyshino.top/posts/WebGl/03-PBR%E7%89%A9%E7%90%86%E6%B8%B2%E6%9F%93.html)
- - 2023-06-06——[Linux常用知识](https://v-blog.yyshino.top/posts/Computer/Linux/Computer-Lunux%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86.html)
- - 2023-06-01——[读书笔记-05-数据结构与算法JavaScript描述](https://v-blog.yyshino.top/reading_notes/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-05-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95JavaScript%E6%8F%8F%E8%BF%B0.html)<!-- BLOG-POST-LIST:END -->
+ - 2023-06-06——[Linux常用知识](https://v-blog.yyshino.top/posts/Computer/Linux/Computer-Lunux%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86.html)<!-- BLOG-POST-LIST:END -->
