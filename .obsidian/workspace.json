@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bedbef92a2ba4e5",
+        "id": "c19c83e5504dea06",
         "type": "tabs",
         "children": [
           {
-            "id": "8e813114321b76bf",
+            "id": "7e69eab237a2eb7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<<<<<<< HEAD",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,9 +176,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e813114321b76bf",
+  "active": "7e69eab237a2eb7e",
   "lastOpenFiles": [
     "src/front_end_interview/1-0浏览器/01-计算机网络理论知识.md",
+    "src/front_end_interview/1-0浏览器/11.6-HTTP强缓存和协商缓存.md",
     "src/front_end_interview/1-0浏览器/11.5-HTTP常用请求头.md",
     "src/front_end_interview/1-0浏览器/06-一个图片_url访问后直接下载怎样实现.md",
     "src/front_end_interview/1-0浏览器/11.2-301和302的区别.md",
@@ -208,7 +209,6 @@
     "src/diary",
     "src/posts/Godot",
     "conflict-files-obsidian-git.md",
-    "README.md",
     "src/posts/Spring"
   ]
 }
