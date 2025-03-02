@@ -7,4 +7,5 @@ categories:
 date: "{{date}}-{{time}}"
 summary: "{{title}}"
 description: "{{title}}"
+article: false
 ---
