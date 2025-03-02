@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "287a316f01573d13",
+        "id": "c9dfffa88af5ed79",
         "type": "tabs",
         "children": [
           {
-            "id": "ab444e38d94fe331",
+            "id": "4a38f11dbffc2914",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,8 +171,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab444e38d94fe331",
+  "active": "8082f95a890b5c58",
   "lastOpenFiles": [
+    "src/demo/01-accumulate.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "src/README.md",
