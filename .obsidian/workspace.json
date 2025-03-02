@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f0b659d31cbdb1cc",
+        "id": "ff4f81ccbc9cf668",
         "type": "tabs",
         "children": [
           {
-            "id": "4bc619f0618cc285",
+            "id": "ac8d4ba388d6e17e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "src/assets/templates/diary.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "diary"
             }
           }
         ]
@@ -171,8 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bc619f0618cc285",
+  "active": "ac8d4ba388d6e17e",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "src/posts/Godot/Godot 入门.md",
     "src/assets/templates/diary.md",
     "src/assets/templates/md-attribute.md",
     "src/diary/2025-03-02.md",
@@ -180,7 +186,6 @@
     "src/front_end_interview/0-0数据结构-算法/01-算法指标.md",
     "src/demo/02-navigate.md",
     "src/demo/01-accumulate.md",
-    "src/posts/Godot/Godot 入门.md",
     "src/assets",
     "src/assets/templates",
     "src/diary",

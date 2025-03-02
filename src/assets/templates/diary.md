@@ -1,6 +1,5 @@
 ---
-title:
-  "{ title }": 
+title: "{ title }"
 tags:
   - 日记
 categories:
