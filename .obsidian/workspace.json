@@ -171,8 +171,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8082f95a890b5c58",
+  "active": "b02ed3b63ff31eb8",
   "lastOpenFiles": [
+    "src/demo/02-navigate.md",
     "src/posts/Godot",
     "src/demo/01-accumulate.md",
     "conflict-files-obsidian-git.md",
