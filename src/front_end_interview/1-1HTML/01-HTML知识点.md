@@ -4,7 +4,7 @@ tags:
   - HTML
 categories:
   - FrontEnd
-date: 2025-03-02 23:37
+date: 2023-04-02 23:37
 summary: HTML知识点
 description: HTML知识点
 article: true
@@ -64,6 +64,17 @@ HTML5 语义化标签是指正确的标签包含了正确的内容，结构良�
 
 `<acronym>`、`<applet>`、`<basefont>`、`<bgsound>`、`<big>`、`<blink>`、`<center>`、`<command>`、`<content>`、`<dir>`、`<element>`、`<font>`、`<frame>`、`<frameset>`、`<image>`、`<isindex>`、`<keygen>`、`<listing>`、`<marquee>`、`<menuitem>`、`<multicol>`、`<nextid>`、`<nobr>`、`<noembed>`、`<noframes>`、`<plaintext>`、`<shadow>`、`<spacer>`、`<strike>`、`<tt>`、`<xmp>`。
 
+# meta标签
+
+- meta标签只能位于head元素内部。 在html中，meta标签没有结束标签。在xhtml中，meta标签必须被正确地关闭。 meta标签共有两个属性，分别是http-equiv属性和name属性。
+
+- 如果设置了 name 属性，`<meta>` 元素提供的是**文档级别（document-level）的元数据**，应用于整个页面。
+
+- 如果设置了 http-equiv 属性，`<meta>`  元素则是**编译指令**，提供的信息与类似命名的 HTTP 头部相同。
+
+- 如果设置了 charset 属性，`<meta>` 元素是一个**字符集声明**，告诉文档使用哪种字符编码。
+
+- 如果设置了 itemprop 属性，`<meta>`  元素**提供用户定义的元数据**。
 # Doctype作用严格模式与混杂模式
 ## Doctype作用?
 
@@ -111,6 +122,7 @@ iframe 元素会创建包含另一个文档的内联框架
 会**阻塞主页面的 onload 事件**
 搜索引擎无法解读这种页面，**不利于 SEO**
 **iframe 和主页面共享连接池**，而浏览器对**相同区域有限制所以会影响性能**。
+
 # 说一下HTML5_drag_api
 
 - dragstart：事件主体是被拖放元素，在开始拖放被拖放元素时触发，。 
@@ -166,3 +178,4 @@ iframe 元素会创建包含另一个文档的内联框架
 - canvas 画布
 - 拖放
 - 多线程编程的 web worker 和 websocket 协议。
+
