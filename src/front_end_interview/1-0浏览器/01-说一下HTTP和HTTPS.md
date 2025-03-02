@@ -14,10 +14,7 @@ date: 2023-12-13
 
 # 说一下HTTP和HTTPS
 
-
-
 HTTPS的SSL加密是在传输层实现的。
-
 ## 基本概念
 
 1. HTTP： 超文本传输协议，是互联网上应用最为广泛的一种网络协议，是一个客户端和服务器端请求和应答的标准（TCP），用于从 WWW 服务器传输超文本到本地浏览器的传输协议，它可以使浏览器更加高效，使网络传输减少。
@@ -136,9 +133,46 @@ client                                      server
 3. 第三次挥手：服务器发送释放标识`FIN=1`信号，确认标志`ACK=1`，确认序号`ack=u+1`，自己的序列号`seq=w`，服务器进入最后确认`LAST-ACK`状态
 4. 第四次挥手：客户端收到回复后，发送确认标志`ACK=1`，确认序号`ack=w+1`，自己的序列号`seq=u+1`，客户端进入时间等待`TIME-WAIT`状态，经过`2`个最长报文段寿命后，客户端`CLOSE`。服务器收到确认后，立刻进入`CLOSE`状态。
 
-
-
 ### 参考
 
 [TCP三次握手 (touchczy.top)](https://blog.touchczy.top/#/Browser/TCP三次握手)
+
+# TCP和UDP的区别
+
+1. TCP 是**面向连接**的，udp 是**无连接**的即发送数据前不需要先建立链接。
+2. TCP **提供可靠的服务**。也就是说，通过 TCP 连接传送的数据，无差错，不丢失， 不重复，且按序到达;UDP **尽最大努力交付，即不保证可靠交付**。 并且因为 tcp 可靠， 面向连接，不会丢失数据因此适合大数据量的交换。
+3. TCP 是**面向字节流**，UDP **面向报文，并且网络出现拥塞不会使得发送速率降低**（因此会出现丢包，对实时的应用比如 IP 电话和视频会议等）。
+4. TCP 只能是 **1 对 1 的**，UDP 支持 **1 对 1,1 对多**。
+5. TCP 的**首部较大为 20 字节**，而 UDP 只有 **8 字节**。
+6. TCP 是**面向连接的可靠性传输**，而 UDP **是不可靠的**。
+
+
+# WebSocket的实现和应用
+
+## 什么是WebSocket
+
+WebSocket 是HTML5的协议，支持持久性连接，http 协议不支持持久性连接。Http1.0 和 HTTP1.1 都不支持持久性的链接，HTTP1.1 中的 keep-alive，将多个 http 请求合并为 1 个
+
+## WebSocket 是什么样的协议，具体有什么优点？
+
+HTTP 的生命周期通过 Request 来界定，也就是 Request 一个 Response，那么在 Http1.0 协议中，这次 Http 请求就结束了。在 Http1.1 中进行了改进，是的有一个 connection： Keep-alive，也就是说，在一个 Http 连接中，可以发送多个 Request，接收多个 Response。 但是必须记住，在 Http 中一个 Request 只能对应有一个 Response，而且这个 Response 是被动的，不能主动发起。 
+
+**WebSocket 是基于 Http 协议的，或者说借用了 Http 协议来完成一部分握手，在握手阶段 与 Http 是相同的。我们来看一个 websocket 握手协议的实现**，基本是 2 个属性，upgrade， connection。
+
+```http
+# 基本请求如下：
+GET /chat HTTP/1.1
+Host: server.example.com
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Version: 13
+Origin: http://example.com
+# 多了下面 2 个属性：告诉服务器发送的是 websocke
+Upgrade:webSocket
+Connection:Upgrade
+```
+
+
 
