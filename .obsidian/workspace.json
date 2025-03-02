@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c9dfffa88af5ed79",
+        "id": "fc0b6b03fe6150f5",
         "type": "tabs",
         "children": [
           {
-            "id": "4a38f11dbffc2914",
+            "id": "2ae73bdb47443745",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "src/diary/2025-03-02.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-03-02"
             }
           }
         ]
@@ -171,16 +175,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b02ed3b63ff31eb8",
+  "active": "2ae73bdb47443745",
   "lastOpenFiles": [
+    "src/assets/templates/diary.md",
+    "src/diary/2025-03-02.md",
+    "src/assets/templates/md-attribute.md",
+    "src/posts/Spring/Spring 事务.md",
+    "src/front_end_interview/0-0数据结构-算法/01-算法指标.md",
     "src/demo/02-navigate.md",
-    "src/posts/Godot",
     "src/demo/01-accumulate.md",
+    "src/posts/Godot/Godot 入门.md",
+    "src/assets",
+    "src/assets/templates",
+    "src/diary",
+    "src/posts/Godot",
     "conflict-files-obsidian-git.md",
     "README.md",
     "src/README.md",
     "2023-06-16.md",
-    "src/posts/Spring/Spring 事务.md",
     "src/posts/Spring",
     "src/posts/Java/Java-Servlet-JSP.md",
     "src/front_end_interview/1-0浏览器/28-跨域.md",
