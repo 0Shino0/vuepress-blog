@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a0806b1e9347162d",
+        "id": "2a7e7d80be5686b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b4b4187186820a1d",
+            "id": "98c71b6f6683e7ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/posts/Godot/Godot 入门.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Godot 入门"
+              "title": "新标签页"
             }
           }
         ]
@@ -175,10 +171,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4b4187186820a1d",
+  "active": "98c71b6f6683e7ff",
   "lastOpenFiles": [
-    "src/assets/templates/diary.md",
     "src/posts/Godot/Godot 入门.md",
+    "src/assets/templates/diary.md",
     "src/assets/templates/md-attribute.md",
     "未命名.canvas",
     "src/diary/2025-03-02.md",
