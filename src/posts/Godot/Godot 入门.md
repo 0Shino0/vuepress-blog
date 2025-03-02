@@ -11,6 +11,7 @@ description: "Godot 入门"
 
 - **[godot docs](https://docs.godotengine.org/zh-cn/4.x/index.html)** ：godot文档
 - **[learn-gdscript](https://github.com/GDQuest/learn-gdscript)**：快速入门 gdscript
-- **[# godot 4.x 教程 100集](https://www.bilibili.com/video/BV14Y411h7Po/?spm_id_from=333.1387.favlist.content.click&vd_source=fb3505db9b87542728213f28843a6d74)** ：B站视频教程，
+- **[# godot 4.x 教程 100集](https://www.bilibili.com/video/BV14Y411h7Po/?spm_id_from=333.1387.favlist.content.click&vd_source=fb3505db9b87542728213f28843a6d74)** ：B站视频教程，本人之后打算学习
+- **[# 2025年，独立游戏开发者必备的16款软件！](https://www.bilibili.com/video/BV1ytrpY7Emm/?spm_id_from=333.1387.homepage.video_card.click)**：[秦无邪OvO](https://space.bilibili.com/335835274)老师，本人大学期间学习过他的Unity教程，通过这个视频你可以许多
 
 
