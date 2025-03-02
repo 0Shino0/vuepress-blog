@@ -178,9 +178,11 @@
   },
   "active": "8e813114321b76bf",
   "lastOpenFiles": [
-    "src/front_end_interview/1-0浏览器/11.1-讲讲304和200.md",
     "src/front_end_interview/1-0浏览器/06-一个图片_url访问后直接下载怎样实现.md",
+    "src/front_end_interview/1-0浏览器/11.5-HTTP常用请求头.md",
     "src/front_end_interview/1-0浏览器/01-计算机网络理论知识.md",
+    "src/front_end_interview/1-0浏览器/11.2-301和302的区别.md",
+    "src/front_end_interview/1-0浏览器/11.1-讲讲304和200.md",
     "src/front_end_interview/1-0浏览器/11-补充400和401_403状态码.md",
     "src/front_end_interview/1-0浏览器/10.5-介绍知道的http返回码.md",
     "src/front_end_interview/1-0浏览器/10-说一下http2.0.md",
@@ -207,8 +209,6 @@
     "src/posts/Godot",
     "conflict-files-obsidian-git.md",
     "README.md",
-    "src/README.md",
-    "2023-06-16.md",
     "src/posts/Spring"
   ]
 }
