@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/front_end_interview/1-0浏览器/02-TCP三次握手.md",
+                "file": "src/front_end_interview/1-0浏览器/01-说一下HTTP和HTTPS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-TCP三次握手"
+              "title": "01-说一下HTTP和HTTPS"
             }
           }
         ]
@@ -139,12 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/front_end_interview/1-0浏览器/01-说一下HTTP和HTTPS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "01-说一下HTTP和HTTPS 的大纲"
             }
           },
           {
@@ -158,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,6 +178,7 @@
   },
   "active": "8e813114321b76bf",
   "lastOpenFiles": [
+    "src/front_end_interview/1-0浏览器/02-TCP三次握手.md",
     "src/front_end_interview/1-0浏览器/01-说一下HTTP和HTTPS.md",
     "src/front_end_interview/1-0.5优化/02-SEO优化.md",
     "src/front_end_interview/1-0.5优化/01-UED优化.md",
