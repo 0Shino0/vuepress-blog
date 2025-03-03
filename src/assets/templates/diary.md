@@ -1,11 +1,10 @@
 ---
-title: "{{title}}"
+title: "{{name}}"
 tags:
   - 日记
 categories:
-  - 日记
-date: "{{date}}-{{time}}"
-summary: "{{title}}"
-description: "{{title}}"
-article: false
+  - 随笔
+date: "{{date}} {{time}}"
+summary: template
+description: template
 ---
