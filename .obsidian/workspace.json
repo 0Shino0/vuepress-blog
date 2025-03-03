@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a560f2a823fc6a6b",
+        "id": "5ef5aded39043f82",
         "type": "tabs",
         "children": [
           {
-            "id": "82c4a86bf80b202f",
+            "id": "f3e37de152250b6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/front_end_interview/1-1HTML/01-HTML知识点.md",
+                "file": "src/posts/Spring/搜索接口调研.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-HTML知识点"
+              "title": "搜索接口调研"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "数据库查询优化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/posts/Java/Java-Servlet-JSP.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Java-Servlet-JSP 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -164,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 248.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,39 +176,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82c4a86bf80b202f",
+  "active": "f3e37de152250b6c",
   "lastOpenFiles": [
-    "src/front_end_interview/1-8学习方法/01-源码学习.md",
-    "src/front_end_interview/1-7前端工程化/精读《持续集成 vs 持续交付 vs 持续部署》.md",
-    "src/front_end_interview/1-7前端工程化/01-CICD流.md",
-    "src/front_end_interview/1-6React/01-JSX与Vue模板的区别.md",
-    "src/front_end_interview/1-6React/02-Function Component入门.md",
-    "src/front_end_interview/1-6React/03-React内置Hooks.md",
-    "src/front_end_interview/1-6React/04-闭包陷阱.md",
-    "src/front_end_interview/1-5Vue/07-style-scoped原理与作用.md",
-    "src/front_end_interview/1-5Vue/08-nextTick原理.md",
-    "src/front_end_interview/1-5Vue/04-v-model语法糖如何实现.md",
-    "src/front_end_interview/1-5Vue/06-精读《Vue3.0 Function API.md",
-    "src/front_end_interview/1-5Vue/03-虚拟DOM.md",
-    "src/front_end_interview/1-5Vue/02-Diff算法.md",
-    "src/front_end_interview/1-5Vue/01-Vue响应式实现.md",
-    "src/front_end_interview/1-4TypeScript/01-常用的12中工具类型.md",
-    "src/front_end_interview/1-4TypeScript/03-interface和type的区别.md",
-    "src/front_end_interview/1-2CSS/01-说一下CSS盒模型1.md",
-    "src/front_end_interview/1-4TypeScript/02-泛型.md",
-    "src/front_end_interview/1-2CSS/02-画一条0.5px的线.md",
-    "src/front_end_interview/1-2CSS/15-行内元素和块级元素.md",
-    "src/front_end_interview/1-2CSS/24-如何画一个三角形.md",
-    "src/front_end_interview/1-2CSS/14-BFC.md",
-    "src/front_end_interview/1-2CSS/13-CSS布局.md",
-    "src/front_end_interview/1-2CSS/12-重绘和重排.md",
-    "src/front_end_interview/1-2CSS/11-CSS三种隐藏元素的区别.md",
-    "src/front_end_interview/1-2CSS/10-多行元素的文本省略号.md",
-    "未命名.canvas",
-    "src/assets",
+    "src/posts/设计模式/03-搜索接口调研.md",
+    "src/posts/Spring/搜索接口调研.md",
+    "src/posts/设计模式/02-有限状态自动机.md",
+    "src/assets/templates/diary.md",
+    "src/assets/templates/md-attribute.md",
+    "src/demo/README.md",
+    "src/demo/03-photo.md",
+    "src/demo/02-navigate.md",
+    "src/demo/01-accumulate.md",
+    "src/assets/images/Pasted image 20250228155627.png",
+    "src/assets/images/Pasted image 20250228155556.png",
+    "src/assets/templates/md attribut.md",
+    "README.md",
+    "src/posts/Plugin/如何搭建自己的个人博客.md",
+    "src/posts/Plugin/Emoji 表情自取.md",
+    "src/front_end_interview/1-1HTML/08-几个很实用的BOM属性对象方法.md",
+    "src/reading_notes/读书笔记-03-Web性能权威指南.md",
+    "src/posts/Plugin/Plugin-Webpack.md",
+    "src/posts/Plugin/Plugin-Vuepress中使用echarts.md",
+    "src/posts/Plugin/Plugin-Vuepress添加导航.md",
+    "src/posts/Plugin/Plugin-VSCode.md",
+    "src/posts/Plugin/Plugin-TyporaMarkdown.md",
+    "src/posts/Plugin/Plugin-Nvm的使用.md",
+    "src/posts/Plugin/Plugin-Npm登录失败.md",
+    "src/posts/Plugin/Plugin-Hexo个性化配置.md",
+    "src/posts/Plugin/Plugin-Github个性化.md",
+    "src/posts/Plugin/Plugin-git复习.md",
+    "src/posts/Plugin/Plugin-ECharts数据可视化.md",
+    "src/assets/images/Pasted image 20250228155737.png",
+    "src/assets/images/Pasted image 20250228155729.png",
+    "src/assets/images/Pasted image 20250228155722.png",
+    "src/assets/images/Pasted image 20250228155715.png",
+    "src/assets/images/Pasted image 20250228155657.png",
+    "src/assets/images/Pasted image 20250228155636.png",
+    "src/assets/images",
+    "src/未命名",
+    "Pasted image 20250228154431.png",
     "src/assets/templates",
+    "src/assets",
     "src/diary",
-    "src/posts/Godot",
     "src/posts/Spring"
   ]
 }
