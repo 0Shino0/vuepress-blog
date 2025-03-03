@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f6434bebb1864808",
+        "id": "5ef5aded39043f82",
         "type": "tabs",
         "children": [
           {
-            "id": "8773cf827d6f7e9d",
+            "id": "f3e37de152250b6c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,15 +172,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8082f95a890b5c58",
+  "active": "f3e37de152250b6c",
   "lastOpenFiles": [
+    "src/assets/templates/diary.md",
+    "src/assets/templates/md-attribute.md",
     "src/demo/README.md",
     "src/demo/03-photo.md",
     "src/demo/02-navigate.md",
     "src/demo/01-accumulate.md",
     "src/assets/images/Pasted image 20250228155627.png",
     "src/assets/images/Pasted image 20250228155556.png",
-    "src/assets/templates/diary.md",
     "src/assets/templates/md attribut.md",
     "README.md",
     "src/posts/设计模式/03-搜索接口调研.md",
@@ -201,7 +202,6 @@
     "src/posts/Plugin/Plugin-ECharts数据可视化.md",
     "src/posts/Plugin/Plugin-正则.md",
     "src/posts/Plugin/Plugin-网页部署.md",
-    "src/posts/Plugin/Plugin-图床整理.md",
     "src/assets/images/Pasted image 20250228155737.png",
     "src/assets/images/Pasted image 20250228155729.png",
     "src/assets/images/Pasted image 20250228155722.png",

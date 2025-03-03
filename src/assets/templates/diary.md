@@ -7,4 +7,5 @@ categories:
 date: "{{date}} {{time}}"
 summary: template
 description: template
+article: false
 ---
