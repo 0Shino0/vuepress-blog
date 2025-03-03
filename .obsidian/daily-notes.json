@@ -1,4 +1,4 @@
 {
-  "folder": "src/assets/templates/diary",
-  "template": "src/diary/template.md"
+  "folder": "src/diary",
+  "template": "src/assets/templates/diary"
 }

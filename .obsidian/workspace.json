@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "d6d8762a4397c3a1",
+    "id": "690f9fdeba570f86",
     "type": "split",
     "children": [
       {
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddbc1df23712e27f",
+    "id": "613e17d49d122e24",
     "type": "split",
     "children": [
       {
-        "id": "9def35e4b5761ce1",
+        "id": "98a70344b1edcc69",
         "type": "tabs",
         "children": [
           {
-            "id": "41c2ac3113f210d8",
+            "id": "8082f95a890b5c58",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "cabd263299c2718b",
+            "id": "45bdd760b3a6dc58",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "1ea470ca7b96d802",
+            "id": "fd863896dcfe3c87",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "e2fc61734691e75a",
+    "id": "a3b17e0275c125f2",
     "type": "split",
     "children": [
       {
-        "id": "e450268f06170ff0",
+        "id": "ec22bbbed0fd744b",
         "type": "tabs",
         "children": [
           {
-            "id": "54fc11bae97ec7de",
+            "id": "77f10e3f3b7bba77",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -108,7 +108,7 @@
             }
           },
           {
-            "id": "96dc4658e7482fa1",
+            "id": "1f2f161a845167ab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -122,7 +122,7 @@
             }
           },
           {
-            "id": "ac77a9019a6aa215",
+            "id": "3eda1ed6df61748d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "c1b57fe20cae16b7",
+            "id": "708e42774eed4dbd",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -152,7 +152,7 @@
             }
           },
           {
-            "id": "c9836d1fe941d693",
+            "id": "b02ed3b63ff31eb8",
             "type": "leaf",
             "state": {
               "type": "git-view",
