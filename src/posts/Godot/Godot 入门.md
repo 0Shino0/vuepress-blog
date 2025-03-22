@@ -17,3 +17,7 @@ description: Godot 入门
 - **[# 2025年，独立游戏开发者必备的16款软件！](https://www.bilibili.com/video/BV1ytrpY7Emm/?spm_id_from=333.1387.homepage.video_card.click)**：[秦无邪OvO](https://space.bilibili.com/335835274)老师，本人大学期间学习过他的Unity教程，这个视频课主要介绍工具
 
 
+# 原则
+
+
+节点通信时的经验法则。`Call down ，signal up`  往上用
