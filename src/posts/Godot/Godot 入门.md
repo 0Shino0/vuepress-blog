@@ -20,4 +20,6 @@ description: Godot 入门
 # 原则
 
 
-节点通信时的经验法则。`Call down ，signal up`  往上用
+- 节点通信时的经验法则 `Call down ，signal up`  往下用调用，往上用信号
+	- 父节点应该调用子节点的函数，反之则不然
+	- 子节点应该用信号给父节点
