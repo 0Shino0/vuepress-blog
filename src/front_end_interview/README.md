@@ -1,5 +1,5 @@
 ---
-title: 前端面试题整合
+title: 面试题整合
 index: false
 icon: laptop-code
 category:

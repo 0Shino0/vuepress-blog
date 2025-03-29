@@ -25,7 +25,7 @@ projects:
     link: /reading_notes/
 
   - icon: article
-    name: 我的博客预览
+    name: 文章
     desc: 前端知识 | 整体了解 | 深入学习 | 复习
     link: /posts/
 

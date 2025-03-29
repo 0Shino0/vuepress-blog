@@ -1,5 +1,5 @@
 ---
-title: 我的博客预览
+title: 博客文章
 index: false
 icon: newspaper
 category:

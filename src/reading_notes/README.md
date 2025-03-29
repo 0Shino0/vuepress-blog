@@ -1,5 +1,5 @@
 ---
-title: 我的读书笔记
+title: 读书笔记
 index: false
 icon: book
 category:
