@@ -30,7 +30,7 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
-    description: "一个前端开发者",
+    description: "一个前端开发者、Java工程师",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",

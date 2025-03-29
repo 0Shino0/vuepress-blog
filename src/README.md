@@ -9,11 +9,6 @@ heroText: yyshino blog
 heroFullScreen: true
 tagline: 欢迎各位小伙伴
 projects:
-  - icon: project
-    name: 国社科区块链
-    desc: 【国社科-区块链】烛光之窗
-    link: https://github.com/0Shino0/share_study_ui
-
   # - icon: link
   #   name: 链接名称
   #   desc: 链接详细描述
@@ -38,6 +33,11 @@ projects:
     name: friend：芈渡
     desc: 开发日常
     link: https://www.lllomh.com/
+
+  - icon: https://shinoimg.yyshino.top/img/92870869
+    name: friend：Mushr
+    desc: 祝你笑口敞开
+    link: https://www.cnblogs.com/mushrain
 
   # - icon: /logo.svg
   #   name: 自定义项目
