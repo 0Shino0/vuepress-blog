@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Godot 入门"
             }
+          },
+          {
+            "id": "d1dc33fc7e8aaec1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7cf4c8856e54944a",
+  "active": "d1dc33fc7e8aaec1",
   "lastOpenFiles": [
     "src/posts/Spring/搜索接口调研.md",
     "src/posts/设计模式/03-搜索接口调研.md",
