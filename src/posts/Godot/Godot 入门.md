@@ -31,7 +31,9 @@ description: Godot 入门
 
 树摇晃的Shader
 - gdshader
-- 在需要让树摇晃的时候获取设置uniform参数 shake_intensity ``
+- 在需要让树摇晃的时候，通过脚本动态设置uniform参数 shake_intensity `material.set_shader_parameter("shake_intensity", 1.0)`
+- 短暂等待后`await get_tree().create_timer(1.0).timeout`
+- 
 ```gdshader
 shader_type canvas_item;
 
