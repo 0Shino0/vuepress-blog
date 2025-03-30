@@ -25,12 +25,14 @@
             "id": "d1dc33fc7e8aaec1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "src/posts/Godot/Godot 入门.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Godot 入门"
             }
           }
         ],
@@ -153,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/posts/Godot/Godot 入门.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Godot 入门 的大纲"
             }
           },
           {
@@ -172,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1dc33fc7e8aaec1",
+  "active": "708e42774eed4dbd",
   "lastOpenFiles": [
+    "src/posts/Godot/Godot 入门.md",
     "src/posts/Spring/搜索接口调研.md",
     "src/posts/设计模式/03-搜索接口调研.md",
     "src/posts/设计模式/02-有限状态自动机.md",
@@ -218,7 +222,6 @@
     "src/posts/Plugin/Plugin-Hexo个性化配置.md",
     "src/posts/Plugin/Plugin-Github个性化.md",
     "src/posts/Plugin/Plugin-git复习.md",
-    "src/posts/Plugin/Plugin-ECharts数据可视化.md",
     "src/assets/images/Pasted image 20250228155737.png",
     "src/assets/images/Pasted image 20250228155729.png",
     "src/assets/images/Pasted image 20250228155722.png",
