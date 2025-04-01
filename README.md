@@ -31,7 +31,9 @@
 
 ## 最新的博客文章
 <!-- BLOG-POST-LIST:START -->
+ - 2025-03-02——[搜索接口调研](https://v-blog.yyshino.top/posts/Spring/%E6%90%9C%E7%B4%A2%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%A0%94.html)
  - 2025-03-02——[Godot 入门](https://v-blog.yyshino.top/posts/Godot/Godot%20%E5%85%A5%E9%97%A8.html)
+ - 2025-02-28——[如何搭建自己的个人博客](https://v-blog.yyshino.top/posts/Plugin/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html)
  - 2025-02-28——[Spring 事务](https://v-blog.yyshino.top/posts/Spring/Spring%20%E4%BA%8B%E5%8A%A1.html)
  - 2024-08-02——[Emoji 表情报自取](https://v-blog.yyshino.top/posts/Plugin/Emoji%20%E8%A1%A8%E6%83%85%E8%87%AA%E5%8F%96.html)
  - 2024-05-05——[如何阅读源码](https://v-blog.yyshino.top/posts/%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/00-%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81.html)
@@ -126,6 +128,4 @@
  - 2023-04-24——[图片的懒加载和预加载](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/06-%E5%9B%BE%E7%89%87%E7%9A%84%E6%87%92%E5%8A%A0%E8%BD%BD%E5%92%8C%E9%A2%84%E5%8A%A0%E8%BD%BD.html)
  - 2023-04-24——[类的创建和继承](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/02-%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA%E5%92%8C%E7%BB%A7%E6%89%BF.html)
  - 2023-04-24——[前端中的事件流](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/03-%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E6%B5%81.html)
- - 2023-04-24——[闭包](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/01-%E9%97%AD%E5%8C%85.html)
- - 2023-04-24——[CSS盒模型](https://v-blog.yyshino.top/front_end_interview/1-2CSS/01-%E8%AF%B4%E4%B8%80%E4%B8%8BCSS%E7%9B%92%E6%A8%A1%E5%9E%8B1.html)
- - 2023-04-24——[讲讲viewport和移动端布局](https://v-blog.yyshino.top/front_end_interview/1-1HTML/20-%E8%AE%B2%E8%AE%B2viewport%E5%92%8C%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B8%83%E5%B1%80.html)<!-- BLOG-POST-LIST:END -->
+ - 2023-04-24——[闭包](https://v-blog.yyshino.top/front_end_interview/1-3JavaScript/01-%E9%97%AD%E5%8C%85.html)<!-- BLOG-POST-LIST:END -->
