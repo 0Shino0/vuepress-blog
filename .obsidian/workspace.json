@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/Godot/Demo01.md",
+                "file": "src/posts/Godot/Demo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demo01"
+              "title": "Demo"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/posts/Godot/Demo01.md",
+                "file": "src/posts/Godot/Demo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Demo01 的大纲"
+              "title": "Demo 的大纲"
             }
           },
           {
@@ -195,7 +195,7 @@
   "active": "d1dc33fc7e8aaec1",
   "lastOpenFiles": [
     "src/posts/Godot/Godot 入门.md",
-    "src/posts/Godot/Demo01.md",
+    "src/posts/Godot/Demo.md",
     "src/posts/Spring/搜索接口调研.md",
     "src/posts/设计模式/03-搜索接口调研.md",
     "src/posts/设计模式/02-有限状态自动机.md",
