@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/Godot/Godot 入门.md",
+                "file": "src/posts/Godot/Demo01.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Godot 入门"
+              "title": "Demo01"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 272.5
   },
   "right": {
     "id": "a3b17e0275c125f2",
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/posts/Godot/Godot 入门.md",
+                "file": "src/posts/Godot/Demo01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Godot 入门 的大纲"
+              "title": "Demo01 的大纲"
             }
           },
           {
@@ -192,9 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "708e42774eed4dbd",
+  "active": "d1dc33fc7e8aaec1",
   "lastOpenFiles": [
     "src/posts/Godot/Godot 入门.md",
+    "src/posts/Godot/Demo01.md",
     "src/posts/Spring/搜索接口调研.md",
     "src/posts/设计模式/03-搜索接口调研.md",
     "src/posts/设计模式/02-有限状态自动机.md",
@@ -221,7 +222,6 @@
     "src/posts/Plugin/Plugin-Npm登录失败.md",
     "src/posts/Plugin/Plugin-Hexo个性化配置.md",
     "src/posts/Plugin/Plugin-Github个性化.md",
-    "src/posts/Plugin/Plugin-git复习.md",
     "src/assets/images/Pasted image 20250228155737.png",
     "src/assets/images/Pasted image 20250228155729.png",
     "src/assets/images/Pasted image 20250228155722.png",
