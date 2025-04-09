@@ -29,7 +29,7 @@
               "state": {
                 "file": "src/posts/Godot/Demo01.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Demo01"
