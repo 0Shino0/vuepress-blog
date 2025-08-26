@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "690f9fdeba570f86",
+    "id": "14f3f52b81447624",
     "type": "split",
     "children": [
       {
-        "id": "dfa43d52703a9664",
+        "id": "95afe8bb3eaf1402",
         "type": "tabs",
         "children": [
           {
-            "id": "f7dd2a65e05bab38",
+            "id": "f202a42e07a53ac9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/diary/2025-05-10.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-05-10"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "613e17d49d122e24",
+    "id": "2a7f31d23cf0f594",
     "type": "split",
     "children": [
       {
-        "id": "98a70344b1edcc69",
+        "id": "7ff21f09a3ed493f",
         "type": "tabs",
         "children": [
           {
-            "id": "8082f95a890b5c58",
+            "id": "c852e7d0d7d3e0b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +44,12 @@
             }
           },
           {
-            "id": "45bdd760b3a6dc58",
+            "id": "77b1d05e0923b45f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库查询优化",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "fd863896dcfe3c87",
+            "id": "c89b9d6d9c610b0d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 300
   },
   "right": {
-    "id": "a3b17e0275c125f2",
+    "id": "b2becf28debb9e42",
     "type": "split",
     "children": [
       {
-        "id": "ec22bbbed0fd744b",
+        "id": "a3ac1e505e037fe4",
         "type": "tabs",
         "children": [
           {
-            "id": "77f10e3f3b7bba77",
+            "id": "8a6947f9494025b6",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,20 +103,20 @@
             }
           },
           {
-            "id": "1f2f161a845167ab",
+            "id": "35a2d52aedc26664",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "出链"
             }
           },
           {
-            "id": "3eda1ed6df61748d",
+            "id": "8ba887e8af152bcf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,36 +131,25 @@
             }
           },
           {
-            "id": "708e42774eed4dbd",
+            "id": "09e1443b4dc408b2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/diary/2025-05-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-10 的大纲"
-            }
-          },
-          {
-            "id": "b02ed3b63ff31eb8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,48 +162,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7dd2a65e05bab38",
-  "lastOpenFiles": [
-    "src/assets/images/Pasted image 20250510110523.png",
-    "src/diary/2025-03-02.md",
-    "src/diary/2025-05-10.md",
-    "src/posts/Me/Me-消极.md",
-    "src/posts/Godot/Godot 入门.md",
-    "src/posts/Godot/Demo.md",
-    "src/posts/Spring/搜索接口调研.md",
-    "src/posts/设计模式/03-搜索接口调研.md",
-    "src/posts/设计模式/02-有限状态自动机.md",
-    "src/assets/templates/diary.md",
-    "src/assets/templates/md-attribute.md",
-    "src/demo/README.md",
-    "src/demo/03-photo.md",
-    "src/demo/02-navigate.md",
-    "src/demo/01-accumulate.md",
-    "src/assets/images/Pasted image 20250228155627.png",
-    "src/assets/images/Pasted image 20250228155556.png",
-    "src/assets/templates/md attribut.md",
-    "README.md",
-    "src/posts/Plugin/如何搭建自己的个人博客.md",
-    "src/posts/Plugin/Emoji 表情自取.md",
-    "src/front_end_interview/1-1HTML/08-几个很实用的BOM属性对象方法.md",
-    "src/reading_notes/读书笔记-03-Web性能权威指南.md",
-    "src/posts/Plugin/Plugin-Webpack.md",
-    "src/posts/Plugin/Plugin-Vuepress中使用echarts.md",
-    "src/posts/Plugin/Plugin-Vuepress添加导航.md",
-    "src/posts/Plugin/Plugin-VSCode.md",
-    "src/posts/Plugin/Plugin-TyporaMarkdown.md",
-    "src/assets/images/Pasted image 20250228155737.png",
-    "src/assets/images/Pasted image 20250228155729.png",
-    "src/assets/images/Pasted image 20250228155722.png",
-    "src/assets/images/Pasted image 20250228155715.png",
-    "src/assets/images/Pasted image 20250228155657.png",
-    "src/assets/images/Pasted image 20250228155636.png",
-    "src/assets/images",
-    "src/未命名",
-    "Pasted image 20250228154431.png",
-    "src/assets/templates",
-    "src/assets",
-    "src/diary",
-    "src/posts/Spring"
-  ]
+  "active": "f202a42e07a53ac9",
+  "lastOpenFiles": []
 }
