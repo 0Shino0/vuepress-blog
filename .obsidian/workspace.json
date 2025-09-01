@@ -11,10 +11,14 @@
             "id": "b9881e8f9321cf2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -166,11 +170,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c852e7d0d7d3e0b7",
+  "active": "b9881e8f9321cf2e",
   "lastOpenFiles": [
-    "src/demo/姚圆-后端-笔试题.md",
-    "src/demo/01-accumulate.md",
+    "src/README.md",
+    "src/intro.md",
+    "src/reading_notes/读书笔记-02-黑客攻防技术宝典-浏览器实战篇.md",
+    "src/reading_notes/读书笔记-01-白帽子讲浏览器安全.md",
+    "src/demo/03-photo.md",
     "src/demo/02-navigate.md",
-    "src/demo/03-photo.md"
+    "src/demo/README.md",
+    "src/diary/2025-05-10.md",
+    "src/diary/2025-03-02.md",
+    "src/demo/01-accumulate.md",
+    "src/demo/姚圆-后端-笔试题.md"
   ]
 }
