@@ -11,14 +11,12 @@
             "id": "b9881e8f9321cf2e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "src/assets/images/Pasted image 20250228155722.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250228155722"
             }
           }
         ]
@@ -170,8 +168,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9881e8f9321cf2e",
+  "active": "c852e7d0d7d3e0b7",
   "lastOpenFiles": [
+    "src/assets/images/Pasted image 20250228155715.png",
+    "src/assets/images/Pasted image 20250228155657.png",
+    "src/assets/images/Pasted image 20250228155636.png",
+    "src/assets/images/Pasted image 20250228155627.png",
+    "src/assets/images/Pasted image 20250228155556.png",
+    "README.md",
     "src/README.md",
     "src/intro.md",
     "src/reading_notes/读书笔记-02-黑客攻防技术宝典-浏览器实战篇.md",
