@@ -11,12 +11,14 @@
             "id": "b9881e8f9321cf2e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "src/assets/images/Pasted image 20250228155722.png"
+                "file": "src/posts/Me/ME-发展规划.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250228155722"
+              "icon": "lucide-file",
+              "title": "ME-发展规划"
             }
           }
         ]
@@ -168,8 +170,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c852e7d0d7d3e0b7",
+  "active": "b9881e8f9321cf2e",
   "lastOpenFiles": [
+    "src/posts/Me/Me-工资和社保.md",
+    "src/posts/Me/ME-发展规划.md",
+    "src/posts/Me/Me-钓鱼佬入门.md",
+    "src/posts/Me/Me-初入乒乓球.md",
+    "src/posts/Me/Me-老师的建议.md",
+    "src/posts/Me/Me-毕业设计.md",
+    "src/posts/Me/Me-实习.md",
+    "src/posts/Me/Me-实习攻略.md",
+    "src/posts/Me/Me-项目总结.md",
+    "src/posts/Me/Me-消极.md",
+    "src/posts/Me/Me-选择合适的发展地.md",
+    "src/posts/Me/Me-衣食住行.md",
+    "src/posts/Me/Me-租房攻略.md",
+    "src/assets/images/Pasted image 20250228155722.png",
     "src/assets/images/Pasted image 20250228155715.png",
     "src/assets/images/Pasted image 20250228155657.png",
     "src/assets/images/Pasted image 20250228155636.png",
