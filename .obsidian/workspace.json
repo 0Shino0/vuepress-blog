@@ -185,8 +185,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c852e7d0d7d3e0b7",
+  "active": "0cfc2d2fe8641bcf",
   "lastOpenFiles": [
+    "src/posts/Godot/Demo.md",
+    "src/posts/Godot/Godot 入门.md",
     "src/posts/Me/Me-工资和社保.md",
     "src/posts/Me/ME-发展规划.md",
     "src/posts/Me/Me-钓鱼佬入门.md",
@@ -216,7 +218,6 @@
     "src/demo/README.md",
     "src/diary/2025-05-10.md",
     "src/diary/2025-03-02.md",
-    "src/demo/01-accumulate.md",
-    "src/demo/姚圆-后端-笔试题.md"
+    "src/demo/01-accumulate.md"
   ]
 }
