@@ -102,14 +102,13 @@ src/main/java/com/company/project/
 3. ### 构建、依赖、打包对比
     
 
-|   |   |   |
-|---|---|---|
-|**项目**|**前端**|**Java (****Maven****/Gradle)**|
-|包管理|npm / pnpm / yarn|Maven（最常见） / Gradle（更现代）|
-|构建工具|Vite / Webpack|Maven pom.xml 或 build.gradle|
-|打包结果|dist 文件夹（静态资源）|可执行 JAR / WAR（包含所有依赖）|
-|热重载|Vite 极快|DevTools / JRebel（商业）|
-|配置文件|.env + vite.config|application.yml / properties + Profiles|
+| **项目** | **前端**             | **Java (****Maven****/Gradle)**         |
+| ------ | ------------------ | --------------------------------------- |
+| 包管理    | npm / pnpm / yarn  | Maven（最常见） / Gradle（更现代）                |
+| 构建工具   | Vite / Webpack     | Maven pom.xml 或 build.gradle            |
+| 打包结果   | dist 文件夹（静态资源）     | 可执行 JAR / WAR（包含所有依赖）                   |
+| 热重载    | Vite 极快            | DevTools / JRebel（商业）                   |
+| 配置文件   | .env + vite.config | application.yml / properties + Profiles |
 
 4. ### 企业开发习惯与思维差异
     
