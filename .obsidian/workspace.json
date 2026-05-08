@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/Java/Java-JavaEE.md",
+                "file": "src/posts/Java/前端Vue开发者从0到1转Java后端开发傻瓜式教程.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Java-JavaEE"
+              "title": "前端Vue开发者从0到1转Java后端开发傻瓜式教程"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "b9881e8f9321cf2e",
   "lastOpenFiles": [
+    "src/posts/Java/Java-JavaEE.md",
     "src/posts/Java/前端Vue开发者从0到1转Java后端开发傻瓜式教程.md",
     "src/posts/Me/ME-发展规划.md",
     "src/posts/Godot/Godot 入门.md",
@@ -202,7 +203,6 @@
     "src/demo/03-photo.md",
     "src/demo/02-navigate.md",
     "src/demo/README.md",
-    "src/diary/2025-05-10.md",
-    "src/diary/2025-03-02.md"
+    "src/diary/2025-05-10.md"
   ]
 }

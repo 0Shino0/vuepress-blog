@@ -1,4 +1,5 @@
-![](https://jqfmzjhca7h.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDJhNWMzOTE1YTk5MGFmZWVhODRmYmEyNzAyMjMxMzlfU2pYa2F3OFJBdE1IN0ZiT0p1a29iemswQ0FicXVnZ2tfVG9rZW46UEdkVGI3ZkpIb01QWWd4T2hXdWNuVUoybnhoXzE3NzgyMjg4ODI6MTc3ODIzMjQ4Ml9WNA)
+
+![](https://shinoimg.yyshino.top/img/asynccode)
 
 # 背景
 
