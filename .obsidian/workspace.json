@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/posts/Java/前端Vue开发者从0到1转Java后端开发傻瓜式教程.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "前端Vue开发者从0到1转Java后端开发傻瓜式教程"
