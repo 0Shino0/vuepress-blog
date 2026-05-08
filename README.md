@@ -31,7 +31,7 @@
 
 ## 最新的博客文章
 <!-- BLOG-POST-LIST:START -->
- - 2025-04-10——[Demo](https://v-blog.yyshino.top/posts/Godot/Demo.html)
+ - 2026-05-08——[前端Vue开发者从0到1转Java后端开发傻瓜式教程](https://v-blog.yyshino.top/posts/Java/%E5%89%8D%E7%AB%AFVue%E5%BC%80%E5%8F%91%E8%80%85%E4%BB%8E0%E5%88%B01%E8%BD%ACJava%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%82%BB%E7%93%9C%E5%BC%8F%E6%95%99%E7%A8%8B.html)
  - 2025-03-02——[搜索接口调研](https://v-blog.yyshino.top/posts/Spring/%E6%90%9C%E7%B4%A2%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%A0%94.html)
  - 2025-03-02——[Godot 入门](https://v-blog.yyshino.top/posts/Godot/Godot%20%E5%85%A5%E9%97%A8.html)
  - 2025-02-28——[如何搭建自己的个人博客](https://v-blog.yyshino.top/posts/Plugin/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html)
